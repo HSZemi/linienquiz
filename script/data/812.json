@@ -1,0 +1,4004 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-12T14:05:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4346072",
+      "properties": {
+        "@id": "way/4346072",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Servaisstraße",
+        "@timestamp": "2012-10-17T19:27:22Z",
+        "@version": "13",
+        "@changeset": "13536213",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0227645,
+            50.6910799
+          ],
+          [
+            7.0235391,
+            50.6909991
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4349869",
+      "properties": {
+        "@id": "way/4349869",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Duisdorfer Straße",
+        "@timestamp": "2011-11-11T10:41:57Z",
+        "@version": "6",
+        "@changeset": "9795316",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0287137,
+            50.6921966
+          ],
+          [
+            7.028612,
+            50.6922271
+          ],
+          [
+            7.0283672,
+            50.6923005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4401735",
+      "properties": {
+        "@id": "way/4401735",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "@timestamp": "2013-08-28T16:07:40Z",
+        "@version": "9",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0471716,
+            50.6952834
+          ],
+          [
+            7.0472598,
+            50.6953308
+          ],
+          [
+            7.047302,
+            50.6953997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4401736",
+      "properties": {
+        "@id": "way/4401736",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "@timestamp": "2016-04-15T12:17:39Z",
+        "@version": "9",
+        "@changeset": "38586377",
+        "@user": "yzemaze",
+        "@uid": "39691",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0399778,
+            50.6950208
+          ],
+          [
+            7.0401794,
+            50.6951183
+          ],
+          [
+            7.0402139,
+            50.6952037
+          ],
+          [
+            7.0403443,
+            50.6955413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4401737",
+      "properties": {
+        "@id": "way/4401737",
+        "highway": "tertiary",
+        "lit": "no",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "name": "An der Haeschmaar",
+        "@timestamp": "2016-04-15T12:17:39Z",
+        "@version": "11",
+        "@changeset": "38586377",
+        "@user": "yzemaze",
+        "@uid": "39691",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0335362,
+            50.6964084
+          ],
+          [
+            7.0344198,
+            50.6961996
+          ],
+          [
+            7.0353383,
+            50.696017
+          ],
+          [
+            7.0399778,
+            50.6950208
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4401739",
+      "properties": {
+        "@id": "way/4401739",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Pascalstraße",
+        "@timestamp": "2013-08-28T16:07:39Z",
+        "@version": "12",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0471808,
+            50.6955487
+          ],
+          [
+            7.047269,
+            50.6956199
+          ],
+          [
+            7.0476177,
+            50.6958946
+          ],
+          [
+            7.049365,
+            50.697357
+          ],
+          [
+            7.0507525,
+            50.6984506
+          ],
+          [
+            7.0509757,
+            50.6988311
+          ],
+          [
+            7.0510958,
+            50.6994509
+          ],
+          [
+            7.0512187,
+            50.7003289
+          ],
+          [
+            7.0512591,
+            50.7005196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4401794",
+      "properties": {
+        "@id": "way/4401794",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kottenforststraße",
+        "@timestamp": "2014-12-16T12:42:07Z",
+        "@version": "9",
+        "@changeset": "27506368",
+        "@user": "flohoff",
+        "@uid": "34927",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0173969,
+            50.6794683
+          ],
+          [
+            7.0177181,
+            50.6793343
+          ],
+          [
+            7.0179597,
+            50.6792262
+          ],
+          [
+            7.0180711,
+            50.6791933
+          ],
+          [
+            7.0181732,
+            50.6791839
+          ],
+          [
+            7.0184718,
+            50.6791849
+          ],
+          [
+            7.0186642,
+            50.6791947
+          ],
+          [
+            7.0187895,
+            50.679224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4792309",
+      "properties": {
+        "@id": "way/4792309",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Auf dem Acker",
+        "@timestamp": "2015-06-11T04:50:37Z",
+        "@version": "7",
+        "@changeset": "31887256",
+        "@user": "mkuis",
+        "@uid": "318506",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0184488,
+            50.6818153
+          ],
+          [
+            7.0184931,
+            50.6817635
+          ],
+          [
+            7.0185438,
+            50.6814813
+          ],
+          [
+            7.0185766,
+            50.6812911
+          ],
+          [
+            7.0186355,
+            50.6810172
+          ],
+          [
+            7.0186896,
+            50.6807862
+          ],
+          [
+            7.0187635,
+            50.6804795
+          ],
+          [
+            7.0188204,
+            50.6799283
+          ],
+          [
+            7.01882,
+            50.6794995
+          ],
+          [
+            7.0187895,
+            50.679224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4861380",
+      "properties": {
+        "@id": "way/4861380",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Gaußstraße",
+        "@timestamp": "2016-03-21T14:20:24Z",
+        "@version": "11",
+        "@changeset": "37977875",
+        "@user": "klaus555",
+        "@uid": "3697785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0560972,
+            50.7020544
+          ],
+          [
+            7.0555952,
+            50.7020834
+          ],
+          [
+            7.0554937,
+            50.7020893
+          ],
+          [
+            7.0550097,
+            50.7021201
+          ],
+          [
+            7.0545531,
+            50.7021402
+          ],
+          [
+            7.0543304,
+            50.7021496
+          ],
+          [
+            7.0533806,
+            50.7021973
+          ],
+          [
+            7.0531412,
+            50.7022093
+          ],
+          [
+            7.0529362,
+            50.7022196
+          ],
+          [
+            7.0526616,
+            50.7022312
+          ],
+          [
+            7.0524389,
+            50.7022406
+          ],
+          [
+            7.0521919,
+            50.7022511
+          ],
+          [
+            7.0516817,
+            50.7022806
+          ],
+          [
+            7.0516495,
+            50.7022812
+          ],
+          [
+            7.0514959,
+            50.7022839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4891634",
+      "properties": {
+        "@id": "way/4891634",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lit": "yes",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "@timestamp": "2012-08-26T11:42:35Z",
+        "@version": "12",
+        "@changeset": "12865252",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0403443,
+            50.6955413
+          ],
+          [
+            7.0404248,
+            50.6955372
+          ],
+          [
+            7.0405096,
+            50.695553
+          ],
+          [
+            7.0405738,
+            50.6955841
+          ],
+          [
+            7.0406206,
+            50.6956324
+          ],
+          [
+            7.0406352,
+            50.6956827
+          ],
+          [
+            7.0406214,
+            50.6957337
+          ],
+          [
+            7.0405813,
+            50.695778
+          ],
+          [
+            7.0405335,
+            50.6958055
+          ],
+          [
+            7.0404599,
+            50.6958265
+          ],
+          [
+            7.0403602,
+            50.6958285
+          ],
+          [
+            7.0402846,
+            50.6958105
+          ],
+          [
+            7.0402233,
+            50.6957773
+          ],
+          [
+            7.0401984,
+            50.6957538
+          ],
+          [
+            7.040173,
+            50.6957053
+          ],
+          [
+            7.0401752,
+            50.6956542
+          ],
+          [
+            7.0401871,
+            50.6956292
+          ],
+          [
+            7.0402296,
+            50.6955857
+          ],
+          [
+            7.040293,
+            50.6955541
+          ],
+          [
+            7.0403443,
+            50.6955413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4893348",
+      "properties": {
+        "@id": "way/4893348",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "@timestamp": "2013-08-28T16:07:40Z",
+        "@version": "12",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0413502,
+            50.6958281
+          ],
+          [
+            7.0416004,
+            50.6958329
+          ],
+          [
+            7.0425736,
+            50.6958165
+          ],
+          [
+            7.0437348,
+            50.6957705
+          ],
+          [
+            7.0447024,
+            50.6957327
+          ],
+          [
+            7.0455889,
+            50.695698
+          ],
+          [
+            7.0460094,
+            50.6956545
+          ],
+          [
+            7.0463957,
+            50.695573
+          ],
+          [
+            7.0466964,
+            50.69551
+          ],
+          [
+            7.0468536,
+            50.6954787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4972269",
+      "properties": {
+        "@id": "way/4972269",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Newtonstraße",
+        "@timestamp": "2015-02-02T02:33:43Z",
+        "@version": "7",
+        "@changeset": "28559523",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0560972,
+            50.7020544
+          ],
+          [
+            7.0560622,
+            50.7017412
+          ],
+          [
+            7.0560107,
+            50.7013722
+          ],
+          [
+            7.0559968,
+            50.7013484
+          ],
+          [
+            7.0558267,
+            50.7010583
+          ],
+          [
+            7.0557548,
+            50.7009355
+          ],
+          [
+            7.0557211,
+            50.7008774
+          ],
+          [
+            7.0556524,
+            50.7007593
+          ],
+          [
+            7.0556144,
+            50.7006882
+          ],
+          [
+            7.055476,
+            50.7004294
+          ],
+          [
+            7.0554126,
+            50.6999534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/13224698",
+      "properties": {
+        "@id": "way/13224698",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Servaisstraße",
+        "@timestamp": "2014-03-09T20:24:50Z",
+        "@version": "9",
+        "@changeset": "21013550",
+        "@user": "Reiterxxl",
+        "@uid": "1938181",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0287137,
+            50.6921966
+          ],
+          [
+            7.028861,
+            50.6922957
+          ],
+          [
+            7.0288816,
+            50.6923096
+          ],
+          [
+            7.0289627,
+            50.6923642
+          ],
+          [
+            7.0290703,
+            50.6924363
+          ],
+          [
+            7.0291336,
+            50.6924954
+          ],
+          [
+            7.0291718,
+            50.6925565
+          ],
+          [
+            7.0292093,
+            50.6926497
+          ],
+          [
+            7.029251,
+            50.6928234
+          ],
+          [
+            7.0293122,
+            50.6929985
+          ],
+          [
+            7.0293635,
+            50.6930726
+          ],
+          [
+            7.0294362,
+            50.6931302
+          ],
+          [
+            7.0295818,
+            50.6932249
+          ],
+          [
+            7.0297756,
+            50.6933268
+          ],
+          [
+            7.0299726,
+            50.693397
+          ],
+          [
+            7.030165,
+            50.6934496
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22561134",
+      "properties": {
+        "@id": "way/22561134",
+        "highway": "service",
+        "lit": "yes",
+        "motor_vehicle": "permissive",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "oneway": "yes",
+        "psv": "yes",
+        "@timestamp": "2014-12-24T11:08:32Z",
+        "@version": "7",
+        "@changeset": "27669517",
+        "@user": "Kakaner",
+        "@uid": "1851521",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0258961,
+            50.6900293
+          ],
+          [
+            7.0260503,
+            50.6900286
+          ],
+          [
+            7.026135,
+            50.6900805
+          ],
+          [
+            7.0261761,
+            50.6901214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30558545",
+      "properties": {
+        "@id": "way/30558545",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Pascalstraße",
+        "@timestamp": "2013-08-28T16:07:39Z",
+        "@version": "7",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0512591,
+            50.7005196
+          ],
+          [
+            7.0514656,
+            50.7020863
+          ],
+          [
+            7.0514959,
+            50.7022839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32844996",
+      "properties": {
+        "@id": "way/32844996",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "20",
+        "name": "Duisdorfer Straße",
+        "@timestamp": "2014-12-21T16:50:14Z",
+        "@version": "8",
+        "@changeset": "27612975",
+        "@user": "Kakaner",
+        "@uid": "1851521",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0283672,
+            50.6923005
+          ],
+          [
+            7.028282,
+            50.6923281
+          ],
+          [
+            7.0282373,
+            50.6923425
+          ],
+          [
+            7.0281692,
+            50.6923645
+          ],
+          [
+            7.028077,
+            50.6923944
+          ],
+          [
+            7.0279417,
+            50.6924379
+          ],
+          [
+            7.027892,
+            50.6924577
+          ],
+          [
+            7.0277484,
+            50.6925068
+          ],
+          [
+            7.0270409,
+            50.6927747
+          ],
+          [
+            7.0265634,
+            50.6929592
+          ],
+          [
+            7.0264552,
+            50.6930056
+          ],
+          [
+            7.0260921,
+            50.6931431
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32844999",
+      "properties": {
+        "@id": "way/32844999",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Duisdorfer Straße",
+        "@timestamp": "2011-11-11T11:09:43Z",
+        "@version": "2",
+        "@changeset": "9795501",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0260921,
+            50.6931431
+          ],
+          [
+            7.0256274,
+            50.6933264
+          ],
+          [
+            7.025191,
+            50.6934892
+          ],
+          [
+            7.0243644,
+            50.6936391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32845025",
+      "properties": {
+        "@id": "way/32845025",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2014-03-09T20:24:51Z",
+        "@version": "6",
+        "@changeset": "21013550",
+        "@user": "Reiterxxl",
+        "@uid": "1938181",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0243644,
+            50.6936391
+          ],
+          [
+            7.0240525,
+            50.6930968
+          ],
+          [
+            7.0239282,
+            50.6928945
+          ],
+          [
+            7.0236535,
+            50.6924962
+          ],
+          [
+            7.0233781,
+            50.6922056
+          ],
+          [
+            7.0233356,
+            50.6921572
+          ],
+          [
+            7.0232851,
+            50.6920805
+          ],
+          [
+            7.023135,
+            50.6918957
+          ],
+          [
+            7.0230716,
+            50.6917785
+          ],
+          [
+            7.0229896,
+            50.6916109
+          ],
+          [
+            7.0227645,
+            50.6910799
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34181802",
+      "properties": {
+        "@id": "way/34181802",
+        "highway": "secondary",
+        "maxspeed": "50",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2011-09-12T20:42:22Z",
+        "@version": "3",
+        "@changeset": "9282897",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0184488,
+            50.6818153
+          ],
+          [
+            7.0179116,
+            50.6815438
+          ],
+          [
+            7.0177092,
+            50.6814246
+          ],
+          [
+            7.0176171,
+            50.6813192
+          ],
+          [
+            7.0175662,
+            50.6812057
+          ],
+          [
+            7.0175483,
+            50.6811172
+          ],
+          [
+            7.0175824,
+            50.6809192
+          ],
+          [
+            7.0175977,
+            50.6807939
+          ],
+          [
+            7.0176037,
+            50.6807014
+          ],
+          [
+            7.0175708,
+            50.6804386
+          ],
+          [
+            7.0175122,
+            50.6801698
+          ],
+          [
+            7.0174802,
+            50.6798401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34722680",
+      "properties": {
+        "@id": "way/34722680",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Celsiusstraße",
+        "@timestamp": "2016-03-21T14:15:53Z",
+        "@version": "5",
+        "@changeset": "37977798",
+        "@user": "klaus555",
+        "@uid": "3697785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0554126,
+            50.6999534
+          ],
+          [
+            7.054472,
+            50.7000037
+          ],
+          [
+            7.0542572,
+            50.7000445
+          ],
+          [
+            7.0537944,
+            50.7001581
+          ],
+          [
+            7.0535478,
+            50.7002187
+          ],
+          [
+            7.0532141,
+            50.7003035
+          ],
+          [
+            7.0531273,
+            50.7003246
+          ],
+          [
+            7.0529923,
+            50.7003576
+          ],
+          [
+            7.0527439,
+            50.7004163
+          ],
+          [
+            7.0523896,
+            50.7004431
+          ],
+          [
+            7.0523534,
+            50.7004462
+          ],
+          [
+            7.0514004,
+            50.7005059
+          ],
+          [
+            7.0512591,
+            50.7005196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/35175684",
+      "properties": {
+        "@id": "way/35175684",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "20",
+        "name": "Servaisstraße",
+        "@timestamp": "2012-10-17T19:27:22Z",
+        "@version": "3",
+        "@changeset": "13536213",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.025865,
+            50.6902472
+          ],
+          [
+            7.0260655,
+            50.6901646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/35175685",
+      "properties": {
+        "@id": "way/35175685",
+        "highway": "service",
+        "lit": "yes",
+        "@timestamp": "2011-11-11T10:42:05Z",
+        "@version": "2",
+        "@changeset": "9795316",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.025865,
+            50.6902472
+          ],
+          [
+            7.0258961,
+            50.6900293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/62318948",
+      "properties": {
+        "@id": "way/62318948",
+        "highway": "secondary",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2010-06-20T19:30:27Z",
+        "@version": "1",
+        "@changeset": "5036175",
+        "@user": "tippeltappel",
+        "@uid": "78730",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0174802,
+            50.6798401
+          ],
+          [
+            7.0174525,
+            50.6795723
+          ],
+          [
+            7.0173969,
+            50.6794683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129762113",
+      "properties": {
+        "@id": "way/129762113",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed:backward": "50",
+        "maxspeed:forward": "30",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2011-11-11T11:09:45Z",
+        "@version": "4",
+        "@changeset": "9795501",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0228625,
+            50.6895265
+          ],
+          [
+            7.0228572,
+            50.6892744
+          ],
+          [
+            7.0228568,
+            50.6892533
+          ],
+          [
+            7.0228243,
+            50.6890946
+          ],
+          [
+            7.0226417,
+            50.6887113
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129762114",
+      "properties": {
+        "@id": "way/129762114",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2014-03-09T20:24:51Z",
+        "@version": "3",
+        "@changeset": "21013550",
+        "@user": "Reiterxxl",
+        "@uid": "1938181",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0227645,
+            50.6910799
+          ],
+          [
+            7.0226984,
+            50.6907892
+          ],
+          [
+            7.0226969,
+            50.6906884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129762115",
+      "properties": {
+        "@id": "way/129762115",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2014-03-09T20:24:50Z",
+        "@version": "3",
+        "@changeset": "21013550",
+        "@user": "Reiterxxl",
+        "@uid": "1938181",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0226969,
+            50.6906884
+          ],
+          [
+            7.0227293,
+            50.690476
+          ],
+          [
+            7.0228493,
+            50.6898758
+          ],
+          [
+            7.0228625,
+            50.6895265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129921732",
+      "properties": {
+        "@id": "way/129921732",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Eichhörnchenweg",
+        "@timestamp": "2011-11-20T14:11:47Z",
+        "@version": "2",
+        "@changeset": "9884491",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.030165,
+            50.6934496
+          ],
+          [
+            7.0305305,
+            50.6935512
+          ],
+          [
+            7.0306992,
+            50.6936188
+          ],
+          [
+            7.030855,
+            50.6937153
+          ],
+          [
+            7.0310103,
+            50.6938718
+          ],
+          [
+            7.0313519,
+            50.6942871
+          ],
+          [
+            7.0314765,
+            50.6944361
+          ],
+          [
+            7.0317632,
+            50.6946873
+          ],
+          [
+            7.0319204,
+            50.6948045
+          ],
+          [
+            7.0321788,
+            50.6949629
+          ],
+          [
+            7.0326325,
+            50.6952277
+          ],
+          [
+            7.0327883,
+            50.6953533
+          ],
+          [
+            7.0329208,
+            50.6955022
+          ],
+          [
+            7.0330178,
+            50.6956011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129921733",
+      "properties": {
+        "@id": "way/129921733",
+        "highway": "tertiary",
+        "lit": "no",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "name": "Eichhörnchenweg",
+        "@timestamp": "2016-03-21T10:02:16Z",
+        "@version": "5",
+        "@changeset": "37973154",
+        "@user": "klaus555",
+        "@uid": "3697785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0335362,
+            50.6964084
+          ],
+          [
+            7.0334964,
+            50.696346
+          ],
+          [
+            7.0334172,
+            50.6961604
+          ],
+          [
+            7.0333142,
+            50.6958992
+          ],
+          [
+            7.0332253,
+            50.6957611
+          ],
+          [
+            7.0331402,
+            50.6956839
+          ],
+          [
+            7.0330178,
+            50.6956011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129921734",
+      "properties": {
+        "@id": "way/129921734",
+        "highway": "secondary",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2011-09-14T11:56:20Z",
+        "@version": "1",
+        "@changeset": "9298707",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0205482,
+            50.6850821
+          ],
+          [
+            7.0203037,
+            50.684667
+          ],
+          [
+            7.0199585,
+            50.6841305
+          ],
+          [
+            7.0198362,
+            50.6839904
+          ],
+          [
+            7.0196935,
+            50.6838375
+          ],
+          [
+            7.0192237,
+            50.6833341
+          ],
+          [
+            7.0190604,
+            50.6831043
+          ],
+          [
+            7.0189047,
+            50.6828465
+          ],
+          [
+            7.0187501,
+            50.682231
+          ],
+          [
+            7.0187159,
+            50.6821033
+          ],
+          [
+            7.0185929,
+            50.6819297
+          ],
+          [
+            7.0184488,
+            50.6818153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129921735",
+      "properties": {
+        "@id": "way/129921735",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2014-03-09T20:24:51Z",
+        "@version": "3",
+        "@changeset": "21013550",
+        "@user": "Reiterxxl",
+        "@uid": "1938181",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0226417,
+            50.6887113
+          ],
+          [
+            7.0222531,
+            50.6879869
+          ],
+          [
+            7.021946,
+            50.6873162
+          ],
+          [
+            7.0218801,
+            50.6871839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129921736",
+      "properties": {
+        "@id": "way/129921736",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Hauptstraße",
+        "ref": "L 113",
+        "@timestamp": "2011-11-11T11:09:45Z",
+        "@version": "2",
+        "@changeset": "9795501",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0218801,
+            50.6871839
+          ],
+          [
+            7.0216579,
+            50.686757
+          ],
+          [
+            7.0212565,
+            50.6861895
+          ],
+          [
+            7.0209687,
+            50.6857867
+          ],
+          [
+            7.0206945,
+            50.6853435
+          ],
+          [
+            7.0205482,
+            50.6850821
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130083415",
+      "properties": {
+        "@id": "way/130083415",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "@timestamp": "2013-08-28T16:07:41Z",
+        "@version": "4",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.047302,
+            50.6953997
+          ],
+          [
+            7.0472976,
+            50.6954515
+          ],
+          [
+            7.0472843,
+            50.695477
+          ],
+          [
+            7.0472392,
+            50.6955203
+          ],
+          [
+            7.0471808,
+            50.6955487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130083417",
+      "properties": {
+        "@id": "way/130083417",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "@timestamp": "2013-08-28T16:07:41Z",
+        "@version": "4",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0471808,
+            50.6955487
+          ],
+          [
+            7.0471032,
+            50.6955653
+          ],
+          [
+            7.0470371,
+            50.6955657
+          ],
+          [
+            7.0469278,
+            50.6955378
+          ],
+          [
+            7.0468714,
+            50.6955002
+          ],
+          [
+            7.0468536,
+            50.6954787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130083420",
+      "properties": {
+        "@id": "way/130083420",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "@timestamp": "2013-08-28T16:07:41Z",
+        "@version": "4",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0468536,
+            50.6954787
+          ],
+          [
+            7.0468321,
+            50.6954208
+          ],
+          [
+            7.0468369,
+            50.6953876
+          ],
+          [
+            7.046867,
+            50.6953394
+          ],
+          [
+            7.0468923,
+            50.6953179
+          ],
+          [
+            7.0469567,
+            50.6952859
+          ],
+          [
+            7.0470311,
+            50.69527
+          ],
+          [
+            7.047113,
+            50.695271
+          ],
+          [
+            7.0471716,
+            50.6952834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/149059717",
+      "properties": {
+        "@id": "way/149059717",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "@timestamp": "2012-08-26T11:42:35Z",
+        "@version": "2",
+        "@changeset": "12865252",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0406214,
+            50.6957337
+          ],
+          [
+            7.0407764,
+            50.6957611
+          ],
+          [
+            7.041088,
+            50.6957997
+          ],
+          [
+            7.0413502,
+            50.6958281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/186369127",
+      "properties": {
+        "@id": "way/186369127",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "20",
+        "name": "Servaisstraße",
+        "@timestamp": "2013-07-23T13:39:58Z",
+        "@version": "2",
+        "@changeset": "17062380",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0235391,
+            50.6909991
+          ],
+          [
+            7.0238346,
+            50.6909683
+          ],
+          [
+            7.0241865,
+            50.6909153
+          ],
+          [
+            7.0245199,
+            50.6908377
+          ],
+          [
+            7.0247301,
+            50.6907736
+          ],
+          [
+            7.0250411,
+            50.6906552
+          ],
+          [
+            7.025483,
+            50.6904513
+          ],
+          [
+            7.0256531,
+            50.690352
+          ],
+          [
+            7.025865,
+            50.6902472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/186369128",
+      "properties": {
+        "@id": "way/186369128",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Servaisstraße",
+        "@timestamp": "2012-10-17T19:26:55Z",
+        "@version": "1",
+        "@changeset": "13536213",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0260655,
+            50.6901646
+          ],
+          [
+            7.0261761,
+            50.6901214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26402369",
+      "properties": {
+        "@id": "node/26402369",
+        "traffic_calming": "hump",
+        "@timestamp": "2016-03-21T10:02:12Z",
+        "@version": "7",
+        "@changeset": "37973154",
+        "@user": "klaus555",
+        "@uid": "3697785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0330178,
+          50.6956011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/244499475",
+      "properties": {
+        "@id": "node/244499475",
+        "crossing": "island",
+        "highway": "crossing",
+        "@timestamp": "2013-08-28T16:07:45Z",
+        "@version": "4",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.047269,
+          50.6956199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/244499479",
+      "properties": {
+        "@id": "node/244499479",
+        "highway": "crossing",
+        "@timestamp": "2013-08-28T16:07:46Z",
+        "@version": "5",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0466964,
+          50.69551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/350534902",
+      "properties": {
+        "@id": "node/350534902",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Reaumurstraße",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63672",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Réaumurstraße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:34Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0492648,
+          50.6973251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/350539758",
+      "properties": {
+        "@id": "node/350539758",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Südwache",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63675",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hardthöhe Südwache",
+        "operator": "SWB Bus und Bahn",
+        "public_transport": "platform",
+        "@timestamp": "2013-04-27T16:20:33Z",
+        "@version": "5",
+        "@changeset": "15885155",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0413495,
+          50.6958777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/355190485",
+      "properties": {
+        "@id": "node/355190485",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2009-03-03T14:02:14Z",
+        "@version": "1",
+        "@changeset": "730078",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0233356,
+          50.6921572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/355190488",
+      "properties": {
+        "@id": "node/355190488",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53932",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Witterschlick Kirche",
+        "public_transport": "platform",
+        "@timestamp": "2015-08-02T21:45:31Z",
+        "@version": "6",
+        "@changeset": "33057254",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0232625,
+          50.6919382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/355190491",
+      "properties": {
+        "@id": "node/355190491",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53932",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Witterschlick Kirche",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:50Z",
+        "@version": "5",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0234542,
+          50.6923941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/392649331",
+      "properties": {
+        "@id": "node/392649331",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63676",
+        "highway": "bus_stop",
+        "name": "Dachsweg",
+        "@timestamp": "2011-09-14T11:56:57Z",
+        "@version": "4",
+        "@changeset": "9298707",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0322502,
+          50.694995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/392649332",
+      "properties": {
+        "@id": "node/392649332",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Südwache",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63675",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hardthöhe Südwache",
+        "operator": "SWB Bus und Bahn",
+        "public_transport": "platform",
+        "@timestamp": "2013-04-27T16:20:32Z",
+        "@version": "4",
+        "@changeset": "15885155",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0413557,
+          50.6957597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403416",
+      "properties": {
+        "@id": "node/393403416",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Wildestraße",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53937",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Witterschlick Wilde Straße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:50Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0221117,
+          50.6876095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403420",
+      "properties": {
+        "@id": "node/393403420",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53934",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Volmershoven Ort",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:43Z",
+        "@version": "3",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0174396,
+          50.6799987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403434",
+      "properties": {
+        "@id": "node/393403434",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Duisdorfer Straße",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53938",
+        "highway": "bus_stop",
+        "name": "Witterschlick Duisdorfer Straße",
+        "@timestamp": "2012-01-10T23:46:29Z",
+        "@version": "4",
+        "@changeset": "10356834",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0289563,
+          50.6921425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403436",
+      "properties": {
+        "@id": "node/393403436",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Wildestraße",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53937",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Witterschlick Wilde Straße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:50Z",
+        "@version": "3",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0220246,
+          50.687731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403440",
+      "properties": {
+        "@id": "node/393403440",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Duisdorfer Straße",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53938",
+        "highway": "bus_stop",
+        "name": "Witterschlick Duisdorfer Straße",
+        "@timestamp": "2011-08-02T21:30:18Z",
+        "@version": "3",
+        "@changeset": "8905430",
+        "@user": "VRS Haltestellen-Import",
+        "@uid": "498918",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0288652,
+          50.6923761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403446",
+      "properties": {
+        "@id": "node/393403446",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Am Bockshof",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53933",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Volmershoven Am Bockshof",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:43Z",
+        "@version": "3",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0187735,
+          50.6824613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403450",
+      "properties": {
+        "@id": "node/393403450",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Witterschlick Bf",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53901",
+        "highway": "bus_stop",
+        "name": "Witterschlick Bahnhof",
+        "@timestamp": "2014-12-24T11:08:31Z",
+        "@version": "3",
+        "@changeset": "27669517",
+        "@user": "Kakaner",
+        "@uid": "1851521",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0257937,
+          50.6900651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403455",
+      "properties": {
+        "@id": "node/393403455",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53940",
+        "highway": "bus_stop",
+        "name": "Volmershoven Mehrzweckhalle",
+        "@timestamp": "2011-08-02T21:30:14Z",
+        "@version": "3",
+        "@changeset": "8905430",
+        "@user": "VRS Haltestellen-Import",
+        "@uid": "498918",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.01886,
+          50.6798012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403456",
+      "properties": {
+        "@id": "node/393403456",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Am Bockshof",
+        "VRS:ortsteil": "Witterschlick",
+        "VRS:ref": "53933",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Volmershoven Am Bockshof",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:43Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0188793,
+          50.6824338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393403457",
+      "properties": {
+        "@id": "node/393403457",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63676",
+        "highway": "bus_stop",
+        "name": "Dachsweg",
+        "@timestamp": "2011-09-14T11:56:57Z",
+        "@version": "3",
+        "@changeset": "9298707",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.032311,
+          50.6951216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/393886326",
+      "properties": {
+        "@id": "node/393886326",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63677",
+        "highway": "bus_stop",
+        "name": "Gaußstraße",
+        "@timestamp": "2011-08-02T21:29:23Z",
+        "@version": "3",
+        "@changeset": "8905430",
+        "@user": "VRS Haltestellen-Import",
+        "@uid": "498918",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.052602,
+          50.7022101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/401446365",
+      "properties": {
+        "@id": "node/401446365",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63671",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Riemannstraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-07-20T21:27:50Z",
+        "@version": "4",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0530651,
+          50.7003597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/401446366",
+      "properties": {
+        "@id": "node/401446366",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Reaumurstraße",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63672",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Réaumurstraße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:34Z",
+        "@version": "3",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0496148,
+          50.6975179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/983889784",
+      "properties": {
+        "@id": "node/983889784",
+        "highway": "mini_roundabout",
+        "@timestamp": "2013-08-28T16:07:48Z",
+        "@version": "4",
+        "@changeset": "17557391",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0514959,
+          50.7022839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1042883051",
+      "properties": {
+        "@id": "node/1042883051",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2010-12-17T14:34:47Z",
+        "@version": "1",
+        "@changeset": "6687263",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.028612,
+          50.6922271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1385165254",
+      "properties": {
+        "@id": "node/1385165254",
+        "railway": "level_crossing",
+        "railway:position:exact": "9.450",
+        "@timestamp": "2015-06-02T22:33:04Z",
+        "@version": "4",
+        "@changeset": "31679513",
+        "@user": "rurseekatze",
+        "@uid": "81244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0279417,
+          50.6924379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1432575520",
+      "properties": {
+        "@id": "node/1432575520",
+        "traffic_calming": "hump",
+        "@timestamp": "2013-08-13T09:20:20Z",
+        "@version": "2",
+        "@changeset": "17328227",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0313519,
+          50.6942871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1620886060",
+      "properties": {
+        "@id": "node/1620886060",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Südwache",
+        "VRS:ortsteil": "Brüser Berg",
+        "VRS:ref": "63675",
+        "bus": "yes",
+        "name": "Hardthöhe Südwache",
+        "operator": "SWB Bus und Bahn",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-27T16:20:32Z",
+        "@version": "2",
+        "@changeset": "15885155",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2899624",
+            "reltags": {
+              "from": "Hardthberg",
+              "name": "VRS 812 Alfter",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Alfter",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2899625",
+            "reltags": {
+              "from": "Alfter",
+              "name": "VRS 812 Hardthberg",
+              "network": "VRS",
+              "operator": "RVK",
+              "ref": "812",
+              "route": "bus",
+              "to": "Hardthberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0413502,
+          50.6958281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3246394314",
+      "properties": {
+        "@id": "node/3246394314",
+        "railway": "level_crossing",
+        "railway:position:exact": "9.450",
+        "@timestamp": "2015-06-02T22:33:17Z",
+        "@version": "2",
+        "@changeset": "31679513",
+        "@user": "rurseekatze",
+        "@uid": "81244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.027892,
+          50.6924577
+        ]
+      }
+    }
+  ]
+}

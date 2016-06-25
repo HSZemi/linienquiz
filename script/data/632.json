@@ -1,0 +1,4375 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-12T14:00:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4855763",
+      "properties": {
+        "@id": "way/4855763",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Lotharstraße",
+        "@timestamp": "2012-01-04T19:31:09Z",
+        "@version": "14",
+        "@changeset": "10294380",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0960238,
+            50.7195091
+          ],
+          [
+            7.0965146,
+            50.7194119
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26279064",
+      "properties": {
+        "@id": "way/26279064",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Clemens-August-Straße",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2011-12-30T17:06:24Z",
+        "@version": "19",
+        "@changeset": "10247330",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0870609,
+            50.719961
+          ],
+          [
+            7.08718,
+            50.7201152
+          ],
+          [
+            7.0873446,
+            50.7205687
+          ],
+          [
+            7.0873775,
+            50.7206484
+          ],
+          [
+            7.0875174,
+            50.7208512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26279065",
+      "properties": {
+        "@id": "way/26279065",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Trierer Straße",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2013-04-07T05:07:42Z",
+        "@version": "20",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0858103,
+            50.7183651
+          ],
+          [
+            7.0857743,
+            50.7184352
+          ],
+          [
+            7.0857788,
+            50.7188554
+          ],
+          [
+            7.0859577,
+            50.7191104
+          ],
+          [
+            7.0861467,
+            50.7192651
+          ],
+          [
+            7.0862613,
+            50.7193589
+          ],
+          [
+            7.0863739,
+            50.7194398
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30580909",
+      "properties": {
+        "@id": "way/30580909",
+        "highway": "tertiary",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2015-09-11T20:03:04Z",
+        "@version": "7",
+        "@changeset": "33968027",
+        "@user": "Rogehm",
+        "@uid": "105909",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0983218,
+            50.7056563
+          ],
+          [
+            7.098164,
+            50.7057277
+          ],
+          [
+            7.0980086,
+            50.7058225
+          ],
+          [
+            7.0978841,
+            50.7059193
+          ],
+          [
+            7.0977738,
+            50.7060277
+          ],
+          [
+            7.097734,
+            50.7060965
+          ],
+          [
+            7.097699,
+            50.706169
+          ],
+          [
+            7.097667,
+            50.7063332
+          ],
+          [
+            7.097645,
+            50.7064902
+          ],
+          [
+            7.0976097,
+            50.706728
+          ],
+          [
+            7.097591,
+            50.7068018
+          ],
+          [
+            7.0975574,
+            50.7068457
+          ],
+          [
+            7.097509,
+            50.7068829
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30580910",
+      "properties": {
+        "@id": "way/30580910",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Haager Weg",
+        "@timestamp": "2013-11-03T16:14:27Z",
+        "@version": "12",
+        "@changeset": "18696888",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0963986,
+            50.7034373
+          ],
+          [
+            7.0964636,
+            50.7035042
+          ],
+          [
+            7.0968578,
+            50.7039068
+          ],
+          [
+            7.0970565,
+            50.7041108
+          ],
+          [
+            7.0972777,
+            50.7043331
+          ],
+          [
+            7.0976772,
+            50.7047267
+          ],
+          [
+            7.0979057,
+            50.7049957
+          ],
+          [
+            7.0980626,
+            50.7052203
+          ],
+          [
+            7.0981617,
+            50.7053806
+          ],
+          [
+            7.0982636,
+            50.7055689
+          ],
+          [
+            7.0983218,
+            50.7056563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30627624",
+      "properties": {
+        "@id": "way/30627624",
+        "highway": "tertiary",
+        "incline": "down",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Robert-Koch-Straße",
+        "@timestamp": "2013-10-22T18:06:24Z",
+        "@version": "12",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0921635,
+            50.7178757
+          ],
+          [
+            7.0925019,
+            50.71799
+          ],
+          [
+            7.0927261,
+            50.7180569
+          ],
+          [
+            7.0930415,
+            50.7181184
+          ],
+          [
+            7.0930613,
+            50.7181228
+          ],
+          [
+            7.0939869,
+            50.7182939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31715252",
+      "properties": {
+        "@id": "way/31715252",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Clemens-August-Platz",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2013-04-07T05:07:34Z",
+        "@version": "7",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0863739,
+            50.7194398
+          ],
+          [
+            7.0867827,
+            50.719733
+          ],
+          [
+            7.0868652,
+            50.7197922
+          ],
+          [
+            7.0870609,
+            50.719961
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/46261069",
+      "properties": {
+        "@id": "way/46261069",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Im Wingert",
+        "oneway": "yes",
+        "ref": "K 2",
+        "@timestamp": "2012-01-04T19:31:07Z",
+        "@version": "4",
+        "@changeset": "10294380",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0919348,
+            50.7180567
+          ],
+          [
+            7.0919062,
+            50.7178782
+          ],
+          [
+            7.0918135,
+            50.7177565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/46338774",
+      "properties": {
+        "@id": "way/46338774",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2012-08-21T00:23:55Z",
+        "@version": "4",
+        "@changeset": "12802762",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0918135,
+            50.7177565
+          ],
+          [
+            7.0920098,
+            50.7178173
+          ],
+          [
+            7.0921635,
+            50.7178757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/51415273",
+      "properties": {
+        "@id": "way/51415273",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Lotharstraße",
+        "@timestamp": "2013-10-22T18:06:21Z",
+        "@version": "11",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0965146,
+            50.7194119
+          ],
+          [
+            7.0969343,
+            50.7193201
+          ],
+          [
+            7.0973079,
+            50.7192171
+          ],
+          [
+            7.0976058,
+            50.7191269
+          ],
+          [
+            7.0979769,
+            50.7190125
+          ],
+          [
+            7.0983499,
+            50.7188869
+          ],
+          [
+            7.0987047,
+            50.7187583
+          ],
+          [
+            7.0990596,
+            50.718624
+          ],
+          [
+            7.0992075,
+            50.718552
+          ],
+          [
+            7.0992802,
+            50.7185167
+          ],
+          [
+            7.0992806,
+            50.7185165
+          ],
+          [
+            7.0997459,
+            50.7182811
+          ],
+          [
+            7.1002097,
+            50.7180266
+          ],
+          [
+            7.1006174,
+            50.7177967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/58169608",
+      "properties": {
+        "@id": "way/58169608",
+        "highway": "tertiary",
+        "incline": "up",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:forward": "50",
+        "name": "Robert-Koch-Straße",
+        "@timestamp": "2013-10-22T18:06:24Z",
+        "@version": "9",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0965565,
+            50.7176314
+          ],
+          [
+            7.0964747,
+            50.7176699
+          ],
+          [
+            7.0964154,
+            50.7177007
+          ],
+          [
+            7.09632,
+            50.71776
+          ],
+          [
+            7.0960617,
+            50.7180302
+          ],
+          [
+            7.095945,
+            50.718115
+          ],
+          [
+            7.0958245,
+            50.718184
+          ],
+          [
+            7.0956772,
+            50.7182336
+          ],
+          [
+            7.0955203,
+            50.718267
+          ],
+          [
+            7.0954984,
+            50.7182698
+          ],
+          [
+            7.0952175,
+            50.7183174
+          ],
+          [
+            7.0949757,
+            50.718344
+          ],
+          [
+            7.0947683,
+            50.7183596
+          ],
+          [
+            7.0946006,
+            50.7183669
+          ],
+          [
+            7.0944591,
+            50.7183649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/58169876",
+      "properties": {
+        "@id": "way/58169876",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Clemens-August-Straße",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2013-08-28T13:08:37Z",
+        "@version": "10",
+        "@changeset": "17554445",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0875174,
+            50.7208512
+          ],
+          [
+            7.08762,
+            50.7209624
+          ],
+          [
+            7.0877803,
+            50.7211013
+          ],
+          [
+            7.0879849,
+            50.7212766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/85271087",
+      "properties": {
+        "@id": "way/85271087",
+        "cycleway:left": "shared_lane",
+        "highway": "tertiary",
+        "incline": "down",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2013-11-22T21:30:54Z",
+        "@version": "10",
+        "@changeset": "19062972",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.093015,
+            50.7148594
+          ],
+          [
+            7.0929129,
+            50.7149573
+          ],
+          [
+            7.092812,
+            50.7150364
+          ],
+          [
+            7.0927384,
+            50.7150896
+          ],
+          [
+            7.0926536,
+            50.7151548
+          ],
+          [
+            7.092634,
+            50.7151658
+          ],
+          [
+            7.0925708,
+            50.715204
+          ],
+          [
+            7.0923707,
+            50.7152925
+          ],
+          [
+            7.0921723,
+            50.7153584
+          ],
+          [
+            7.0919556,
+            50.7154258
+          ],
+          [
+            7.0917248,
+            50.7154867
+          ],
+          [
+            7.0915305,
+            50.7155281
+          ],
+          [
+            7.0912753,
+            50.7155753
+          ],
+          [
+            7.0910789,
+            50.7156178
+          ],
+          [
+            7.090959,
+            50.715655
+          ],
+          [
+            7.0908498,
+            50.715693
+          ],
+          [
+            7.0907018,
+            50.7157576
+          ],
+          [
+            7.0905708,
+            50.7158243
+          ],
+          [
+            7.0904422,
+            50.7159062
+          ],
+          [
+            7.0903217,
+            50.7160019
+          ],
+          [
+            7.0902344,
+            50.7160867
+          ],
+          [
+            7.0901656,
+            50.7161688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/85271088",
+      "properties": {
+        "@id": "way/85271088",
+        "cycleway:left": "shared_lane",
+        "highway": "tertiary",
+        "incline": "down",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2015-05-05T09:18:11Z",
+        "@version": "10",
+        "@changeset": "30803190",
+        "@user": "HeinerSchaefer",
+        "@uid": "239076",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0901656,
+            50.7161688
+          ],
+          [
+            7.0901079,
+            50.7162776
+          ],
+          [
+            7.0900648,
+            50.7163968
+          ],
+          [
+            7.0900452,
+            50.7164924
+          ],
+          [
+            7.0900521,
+            50.7165888
+          ],
+          [
+            7.0900855,
+            50.7167162
+          ],
+          [
+            7.0901561,
+            50.716862
+          ],
+          [
+            7.0902467,
+            50.716973
+          ],
+          [
+            7.0903737,
+            50.7170848
+          ],
+          [
+            7.0905187,
+            50.7171973
+          ],
+          [
+            7.0906995,
+            50.7173111
+          ],
+          [
+            7.0909015,
+            50.717427
+          ],
+          [
+            7.0910212,
+            50.7174785
+          ],
+          [
+            7.0911195,
+            50.7175208
+          ],
+          [
+            7.0915517,
+            50.7176676
+          ],
+          [
+            7.0918135,
+            50.7177565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/85271089",
+      "properties": {
+        "@id": "way/85271089",
+        "highway": "tertiary",
+        "incline": "up",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:forward": "50",
+        "name": "Robert-Koch-Straße",
+        "@timestamp": "2013-10-22T18:06:24Z",
+        "@version": "5",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0944591,
+            50.7183649
+          ],
+          [
+            7.094271,
+            50.7183452
+          ],
+          [
+            7.0941067,
+            50.7183169
+          ],
+          [
+            7.0939869,
+            50.7182939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/86233574",
+      "properties": {
+        "@id": "way/86233574",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Lotharstraße",
+        "@timestamp": "2012-07-22T09:07:32Z",
+        "@version": "7",
+        "@changeset": "12428476",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1006174,
+            50.7177967
+          ],
+          [
+            7.1009132,
+            50.7176162
+          ],
+          [
+            7.1012122,
+            50.7174299
+          ],
+          [
+            7.101303,
+            50.717374
+          ],
+          [
+            7.1016474,
+            50.7171401
+          ],
+          [
+            7.1023091,
+            50.716676
+          ],
+          [
+            7.1026215,
+            50.7164545
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130170442",
+      "properties": {
+        "@id": "way/130170442",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lit": "yes",
+        "name": "Trierer Straße",
+        "oneway": "yes",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2011-10-15T12:03:59Z",
+        "@version": "2",
+        "@changeset": "9562892",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0858103,
+            50.7183651
+          ],
+          [
+            7.0857708,
+            50.7183596
+          ],
+          [
+            7.0857387,
+            50.718347
+          ],
+          [
+            7.0857133,
+            50.7183272
+          ],
+          [
+            7.0857001,
+            50.718303
+          ],
+          [
+            7.085699,
+            50.7182865
+          ],
+          [
+            7.0857086,
+            50.7182617
+          ],
+          [
+            7.085741,
+            50.7182346
+          ],
+          [
+            7.0857761,
+            50.718222
+          ],
+          [
+            7.085815,
+            50.7182178
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130170443",
+      "properties": {
+        "@id": "way/130170443",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lit": "yes",
+        "name": "Trierer Straße",
+        "oneway": "yes",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "@timestamp": "2012-01-04T19:31:16Z",
+        "@version": "3",
+        "@changeset": "10294380",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.085815,
+            50.7182178
+          ],
+          [
+            7.0858548,
+            50.7182222
+          ],
+          [
+            7.085904,
+            50.7182439
+          ],
+          [
+            7.0859243,
+            50.718266
+          ],
+          [
+            7.0859301,
+            50.7182819
+          ],
+          [
+            7.085931,
+            50.7182991
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130386333",
+      "properties": {
+        "@id": "way/130386333",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Graf-Stauffenberg-Straße",
+        "@timestamp": "2013-04-07T05:07:36Z",
+        "@version": "6",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1026215,
+            50.7164545
+          ],
+          [
+            7.1021261,
+            50.7164725
+          ],
+          [
+            7.1016652,
+            50.7165092
+          ],
+          [
+            7.1014441,
+            50.7165314
+          ],
+          [
+            7.1013086,
+            50.7165448
+          ],
+          [
+            7.1011563,
+            50.7165646
+          ],
+          [
+            7.1009954,
+            50.7165844
+          ],
+          [
+            7.100387,
+            50.7166943
+          ],
+          [
+            7.1000668,
+            50.7167684
+          ],
+          [
+            7.0997736,
+            50.7168359
+          ],
+          [
+            7.099519,
+            50.7169107
+          ],
+          [
+            7.0993598,
+            50.7169586
+          ],
+          [
+            7.0989555,
+            50.717085
+          ],
+          [
+            7.0987674,
+            50.7171469
+          ],
+          [
+            7.0985354,
+            50.7172169
+          ],
+          [
+            7.0983728,
+            50.7172596
+          ],
+          [
+            7.0982013,
+            50.717288
+          ],
+          [
+            7.0979521,
+            50.7173178
+          ],
+          [
+            7.097744,
+            50.717339
+          ],
+          [
+            7.0973283,
+            50.7174031
+          ],
+          [
+            7.0970264,
+            50.7174756
+          ],
+          [
+            7.0968078,
+            50.7175405
+          ],
+          [
+            7.0967472,
+            50.7175593
+          ],
+          [
+            7.0967067,
+            50.7175711
+          ],
+          [
+            7.0965565,
+            50.7176314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/144133803",
+      "properties": {
+        "@id": "way/144133803",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "incline": "up",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Im Wingert",
+        "ref": "K 2",
+        "@timestamp": "2015-05-05T09:18:11Z",
+        "@version": "7",
+        "@changeset": "30803190",
+        "@user": "HeinerSchaefer",
+        "@uid": "239076",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.085931,
+            50.7182991
+          ],
+          [
+            7.0860335,
+            50.7183213
+          ],
+          [
+            7.0862181,
+            50.7183541
+          ],
+          [
+            7.0867682,
+            50.71843
+          ],
+          [
+            7.0878188,
+            50.7185925
+          ],
+          [
+            7.0880725,
+            50.7186331
+          ],
+          [
+            7.0883351,
+            50.7186612
+          ],
+          [
+            7.088471,
+            50.7186697
+          ],
+          [
+            7.0885915,
+            50.7186763
+          ],
+          [
+            7.0888846,
+            50.7186553
+          ],
+          [
+            7.089077,
+            50.7186338
+          ],
+          [
+            7.0892259,
+            50.7186037
+          ],
+          [
+            7.0895754,
+            50.7184993
+          ],
+          [
+            7.0899568,
+            50.7183765
+          ],
+          [
+            7.0901454,
+            50.7183182
+          ],
+          [
+            7.0903473,
+            50.7182765
+          ],
+          [
+            7.0906214,
+            50.7182374
+          ],
+          [
+            7.0908938,
+            50.7182174
+          ],
+          [
+            7.0909231,
+            50.7182152
+          ],
+          [
+            7.0913569,
+            50.7181916
+          ],
+          [
+            7.0916031,
+            50.7181975
+          ],
+          [
+            7.091754,
+            50.7181762
+          ],
+          [
+            7.0918653,
+            50.7181208
+          ],
+          [
+            7.0919348,
+            50.7180567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/144133805",
+      "properties": {
+        "@id": "way/144133805",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sternenburgstraße",
+        "turn:lanes:backward": "left|through;right",
+        "@timestamp": "2013-10-22T18:06:25Z",
+        "@version": "8",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0885121,
+            50.7220272
+          ],
+          [
+            7.0886365,
+            50.72199
+          ],
+          [
+            7.0886904,
+            50.7219739
+          ],
+          [
+            7.0888643,
+            50.7219235
+          ],
+          [
+            7.0892345,
+            50.7218153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/146632189",
+      "properties": {
+        "@id": "way/146632189",
+        "highway": "tertiary",
+        "incline": "down",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2014-08-20T22:34:38Z",
+        "@version": "8",
+        "@changeset": "24897986",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.097509,
+            50.7068829
+          ],
+          [
+            7.0974335,
+            50.7069165
+          ],
+          [
+            7.0973638,
+            50.7069401
+          ],
+          [
+            7.0972713,
+            50.7069639
+          ],
+          [
+            7.0968646,
+            50.7070263
+          ],
+          [
+            7.0966843,
+            50.7070539
+          ],
+          [
+            7.096341,
+            50.7071068
+          ],
+          [
+            7.096096,
+            50.7071558
+          ],
+          [
+            7.0957943,
+            50.7072483
+          ],
+          [
+            7.0955604,
+            50.7073505
+          ],
+          [
+            7.0954685,
+            50.7074046
+          ],
+          [
+            7.0953848,
+            50.7074538
+          ],
+          [
+            7.0952249,
+            50.7075684
+          ],
+          [
+            7.0951296,
+            50.7076518
+          ],
+          [
+            7.0950347,
+            50.7077487
+          ],
+          [
+            7.0949199,
+            50.7078851
+          ],
+          [
+            7.0948257,
+            50.7080378
+          ],
+          [
+            7.0947732,
+            50.7081365
+          ],
+          [
+            7.0945934,
+            50.7084703
+          ],
+          [
+            7.0944136,
+            50.7087943
+          ],
+          [
+            7.0942833,
+            50.7089691
+          ],
+          [
+            7.0941472,
+            50.709115
+          ],
+          [
+            7.0939892,
+            50.7092536
+          ],
+          [
+            7.093898,
+            50.7093219
+          ],
+          [
+            7.0937992,
+            50.7093902
+          ],
+          [
+            7.0936222,
+            50.7095023
+          ],
+          [
+            7.0932466,
+            50.7097364
+          ],
+          [
+            7.0931008,
+            50.70985
+          ],
+          [
+            7.0929694,
+            50.7099752
+          ],
+          [
+            7.0927924,
+            50.7101785
+          ],
+          [
+            7.0926412,
+            50.7104023
+          ],
+          [
+            7.0925774,
+            50.7105477
+          ],
+          [
+            7.0925513,
+            50.7106223
+          ],
+          [
+            7.0925337,
+            50.710694
+          ],
+          [
+            7.0925089,
+            50.7108408
+          ],
+          [
+            7.0925093,
+            50.7109926
+          ],
+          [
+            7.0925367,
+            50.711207
+          ],
+          [
+            7.0926134,
+            50.7115457
+          ],
+          [
+            7.0926691,
+            50.7117522
+          ],
+          [
+            7.092692,
+            50.7118478
+          ],
+          [
+            7.0927123,
+            50.7119599
+          ],
+          [
+            7.0927489,
+            50.7121472
+          ],
+          [
+            7.0927767,
+            50.7123925
+          ],
+          [
+            7.092807,
+            50.7125709
+          ],
+          [
+            7.0928452,
+            50.7127503
+          ],
+          [
+            7.0929175,
+            50.7130032
+          ],
+          [
+            7.0931156,
+            50.713526
+          ],
+          [
+            7.0932528,
+            50.7138868
+          ],
+          [
+            7.0932912,
+            50.713971
+          ],
+          [
+            7.0933337,
+            50.7140908
+          ],
+          [
+            7.0933506,
+            50.7141712
+          ],
+          [
+            7.0933543,
+            50.7142389
+          ],
+          [
+            7.0933573,
+            50.7143198
+          ],
+          [
+            7.0933392,
+            50.7143999
+          ],
+          [
+            7.0933086,
+            50.7144784
+          ],
+          [
+            7.0932995,
+            50.714502
+          ],
+          [
+            7.0932783,
+            50.714539
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/146633187",
+      "properties": {
+        "@id": "way/146633187",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sertürnerstraße",
+        "note": "Der Straßenname wird zusammengeschrieben, also: Sertürnerstraße. Hab das vor Ort geprüft.",
+        "@timestamp": "2013-12-15T19:43:56Z",
+        "@version": "5",
+        "@changeset": "19470581",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0993865,
+            50.7028523
+          ],
+          [
+            7.1001525,
+            50.7027922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/146633189",
+      "properties": {
+        "@id": "way/146633189",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sigmund-Freud-Straße",
+        "@timestamp": "2015-10-27T01:48:30Z",
+        "@version": "8",
+        "@changeset": "34895035",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1001525,
+            50.7027922
+          ],
+          [
+            7.1001625,
+            50.7029074
+          ],
+          [
+            7.1001536,
+            50.7032702
+          ],
+          [
+            7.1001396,
+            50.7034457
+          ],
+          [
+            7.1001303,
+            50.703563
+          ],
+          [
+            7.100119,
+            50.703641
+          ],
+          [
+            7.1001095,
+            50.7037024
+          ],
+          [
+            7.1001026,
+            50.7037751
+          ],
+          [
+            7.1000943,
+            50.7038556
+          ],
+          [
+            7.1000256,
+            50.704139
+          ],
+          [
+            7.1000084,
+            50.7042211
+          ],
+          [
+            7.0999971,
+            50.704279
+          ],
+          [
+            7.0999338,
+            50.7045424
+          ],
+          [
+            7.0998753,
+            50.7047426
+          ],
+          [
+            7.0998279,
+            50.7048908
+          ],
+          [
+            7.0998052,
+            50.7049629
+          ],
+          [
+            7.0997723,
+            50.7050392
+          ],
+          [
+            7.099729,
+            50.7051472
+          ],
+          [
+            7.099703,
+            50.7051916
+          ],
+          [
+            7.0996827,
+            50.7052227
+          ],
+          [
+            7.0996433,
+            50.705275
+          ],
+          [
+            7.0996037,
+            50.7053145
+          ],
+          [
+            7.0995542,
+            50.7053539
+          ],
+          [
+            7.0994916,
+            50.7054033
+          ],
+          [
+            7.0994179,
+            50.7054428
+          ],
+          [
+            7.099334,
+            50.7054702
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235468137",
+      "properties": {
+        "@id": "way/235468137",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Clemens-August-Straße",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "turn:lanes:forward": "left|through;right",
+        "@timestamp": "2013-08-28T13:06:21Z",
+        "@version": "1",
+        "@changeset": "17554445",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0879849,
+            50.7212766
+          ],
+          [
+            7.0881098,
+            50.721454
+          ],
+          [
+            7.0881699,
+            50.721522
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235468138",
+      "properties": {
+        "@id": "way/235468138",
+        "bus:lanes:forward": "yes|yes|designated",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lanes:forward": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Clemens-August-Straße",
+        "ref": "K 1",
+        "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW",
+        "turn:lanes:forward": "left|through;right|none",
+        "vehicle:lanes:forward": "yes|yes|no",
+        "@timestamp": "2013-08-28T13:06:21Z",
+        "@version": "1",
+        "@changeset": "17554445",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0881699,
+            50.721522
+          ],
+          [
+            7.0883356,
+            50.7217613
+          ],
+          [
+            7.0884459,
+            50.7219289
+          ],
+          [
+            7.0885121,
+            50.7220272
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235468161",
+      "properties": {
+        "@id": "way/235468161",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sternenburgstraße",
+        "@timestamp": "2015-02-03T16:37:36Z",
+        "@version": "3",
+        "@changeset": "28593184",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0892345,
+            50.7218153
+          ],
+          [
+            7.089345,
+            50.7217808
+          ],
+          [
+            7.0895282,
+            50.721725
+          ],
+          [
+            7.0898976,
+            50.7216003
+          ],
+          [
+            7.0903154,
+            50.7214295
+          ],
+          [
+            7.0911614,
+            50.7210313
+          ],
+          [
+            7.0914811,
+            50.7208772
+          ],
+          [
+            7.0915381,
+            50.7208497
+          ],
+          [
+            7.0916531,
+            50.7207933
+          ],
+          [
+            7.0917345,
+            50.7207534
+          ],
+          [
+            7.0922524,
+            50.7205104
+          ],
+          [
+            7.0924784,
+            50.7204105
+          ],
+          [
+            7.093795,
+            50.7199564
+          ],
+          [
+            7.0940306,
+            50.7198876
+          ],
+          [
+            7.0952139,
+            50.7196581
+          ],
+          [
+            7.0960238,
+            50.7195091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/252026943",
+      "properties": {
+        "@id": "way/252026943",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sertürnerstraße",
+        "note": "Der Straßenname wird zusammengeschrieben, also: Sertürnerstraße. Hab das vor Ort geprüft.",
+        "@timestamp": "2013-12-15T19:43:35Z",
+        "@version": "1",
+        "@changeset": "19470581",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0963986,
+            50.7034373
+          ],
+          [
+            7.0972574,
+            50.7031485
+          ],
+          [
+            7.0975143,
+            50.7030714
+          ],
+          [
+            7.0977962,
+            50.7030123
+          ],
+          [
+            7.0981972,
+            50.7029524
+          ],
+          [
+            7.0984983,
+            50.7029136
+          ],
+          [
+            7.0988957,
+            50.7028828
+          ],
+          [
+            7.0993865,
+            50.7028523
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299138326",
+      "properties": {
+        "@id": "way/299138326",
+        "highway": "tertiary",
+        "incline": "down",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Robert-Koch-Straße",
+        "ref": "K 2",
+        "@timestamp": "2014-08-20T22:33:41Z",
+        "@version": "1",
+        "@changeset": "24897986",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0932783,
+            50.714539
+          ],
+          [
+            7.0932018,
+            50.7146564
+          ],
+          [
+            7.0931121,
+            50.7147542
+          ],
+          [
+            7.093015,
+            50.7148594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/370235804",
+      "properties": {
+        "@id": "way/370235804",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Robert-Koch-Straße",
+        "@timestamp": "2015-09-11T20:03:04Z",
+        "@version": "1",
+        "@changeset": "33968027",
+        "@user": "Rogehm",
+        "@uid": "105909",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.099334,
+            50.7054702
+          ],
+          [
+            7.0992201,
+            50.7054869
+          ],
+          [
+            7.0990894,
+            50.7055039
+          ],
+          [
+            7.0988627,
+            50.7055294
+          ],
+          [
+            7.0986595,
+            50.7055613
+          ],
+          [
+            7.0985966,
+            50.7055742
+          ],
+          [
+            7.0985414,
+            50.7055856
+          ],
+          [
+            7.0984802,
+            50.7056008
+          ],
+          [
+            7.0984011,
+            50.7056266
+          ],
+          [
+            7.0983218,
+            50.7056563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/27135372",
+      "properties": {
+        "@id": "node/27135372",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-25T21:25:52Z",
+        "@version": "12",
+        "@changeset": "11702211",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0960238,
+          50.7195091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31314727",
+      "properties": {
+        "@id": "node/31314727",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62280",
+        "bus": "yes",
+        "name": "Lotharstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:07:53Z",
+        "@version": "4",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1009132,
+          50.7176162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/80224479",
+      "properties": {
+        "@id": "node/80224479",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-25T21:26:01Z",
+        "@version": "14",
+        "@changeset": "11702211",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0922524,
+          50.7205104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/81179677",
+      "properties": {
+        "@id": "node/81179677",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-29T21:07:20Z",
+        "@version": "26",
+        "@changeset": "11742678",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1001625,
+          50.7029074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/81182696",
+      "properties": {
+        "@id": "node/81182696",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62451",
+        "bus": "yes",
+        "name": "Marienhospital",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:07:55Z",
+        "@version": "9",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0911195,
+          50.7175208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/81182714",
+      "properties": {
+        "@id": "node/81182714",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-18T12:09:47Z",
+        "@version": "9",
+        "@changeset": "11632448",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1026215,
+          50.7164545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/83360539",
+      "properties": {
+        "@id": "node/83360539",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-25T21:26:02Z",
+        "@version": "7",
+        "@changeset": "11702211",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0885121,
+          50.7220272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/83744874",
+      "properties": {
+        "@id": "node/83744874",
+        "highway": "traffic_signals",
+        "@timestamp": "2013-10-18T21:57:33Z",
+        "@version": "12",
+        "@changeset": "18426711",
+        "@user": "odna",
+        "@uid": "45243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0921635,
+          50.7178757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/262243388",
+      "properties": {
+        "@id": "node/262243388",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62458",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Poppelsdorfer Platz",
+        "platform": "A",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-28T02:52:41Z",
+        "@version": "8",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0880059,
+          50.7214776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/304397548",
+      "properties": {
+        "@id": "node/304397548",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62451",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Marienhospital",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-07T05:07:55Z",
+        "@version": "6",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0910921,
+          50.7175661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/304397550",
+      "properties": {
+        "@id": "node/304397550",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62451",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Marienhospital",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-07T05:07:55Z",
+        "@version": "6",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.091608,
+          50.7176002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/304398107",
+      "properties": {
+        "@id": "node/304398107",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62452",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Friedrichsruh",
+        "public_transport": "platform",
+        "@timestamp": "2013-11-23T03:03:43Z",
+        "@version": "8",
+        "@changeset": "19066051",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0917552,
+          50.7155385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/337919652",
+      "properties": {
+        "@id": "node/337919652",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62457",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Clemens-August-Platz",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-07T05:07:46Z",
+        "@version": "7",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0866883,
+          50.7197772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/337919655",
+      "properties": {
+        "@id": "node/337919655",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62455",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Im Wingert",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-07T05:07:53Z",
+        "@version": "10",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0862406,
+          50.7182588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/337942497",
+      "properties": {
+        "@id": "node/337942497",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62452",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Friedrichsruh",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:32:40Z",
+        "@version": "7",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0909324,
+          50.7156175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/337995974",
+      "properties": {
+        "@id": "node/337995974",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Sertürnerstraße",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69235",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sertürner Straße",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:37Z",
+        "@version": "7",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0973808,
+          50.7031557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/337995978",
+      "properties": {
+        "@id": "node/337995978",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69230",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Casselsruhe",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:32:33Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0979605,
+          50.7049943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/359967499",
+      "properties": {
+        "@id": "node/359967499",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69230",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Casselsruhe",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:32:33Z",
+        "@version": "3",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0986036,
+          50.7055393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409131161",
+      "properties": {
+        "@id": "node/409131161",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62280",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lotharstraße",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2013-04-07T05:07:53Z",
+        "@version": "5",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1009499,
+          50.7176436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409131163",
+      "properties": {
+        "@id": "node/409131163",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62475",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kirschallee",
+        "public_transport": "platform",
+        "wheelchair": "no",
+        "@timestamp": "2013-04-07T05:07:53Z",
+        "@version": "5",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0917111,
+          50.720813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/414230310",
+      "properties": {
+        "@id": "node/414230310",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62250",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gregor-Mendel-Straße",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "wheelchair": "no",
+        "@timestamp": "2013-04-07T05:07:51Z",
+        "@version": "4",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.101435,
+          50.7164862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/414230314",
+      "properties": {
+        "@id": "node/414230314",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69231",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Uniklinikum Nord A",
+        "note": "Bis 14.12.2013 'Klinikum Nord'.",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-12-15T19:43:58Z",
+        "@version": "8",
+        "@changeset": "19470581",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0993871,
+          50.702878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/590453301",
+      "properties": {
+        "@id": "node/590453301",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "@timestamp": "2012-08-21T00:24:11Z",
+        "@version": "6",
+        "@changeset": "12802762",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0919062,
+          50.7178782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1436361211",
+      "properties": {
+        "@id": "node/1436361211",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "@timestamp": "2012-05-18T12:09:43Z",
+        "@version": "2",
+        "@changeset": "11632448",
+        "@user": "dschuwa",
+        "@uid": "55687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0967067,
+          50.7175711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1564806956",
+      "properties": {
+        "@id": "node/1564806956",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62458",
+        "bus": "yes",
+        "name": "Poppelsdorfer Platz",
+        "platform": "B",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-28T02:52:42Z",
+        "@version": "4",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0883356,
+          50.7217613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1577149704",
+      "properties": {
+        "@id": "node/1577149704",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62253",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Argelanderstraße",
+        "public_transport": "platform",
+        "wheelchair": "no",
+        "@timestamp": "2013-04-07T05:07:44Z",
+        "@version": "3",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0952088,
+          50.7196892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1599017280",
+      "properties": {
+        "@id": "node/1599017280",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Sertürnerstraße",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69235",
+        "bus": "yes",
+        "name": "Sertürner Straße",
+        "operator": "SWB",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-10-27T01:48:31Z",
+        "@version": "4",
+        "@changeset": "34895035",
+        "@user": "dalchimsky",
+        "@uid": "2547003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0972574,
+          50.7031485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1757132531",
+      "properties": {
+        "@id": "node/1757132531",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62280",
+        "bus": "yes",
+        "name": "Lotharstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:07:54Z",
+        "@version": "2",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1002097,
+          50.7180266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1757390974",
+      "properties": {
+        "@id": "node/1757390974",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62452",
+        "bus": "yes",
+        "name": "Friedrichsruh",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-11-23T03:03:43Z",
+        "@version": "2",
+        "@changeset": "19066051",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0917248,
+          50.7154867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1757390975",
+      "properties": {
+        "@id": "node/1757390975",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2013-11-22T21:31:02Z",
+        "@version": "3",
+        "@changeset": "19062972",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0912753,
+          50.7155753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1765298785",
+      "properties": {
+        "@id": "node/1765298785",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69230",
+        "bus": "yes",
+        "name": "Casselsruhe",
+        "operator": "SWB",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-11-22T21:30:59Z",
+        "@version": "2",
+        "@changeset": "19062972",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0979057,
+          50.7049957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1765315469",
+      "properties": {
+        "@id": "node/1765315469",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Venusberg",
+        "VRS:ref": "69231",
+        "bus": "yes",
+        "name": "Uniklinikum Nord A",
+        "note": "Bis 14.12.2013 'Klinikum Nord'.",
+        "operator": "SWB",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-12-15T19:43:58Z",
+        "@version": "5",
+        "@changeset": "19470581",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0993865,
+          50.7028523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1765332387",
+      "properties": {
+        "@id": "node/1765332387",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-08-21T00:24:10Z",
+        "@version": "2",
+        "@changeset": "12802762",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0920098,
+          50.7178173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1765585132",
+      "properties": {
+        "@id": "node/1765585132",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62458",
+        "bus": "yes",
+        "name": "Poppelsdorfer Platz",
+        "platform": "C",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-28T02:52:42Z",
+        "@version": "3",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0888643,
+          50.7219235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2050487831",
+      "properties": {
+        "@id": "node/2050487831",
+        "crossing": "island",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2016-01-18T15:11:56Z",
+        "@version": "2",
+        "@changeset": "36659299",
+        "@user": "RadFr",
+        "@uid": "2230854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0857743,
+          50.7184352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2050487845",
+      "properties": {
+        "@id": "node/2050487845",
+        "crossing": "island",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2016-01-18T15:11:56Z",
+        "@version": "2",
+        "@changeset": "36659299",
+        "@user": "RadFr",
+        "@uid": "2230854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0860335,
+          50.7183213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2050542693",
+      "properties": {
+        "@id": "node/2050542693",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-12-04T22:29:05Z",
+        "@version": "1",
+        "@changeset": "14157830",
+        "@user": "cg909",
+        "@uid": "62187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0884459,
+          50.7219289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2050542736",
+      "properties": {
+        "@id": "node/2050542736",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-12-04T22:29:05Z",
+        "@version": "1",
+        "@changeset": "14157830",
+        "@user": "cg909",
+        "@uid": "62187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0886365,
+          50.72199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759717",
+      "properties": {
+        "@id": "node/2253759717",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62253",
+        "bus": "yes",
+        "name": "Argelanderstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-12-15T01:40:49Z",
+        "@version": "2",
+        "@changeset": "35958016",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0952139,
+          50.7196581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759776",
+      "properties": {
+        "@id": "node/2253759776",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62457",
+        "bus": "yes",
+        "name": "Clemens-August-Platz",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:50Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0861467,
+          50.7192651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759781",
+      "properties": {
+        "@id": "node/2253759781",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62457",
+        "bus": "yes",
+        "name": "Clemens-August-Platz",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:50Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0867827,
+          50.719733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759827",
+      "properties": {
+        "@id": "node/2253759827",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62250",
+        "bus": "yes",
+        "name": "Gregor-Mendel-Straße",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:50Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1014441,
+          50.7165314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759835",
+      "properties": {
+        "@id": "node/2253759835",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Kessenich",
+        "VRS:ref": "62250",
+        "bus": "yes",
+        "name": "Gregor-Mendel-Straße",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:50Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1011563,
+          50.7165646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759855",
+      "properties": {
+        "@id": "node/2253759855",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62455",
+        "bus": "yes",
+        "name": "Im Wingert",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:50Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0862181,
+          50.7183541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759866",
+      "properties": {
+        "@id": "node/2253759866",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62475",
+        "bus": "yes",
+        "name": "Kirschallee",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:51Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0916531,
+          50.7207933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759872",
+      "properties": {
+        "@id": "node/2253759872",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62475",
+        "bus": "yes",
+        "name": "Kirschallee",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:51Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0914811,
+          50.7208772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759897",
+      "properties": {
+        "@id": "node/2253759897",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62451",
+        "bus": "yes",
+        "name": "Marienhospital",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T05:03:51Z",
+        "@version": "1",
+        "@changeset": "15635184",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0915517,
+          50.7176676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759961",
+      "properties": {
+        "@id": "node/2253759961",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62458",
+        "bus": "yes",
+        "name": "Poppelsdorfer Platz",
+        "platform": "A",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-28T02:52:41Z",
+        "@version": "2",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0881098,
+          50.721454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253759975",
+      "properties": {
+        "@id": "node/2253759975",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62458",
+        "bus": "yes",
+        "name": "Poppelsdorfer Platz",
+        "platform": "D",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-10-22T18:06:29Z",
+        "@version": "4",
+        "@changeset": "18490312",
+        "@user": "odna",
+        "@uid": "45243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.089345,
+          50.7217808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2546062961",
+      "properties": {
+        "@id": "node/2546062961",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Poppelsdorf",
+        "VRS:ref": "62452",
+        "bus": "yes",
+        "name": "Friedrichsruh",
+        "operator": "SWB",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-11-22T21:30:37Z",
+        "@version": "1",
+        "@changeset": "19062972",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "3380490",
+            "reltags": {
+              "from": "Poppeldorfer Platz",
+              "name": "VRS 632 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.090959,
+          50.715655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2581473898",
+      "properties": {
+        "@id": "node/2581473898",
+        "FIXME": "genaue Position, stop_position",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Heinrich-Lützeler-Straße",
+        "public_transport": "platform",
+        "wheelchair": "limited",
+        "@timestamp": "2014-03-23T20:32:57Z",
+        "@version": "2",
+        "@changeset": "21272689",
+        "@user": "wheelmap_android",
+        "@uid": "524500",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "3380489",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 632 Poppelsdorfer Platz",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "632",
+              "route": "bus",
+              "to": "Poppelsdorfer Platz",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0963251,
+          50.7176823
+        ]
+      }
+    }
+  ]
+}

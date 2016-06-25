@@ -1,0 +1,6153 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-12T14:04:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4349902",
+      "properties": {
+        "@id": "way/4349902",
+        "created_by": "Potlatch alpha",
+        "cycleway": "track",
+        "footway": "yes",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "@timestamp": "2012-08-21T23:00:30Z",
+        "@version": "10",
+        "@changeset": "12814310",
+        "@user": "woodpeck_repair",
+        "@uid": "145231",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0443696,
+            50.7165395
+          ],
+          [
+            7.0442028,
+            50.7165217
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4349907",
+      "properties": {
+        "@id": "way/4349907",
+        "highway": "service",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "note": "nur für Linienverkehr und Taxen",
+        "psv": "designated",
+        "surface": "asphalt",
+        "vehicle": "no",
+        "@timestamp": "2015-12-19T02:13:35Z",
+        "@version": "8",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0427288,
+            50.7163032
+          ],
+          [
+            7.0425923,
+            50.7163459
+          ],
+          [
+            7.0424569,
+            50.7163477
+          ],
+          [
+            7.0423191,
+            50.7163273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4353342",
+      "properties": {
+        "@id": "way/4353342",
+        "bus:lanes:backward": "designated|yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bahnhofstraße",
+        "turn:lanes:backward": "none|left;right",
+        "@timestamp": "2013-08-28T09:28:50Z",
+        "@version": "14",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.045795,
+            50.7153168
+          ],
+          [
+            7.0456094,
+            50.7155011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4355752",
+      "properties": {
+        "@id": "way/4355752",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "@timestamp": "2013-08-28T09:28:49Z",
+        "@version": "10",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0310133,
+            50.7174648
+          ],
+          [
+            7.0310986,
+            50.7173817
+          ],
+          [
+            7.0311625,
+            50.7172774
+          ],
+          [
+            7.0311738,
+            50.7172503
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4363919",
+      "properties": {
+        "@id": "way/4363919",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "oneway": "yes",
+        "@timestamp": "2014-06-26T21:02:44Z",
+        "@version": "12",
+        "@changeset": "23201549",
+        "@user": "H-GT",
+        "@uid": "407246",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0307741,
+            50.717499
+          ],
+          [
+            7.0308144,
+            50.7174742
+          ],
+          [
+            7.0308743,
+            50.717456
+          ],
+          [
+            7.0309101,
+            50.7174519
+          ],
+          [
+            7.0309795,
+            50.7174563
+          ],
+          [
+            7.0310133,
+            50.7174648
+          ],
+          [
+            7.0310689,
+            50.7174921
+          ],
+          [
+            7.0310967,
+            50.7175179
+          ],
+          [
+            7.0311173,
+            50.717574
+          ],
+          [
+            7.0311045,
+            50.7176163
+          ],
+          [
+            7.031084,
+            50.7176409
+          ],
+          [
+            7.031038,
+            50.7176708
+          ],
+          [
+            7.0310058,
+            50.7176827
+          ],
+          [
+            7.0309199,
+            50.7176937
+          ],
+          [
+            7.0308703,
+            50.7176885
+          ],
+          [
+            7.030793,
+            50.7176597
+          ],
+          [
+            7.0307624,
+            50.7176356
+          ],
+          [
+            7.0307354,
+            50.7175839
+          ],
+          [
+            7.0307403,
+            50.7175433
+          ],
+          [
+            7.0307741,
+            50.717499
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4363927",
+      "properties": {
+        "@id": "way/4363927",
+        "highway": "service",
+        "lit": "yes",
+        "@timestamp": "2012-01-26T17:52:37Z",
+        "@version": "4",
+        "@changeset": "10505368",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0513288,
+            50.7236968
+          ],
+          [
+            7.051379,
+            50.7237359
+          ],
+          [
+            7.051402,
+            50.7237683
+          ],
+          [
+            7.0514047,
+            50.7238099
+          ],
+          [
+            7.0513639,
+            50.7238501
+          ],
+          [
+            7.0513099,
+            50.7238789
+          ],
+          [
+            7.0512253,
+            50.7238848
+          ],
+          [
+            7.0510587,
+            50.7238583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4393225",
+      "properties": {
+        "@id": "way/4393225",
+        "bicycle": "designated",
+        "bicycle_road": "yes",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "yes",
+        "name": "Schmittgasser Kirchweg",
+        "note": "Fahrradstraße getaggt gemäß http://wiki.openstreetmap.org/wiki/Key:bicycle_road",
+        "source:maxspeed": "DE:bicycle_road",
+        "traffic_sign": "DE:244",
+        "@timestamp": "2014-07-13T16:03:58Z",
+        "@version": "22",
+        "@changeset": "24123518",
+        "@user": "DonMarkusi",
+        "@uid": "1773637",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.045764,
+            50.7211966
+          ],
+          [
+            7.0459733,
+            50.7210683
+          ],
+          [
+            7.0461807,
+            50.7209446
+          ],
+          [
+            7.0465518,
+            50.7207126
+          ],
+          [
+            7.0465878,
+            50.7206901
+          ],
+          [
+            7.0466142,
+            50.7206747
+          ],
+          [
+            7.0469565,
+            50.7204277
+          ],
+          [
+            7.0470722,
+            50.7202732
+          ],
+          [
+            7.0471148,
+            50.7202157
+          ],
+          [
+            7.0471459,
+            50.7201618
+          ],
+          [
+            7.0471806,
+            50.7200994
+          ],
+          [
+            7.0474165,
+            50.7197001
+          ],
+          [
+            7.0476033,
+            50.7194752
+          ],
+          [
+            7.0476715,
+            50.7193955
+          ],
+          [
+            7.0481075,
+            50.7188976
+          ],
+          [
+            7.0481388,
+            50.7188579
+          ],
+          [
+            7.0481758,
+            50.7188312
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4414326",
+      "properties": {
+        "@id": "way/4414326",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "@timestamp": "2015-12-15T17:58:45Z",
+        "@version": "10",
+        "@changeset": "35972209",
+        "@user": "nimix",
+        "@uid": "16135",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0298505,
+            50.718428
+          ],
+          [
+            7.0301453,
+            50.7183717
+          ],
+          [
+            7.0304215,
+            50.7182691
+          ],
+          [
+            7.0305867,
+            50.7181418
+          ],
+          [
+            7.0307508,
+            50.7179706
+          ],
+          [
+            7.0308703,
+            50.7176885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4414369",
+      "properties": {
+        "@id": "way/4414369",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "turn:lanes:backward": "left|through",
+        "@timestamp": "2013-08-28T09:28:49Z",
+        "@version": "9",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0298505,
+            50.718428
+          ],
+          [
+            7.0298655,
+            50.7185297
+          ],
+          [
+            7.0298627,
+            50.7187199
+          ],
+          [
+            7.0297943,
+            50.7192116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4414370",
+      "properties": {
+        "@id": "way/4414370",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "turn:lanes:backward": "left;through|right",
+        "@timestamp": "2013-11-06T15:54:15Z",
+        "@version": "15",
+        "@changeset": "18749690",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.029831,
+            50.7202706
+          ],
+          [
+            7.0295358,
+            50.7202962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5888515",
+      "properties": {
+        "@id": "way/5888515",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Lehmkaulenweg",
+        "@timestamp": "2012-03-04T18:26:19Z",
+        "@version": "5",
+        "@changeset": "10872044",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0133948,
+            50.7178821
+          ],
+          [
+            7.0130178,
+            50.7181697
+          ],
+          [
+            7.0128881,
+            50.7182649
+          ],
+          [
+            7.0123589,
+            50.7186666
+          ],
+          [
+            7.0123063,
+            50.718736
+          ],
+          [
+            7.0122879,
+            50.7188256
+          ],
+          [
+            7.0123318,
+            50.7189203
+          ],
+          [
+            7.0129434,
+            50.719484
+          ],
+          [
+            7.0132397,
+            50.7198221
+          ],
+          [
+            7.013695,
+            50.7204237
+          ],
+          [
+            7.0140052,
+            50.7208548
+          ],
+          [
+            7.014133,
+            50.7211075
+          ],
+          [
+            7.0141354,
+            50.721239
+          ],
+          [
+            7.0141446,
+            50.7215828
+          ],
+          [
+            7.0141644,
+            50.7218874
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5927699",
+      "properties": {
+        "@id": "way/5927699",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Auf der Heide",
+        "@timestamp": "2012-03-04T18:26:05Z",
+        "@version": "4",
+        "@changeset": "10872044",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0141644,
+            50.7218874
+          ],
+          [
+            7.0142311,
+            50.722297
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5927896",
+      "properties": {
+        "@id": "way/5927896",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Auf dem Büchel",
+        "@timestamp": "2015-01-18T22:49:09Z",
+        "@version": "9",
+        "@changeset": "28241998",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0173123,
+            50.7191783
+          ],
+          [
+            7.0180377,
+            50.7194677
+          ],
+          [
+            7.0181461,
+            50.7195039
+          ],
+          [
+            7.0186273,
+            50.7195475
+          ],
+          [
+            7.0191133,
+            50.7196277
+          ],
+          [
+            7.0192719,
+            50.7196864
+          ],
+          [
+            7.0194485,
+            50.7197568
+          ],
+          [
+            7.0196253,
+            50.7198433
+          ],
+          [
+            7.0201934,
+            50.7201728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5929218",
+      "properties": {
+        "@id": "way/5929218",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kirchgasse",
+        "@timestamp": "2012-07-20T21:27:40Z",
+        "@version": "5",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0142311,
+            50.722297
+          ],
+          [
+            7.0142832,
+            50.7224718
+          ],
+          [
+            7.0144908,
+            50.7227925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5929222",
+      "properties": {
+        "@id": "way/5929222",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Staffelsgasse",
+        "@timestamp": "2015-01-18T22:49:10Z",
+        "@version": "7",
+        "@changeset": "28241998",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0263599,
+            50.7235191
+          ],
+          [
+            7.0251173,
+            50.7230312
+          ],
+          [
+            7.0241533,
+            50.7226574
+          ],
+          [
+            7.0235807,
+            50.7224354
+          ],
+          [
+            7.0233668,
+            50.7223318
+          ],
+          [
+            7.0225653,
+            50.7218839
+          ],
+          [
+            7.0217698,
+            50.7214793
+          ],
+          [
+            7.0213364,
+            50.7212116
+          ],
+          [
+            7.0210791,
+            50.7210298
+          ],
+          [
+            7.0205902,
+            50.7207894
+          ],
+          [
+            7.0204765,
+            50.7207264
+          ],
+          [
+            7.0204068,
+            50.7206287
+          ],
+          [
+            7.0203052,
+            50.7203695
+          ],
+          [
+            7.0201934,
+            50.7201728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5933544",
+      "properties": {
+        "@id": "way/5933544",
+        "highway": "service",
+        "@timestamp": "2012-07-20T21:27:40Z",
+        "@version": "2",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0144908,
+            50.7227925
+          ],
+          [
+            7.0146804,
+            50.7227284
+          ],
+          [
+            7.0148378,
+            50.7227047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/7979552",
+      "properties": {
+        "@id": "way/7979552",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Lessenicher Straße",
+        "@timestamp": "2013-05-24T11:12:01Z",
+        "@version": "12",
+        "@changeset": "16264069",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0486522,
+            50.7177283
+          ],
+          [
+            7.0486396,
+            50.7177702
+          ],
+          [
+            7.0485965,
+            50.7178798
+          ],
+          [
+            7.0485807,
+            50.7179316
+          ],
+          [
+            7.0484392,
+            50.7183472
+          ],
+          [
+            7.0483699,
+            50.7185244
+          ],
+          [
+            7.0483013,
+            50.7186602
+          ],
+          [
+            7.0482553,
+            50.7187235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/8041079",
+      "properties": {
+        "@id": "way/8041079",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Malgisostraße",
+        "@timestamp": "2012-09-04T10:11:04Z",
+        "@version": "4",
+        "@changeset": "12979626",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0461221,
+            50.7234047
+          ],
+          [
+            7.0467494,
+            50.723096
+          ],
+          [
+            7.0472285,
+            50.7228601
+          ],
+          [
+            7.047378,
+            50.7227977
+          ],
+          [
+            7.0476094,
+            50.7226896
+          ],
+          [
+            7.0476855,
+            50.722654
+          ],
+          [
+            7.0480699,
+            50.7224651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24381677",
+      "properties": {
+        "@id": "way/24381677",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Alter Heerweg",
+        "@timestamp": "2012-09-04T10:10:46Z",
+        "@version": "5",
+        "@changeset": "12979626",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0486403,
+            50.7228293
+          ],
+          [
+            7.049302,
+            50.723235
+          ],
+          [
+            7.0494604,
+            50.7233338
+          ],
+          [
+            7.0501472,
+            50.7237534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24381713",
+      "properties": {
+        "@id": "way/24381713",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Auf der Heide",
+        "@timestamp": "2012-07-20T21:27:39Z",
+        "@version": "2",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0142311,
+            50.722297
+          ],
+          [
+            7.0144125,
+            50.7223217
+          ],
+          [
+            7.0149252,
+            50.7226952
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27598773",
+      "properties": {
+        "@id": "way/27598773",
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "@timestamp": "2015-09-23T15:59:51Z",
+        "@version": "8",
+        "@changeset": "34208966",
+        "@user": "redrace",
+        "@uid": "149451",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0352283,
+            50.7153504
+          ],
+          [
+            7.0352902,
+            50.71538
+          ],
+          [
+            7.035452,
+            50.7154053
+          ],
+          [
+            7.0375352,
+            50.7156772
+          ],
+          [
+            7.0376656,
+            50.7156904
+          ],
+          [
+            7.0389252,
+            50.7158619
+          ],
+          [
+            7.0390845,
+            50.7158769
+          ],
+          [
+            7.039187,
+            50.7158412
+          ],
+          [
+            7.039263,
+            50.7158191
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27598777",
+      "properties": {
+        "@id": "way/27598777",
+        "bicycle": "designated",
+        "bicycle_road": "yes",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "yes",
+        "name": "Roncallistraße",
+        "note": "Fahrradstraße getaggt gemäß http://wiki.openstreetmap.org/wiki/Key:bicycle_road",
+        "@timestamp": "2014-05-25T10:59:00Z",
+        "@version": "6",
+        "@changeset": "22541058",
+        "@user": "olzi80",
+        "@uid": "2028422",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0442594,
+            50.7220981
+          ],
+          [
+            7.0447298,
+            50.7218321
+          ],
+          [
+            7.045174,
+            50.7215646
+          ],
+          [
+            7.045764,
+            50.7211966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27598779",
+      "properties": {
+        "@id": "way/27598779",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Bonner Logsweg",
+        "@timestamp": "2012-09-04T10:10:51Z",
+        "@version": "7",
+        "@changeset": "12979626",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0461221,
+            50.7234047
+          ],
+          [
+            7.0457388,
+            50.7231525
+          ],
+          [
+            7.0456907,
+            50.7231219
+          ],
+          [
+            7.0456269,
+            50.7230814
+          ],
+          [
+            7.0450406,
+            50.7226539
+          ],
+          [
+            7.0449231,
+            50.7225682
+          ],
+          [
+            7.0448688,
+            50.7225273
+          ],
+          [
+            7.0446279,
+            50.7223593
+          ],
+          [
+            7.0442594,
+            50.7220981
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27598780",
+      "properties": {
+        "@id": "way/27598780",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Alter Heerweg",
+        "@timestamp": "2010-03-17T20:20:55Z",
+        "@version": "4",
+        "@changeset": "4155874",
+        "@user": "xybot",
+        "@uid": "70696",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0480699,
+            50.7224651
+          ],
+          [
+            7.0486403,
+            50.7228293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27621853",
+      "properties": {
+        "@id": "way/27621853",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "@timestamp": "2013-11-06T15:54:16Z",
+        "@version": "19",
+        "@changeset": "18749690",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0263599,
+            50.7235191
+          ],
+          [
+            7.0268707,
+            50.7228689
+          ],
+          [
+            7.0269587,
+            50.7227708
+          ],
+          [
+            7.0272817,
+            50.7224592
+          ],
+          [
+            7.0277783,
+            50.722019
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28986989",
+      "properties": {
+        "@id": "way/28986989",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Am Burgweiher",
+        "ref": "B 56",
+        "turn:lanes:backward": "left|through",
+        "@timestamp": "2013-07-02T23:41:31Z",
+        "@version": "6",
+        "@changeset": "16799159",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.045795,
+            50.7153168
+          ],
+          [
+            7.0461373,
+            50.7154973
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30069966",
+      "properties": {
+        "@id": "way/30069966",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "@timestamp": "2014-12-03T11:03:23Z",
+        "@version": "4",
+        "@changeset": "27197499",
+        "@user": "Curling",
+        "@uid": "459235",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0413685,
+            50.7161192
+          ],
+          [
+            7.0412555,
+            50.7161244
+          ],
+          [
+            7.0411753,
+            50.7161138
+          ],
+          [
+            7.0405443,
+            50.7160306
+          ],
+          [
+            7.0393856,
+            50.7158704
+          ],
+          [
+            7.0393684,
+            50.7158632
+          ],
+          [
+            7.039263,
+            50.7158191
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31357339",
+      "properties": {
+        "@id": "way/31357339",
+        "highway": "unclassified",
+        "lit": "yes",
+        "name": "Alter Heerweg",
+        "@timestamp": "2012-08-29T08:03:22Z",
+        "@version": "5",
+        "@changeset": "12901779",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0506933,
+            50.7237901
+          ],
+          [
+            7.0510517,
+            50.7237071
+          ],
+          [
+            7.0511759,
+            50.723692
+          ],
+          [
+            7.0513288,
+            50.7236968
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34912300",
+      "properties": {
+        "@id": "way/34912300",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Am Burgweiher",
+        "ref": "B 56",
+        "turn:lanes:backward": "left|through",
+        "@timestamp": "2013-07-02T23:41:32Z",
+        "@version": "4",
+        "@changeset": "16799159",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0479411,
+            50.716175
+          ],
+          [
+            7.0484767,
+            50.7162909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34958219",
+      "properties": {
+        "@id": "way/34958219",
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Alfterer Straße",
+        "@timestamp": "2013-08-28T09:28:48Z",
+        "@version": "3",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0311738,
+            50.7172503
+          ],
+          [
+            7.0312088,
+            50.7171264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34958222",
+      "properties": {
+        "@id": "way/34958222",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "@timestamp": "2014-06-26T20:52:43Z",
+        "@version": "12",
+        "@changeset": "23201549",
+        "@user": "H-GT",
+        "@uid": "407246",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0312088,
+            50.7171264
+          ],
+          [
+            7.0312699,
+            50.7169732
+          ],
+          [
+            7.031387,
+            50.7167594
+          ],
+          [
+            7.0317083,
+            50.7163525
+          ],
+          [
+            7.0319676,
+            50.7160128
+          ],
+          [
+            7.0321816,
+            50.7157525
+          ],
+          [
+            7.0324619,
+            50.7154114
+          ],
+          [
+            7.0325884,
+            50.7152584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/35470191",
+      "properties": {
+        "@id": "way/35470191",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "turn:lanes:backward": "left;through|right",
+        "@timestamp": "2013-11-06T15:54:16Z",
+        "@version": "12",
+        "@changeset": "18749690",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0295358,
+            50.7202962
+          ],
+          [
+            7.0291211,
+            50.7203464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/37827133",
+      "properties": {
+        "@id": "way/37827133",
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "@timestamp": "2014-12-03T10:12:19Z",
+        "@version": "4",
+        "@changeset": "27196658",
+        "@user": "Curling",
+        "@uid": "459235",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0442028,
+            50.7165217
+          ],
+          [
+            7.0433844,
+            50.716409
+          ],
+          [
+            7.042917,
+            50.7163447
+          ],
+          [
+            7.0427288,
+            50.7163032
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/49923618",
+      "properties": {
+        "@id": "way/49923618",
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bahnhofstraße",
+        "oneway": "yes",
+        "@timestamp": "2013-07-02T23:41:35Z",
+        "@version": "6",
+        "@changeset": "16799159",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0461373,
+            50.7154973
+          ],
+          [
+            7.0458415,
+            50.7154956
+          ],
+          [
+            7.0456094,
+            50.7155011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/49923619",
+      "properties": {
+        "@id": "way/49923619",
+        "bus:lanes:backward": "designated|yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bahnhofstraße",
+        "@timestamp": "2015-12-19T02:13:33Z",
+        "@version": "5",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0456094,
+            50.7155011
+          ],
+          [
+            7.0455542,
+            50.7155519
+          ],
+          [
+            7.0454878,
+            50.7156077
+          ],
+          [
+            7.0450964,
+            50.7159363
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/49923620",
+      "properties": {
+        "@id": "way/49923620",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Am Burgweiher",
+        "ref": "B 56",
+        "turn:lanes:backward": "left|through;right",
+        "@timestamp": "2015-12-19T02:13:32Z",
+        "@version": "5",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0461373,
+            50.7154973
+          ],
+          [
+            7.0464452,
+            50.7156292
+          ],
+          [
+            7.0465331,
+            50.7156666
+          ],
+          [
+            7.0467394,
+            50.7157541
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/52581785",
+      "properties": {
+        "@id": "way/52581785",
+        "highway": "unclassified",
+        "lit": "yes",
+        "name": "Alter Heerweg",
+        "@timestamp": "2012-08-29T08:03:22Z",
+        "@version": "4",
+        "@changeset": "12901779",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0501472,
+            50.7237534
+          ],
+          [
+            7.0502567,
+            50.7238
+          ],
+          [
+            7.0503973,
+            50.723818
+          ],
+          [
+            7.0505094,
+            50.7238232
+          ],
+          [
+            7.0506933,
+            50.7237901
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/54044190",
+      "properties": {
+        "@id": "way/54044190",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Waldstraße",
+        "@timestamp": "2012-09-16T22:03:34Z",
+        "@version": "3",
+        "@changeset": "13136986",
+        "@user": "grenzdebil_bonn",
+        "@uid": "6390",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0133948,
+            50.7178821
+          ],
+          [
+            7.0137412,
+            50.7180477
+          ],
+          [
+            7.0140237,
+            50.7180776
+          ],
+          [
+            7.0143189,
+            50.7181226
+          ],
+          [
+            7.0145753,
+            50.7181918
+          ],
+          [
+            7.0152664,
+            50.7184153
+          ],
+          [
+            7.0164165,
+            50.7188661
+          ],
+          [
+            7.0173123,
+            50.7191783
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/91858405",
+      "properties": {
+        "@id": "way/91858405",
+        "highway": "service",
+        "lit": "yes",
+        "@timestamp": "2011-10-15T13:22:53Z",
+        "@version": "2",
+        "@changeset": "9563460",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0510587,
+            50.7238583
+          ],
+          [
+            7.0506933,
+            50.7237901
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/103822581",
+      "properties": {
+        "@id": "way/103822581",
+        "bus": "yes",
+        "highway": "footway",
+        "name": "Duisdorf Bahnhof A",
+        "platform": "A",
+        "public_transport": "platform",
+        "ref": "A",
+        "@timestamp": "2013-11-23T03:03:41Z",
+        "@version": "6",
+        "@changeset": "19066051",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0424484,
+            50.7164015
+          ],
+          [
+            7.0419965,
+            50.71634
+          ],
+          [
+            7.0415661,
+            50.7162816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/103822616",
+      "properties": {
+        "@id": "way/103822616",
+        "bus": "yes",
+        "highway": "footway",
+        "name": "Duisdorf Bahnhof B",
+        "platform": "B",
+        "public_transport": "platform",
+        "ref": "B",
+        "@timestamp": "2013-05-13T09:44:06Z",
+        "@version": "6",
+        "@changeset": "16108000",
+        "@user": "Pillepsy",
+        "@uid": "347541",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0416424,
+            50.7161751
+          ],
+          [
+            7.0418892,
+            50.716209
+          ],
+          [
+            7.0420477,
+            50.7162308
+          ],
+          [
+            7.0422175,
+            50.7162541
+          ],
+          [
+            7.0424504,
+            50.7162801
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/157075586",
+      "properties": {
+        "@id": "way/157075586",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Lessenicher Straße",
+        "@timestamp": "2012-07-03T16:30:16Z",
+        "@version": "2",
+        "@changeset": "12101797",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0489889,
+            50.7163665
+          ],
+          [
+            7.0489322,
+            50.7164864
+          ],
+          [
+            7.0487865,
+            50.7171469
+          ],
+          [
+            7.0487488,
+            50.717328
+          ],
+          [
+            7.0486957,
+            50.7176047
+          ],
+          [
+            7.0486522,
+            50.7177283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/159557230",
+      "properties": {
+        "@id": "way/159557230",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "@timestamp": "2013-11-06T15:54:15Z",
+        "@version": "5",
+        "@changeset": "18749690",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0277783,
+            50.722019
+          ],
+          [
+            7.0278545,
+            50.7219429
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/172342456",
+      "properties": {
+        "@id": "way/172342456",
+        "highway": "service",
+        "@timestamp": "2012-07-20T21:25:16Z",
+        "@version": "1",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0148378,
+            50.7227047
+          ],
+          [
+            7.0149252,
+            50.7226952
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/222876762",
+      "properties": {
+        "@id": "way/222876762",
+        "highway": "residential",
+        "junction": "roundabout",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Lessenicher Straße",
+        "oneway": "yes",
+        "@timestamp": "2013-05-24T11:15:07Z",
+        "@version": "2",
+        "@changeset": "16264112",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0482553,
+            50.7187235
+          ],
+          [
+            7.0482939,
+            50.7187345
+          ],
+          [
+            7.0483159,
+            50.7187491
+          ],
+          [
+            7.0483287,
+            50.7187663
+          ],
+          [
+            7.0483311,
+            50.7187943
+          ],
+          [
+            7.0483232,
+            50.7188097
+          ],
+          [
+            7.0482971,
+            50.7188308
+          ],
+          [
+            7.0482652,
+            50.7188417
+          ],
+          [
+            7.0482335,
+            50.7188446
+          ],
+          [
+            7.0482018,
+            50.7188406
+          ],
+          [
+            7.0481758,
+            50.7188312
+          ],
+          [
+            7.0481543,
+            50.7188161
+          ],
+          [
+            7.0481417,
+            50.7187964
+          ],
+          [
+            7.048141,
+            50.7187726
+          ],
+          [
+            7.0481538,
+            50.7187514
+          ],
+          [
+            7.0481789,
+            50.7187342
+          ],
+          [
+            7.0482187,
+            50.7187233
+          ],
+          [
+            7.0482553,
+            50.7187235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228460629",
+      "properties": {
+        "@id": "way/228460629",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Am Burgweiher",
+        "ref": "B 56",
+        "turn:lanes:forward": "left|through;right",
+        "@timestamp": "2013-07-02T23:40:22Z",
+        "@version": "1",
+        "@changeset": "16799159",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0484767,
+            50.7162909
+          ],
+          [
+            7.0489889,
+            50.7163665
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228460633",
+      "properties": {
+        "@id": "way/228460633",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight": "3.5",
+        "name": "Am Burgweiher",
+        "ref": "B 56",
+        "@timestamp": "2014-08-27T14:23:43Z",
+        "@version": "2",
+        "@changeset": "25053107",
+        "@user": "DonMarkusi",
+        "@uid": "1773637",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0467394,
+            50.7157541
+          ],
+          [
+            7.046815,
+            50.7157861
+          ],
+          [
+            7.0474481,
+            50.716038
+          ],
+          [
+            7.0478608,
+            50.7161527
+          ],
+          [
+            7.0479411,
+            50.716175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228460636",
+      "properties": {
+        "@id": "way/228460636",
+        "bus:lanes:forward": "designated|yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bahnhofstraße",
+        "@timestamp": "2013-08-28T09:28:50Z",
+        "@version": "2",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0450964,
+            50.7159363
+          ],
+          [
+            7.0445125,
+            50.7163984
+          ],
+          [
+            7.0443696,
+            50.7165395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235441200",
+      "properties": {
+        "@id": "way/235441200",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "turn:lanes:forward": "left|through",
+        "@timestamp": "2015-12-19T02:13:32Z",
+        "@version": "3",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0283068,
+            50.7214016
+          ],
+          [
+            7.0281813,
+            50.7215825
+          ],
+          [
+            7.0281647,
+            50.7216064
+          ],
+          [
+            7.0278545,
+            50.7219429
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235441207",
+      "properties": {
+        "@id": "way/235441207",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "turn:lanes:forward": "left|through;right",
+        "@timestamp": "2013-08-28T09:27:38Z",
+        "@version": "1",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0297943,
+            50.7192116
+          ],
+          [
+            7.0297714,
+            50.7195516
+          ],
+          [
+            7.0297778,
+            50.7197877
+          ],
+          [
+            7.0298128,
+            50.7201231
+          ],
+          [
+            7.029831,
+            50.7202706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235441211",
+      "properties": {
+        "@id": "way/235441211",
+        "comment": "tertiary, da keine regionale Verbindungsfunktion (mehr), Verkehr jetzt auf K12n, nur örtlicher (Anlieger-)Verkehr und geplante Umstufung zur Gemeinde- oder Kreisstraße",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "@timestamp": "2013-11-06T15:54:16Z",
+        "@version": "3",
+        "@changeset": "18749690",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0291211,
+            50.7203464
+          ],
+          [
+            7.0289605,
+            50.7203908
+          ],
+          [
+            7.0287942,
+            50.7204855
+          ],
+          [
+            7.0287662,
+            50.7205168
+          ],
+          [
+            7.0286934,
+            50.7205926
+          ],
+          [
+            7.0285565,
+            50.7209355
+          ],
+          [
+            7.0284466,
+            50.7211558
+          ],
+          [
+            7.0283068,
+            50.7214016
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/289940536",
+      "properties": {
+        "@id": "way/289940536",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "@timestamp": "2015-02-28T14:21:19Z",
+        "@version": "3",
+        "@changeset": "29156470",
+        "@user": "Kakaner",
+        "@uid": "1851521",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0325884,
+            50.7152584
+          ],
+          [
+            7.0326621,
+            50.715243
+          ],
+          [
+            7.0327392,
+            50.7152587
+          ],
+          [
+            7.0333552,
+            50.7154609
+          ],
+          [
+            7.0335691,
+            50.7155232
+          ],
+          [
+            7.0337437,
+            50.7155625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329735520",
+      "properties": {
+        "@id": "way/329735520",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Alfterer Straße",
+        "ref": "L 113",
+        "@timestamp": "2015-09-23T19:46:09Z",
+        "@version": "6",
+        "@changeset": "34213540",
+        "@user": "redrace",
+        "@uid": "149451",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0337437,
+            50.7155625
+          ],
+          [
+            7.0340184,
+            50.7155756
+          ],
+          [
+            7.0343018,
+            50.7155458
+          ],
+          [
+            7.0346734,
+            50.7154445
+          ],
+          [
+            7.0347526,
+            50.7154157
+          ],
+          [
+            7.0349018,
+            50.7153665
+          ],
+          [
+            7.034942,
+            50.7153523
+          ],
+          [
+            7.0349801,
+            50.7153331
+          ],
+          [
+            7.0350198,
+            50.7153225
+          ],
+          [
+            7.03507,
+            50.7153237
+          ],
+          [
+            7.03512,
+            50.7153326
+          ],
+          [
+            7.0352283,
+            50.7153504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/386576352",
+      "properties": {
+        "@id": "way/386576352",
+        "highway": "service",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "note": "nur für Linienverkehr und Taxen",
+        "psv": "designated",
+        "surface": "asphalt",
+        "vehicle": "no",
+        "@timestamp": "2015-12-19T02:10:51Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0420354,
+            50.7162923
+          ],
+          [
+            7.0417339,
+            50.7162516
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/386576354",
+      "properties": {
+        "@id": "way/386576354",
+        "highway": "service",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "note": "nur für Linienverkehr und Taxen",
+        "psv": "designated",
+        "surface": "asphalt",
+        "vehicle": "no",
+        "@timestamp": "2015-12-19T02:10:51Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0423191,
+            50.7163273
+          ],
+          [
+            7.0420354,
+            50.7162923
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/386576355",
+      "properties": {
+        "@id": "way/386576355",
+        "highway": "service",
+        "maxspeed": "30",
+        "name": "Ladestraße",
+        "note": "nur für Linienverkehr und Taxen",
+        "psv": "designated",
+        "surface": "asphalt",
+        "vehicle": "no",
+        "@timestamp": "2015-12-19T02:10:51Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0417339,
+            50.7162516
+          ],
+          [
+            7.0415803,
+            50.7162267
+          ],
+          [
+            7.0414497,
+            50.716177
+          ],
+          [
+            7.0413685,
+            50.7161192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26307184",
+      "properties": {
+        "@id": "node/26307184",
+        "crossing:barrier": "double_half",
+        "crossing:bell": "yes",
+        "crossing:light": "yes",
+        "railway": "level_crossing",
+        "ref": "km 5,890",
+        "supervised": "yes",
+        "@timestamp": "2015-02-28T14:21:22Z",
+        "@version": "9",
+        "@changeset": "29156470",
+        "@user": "Kakaner",
+        "@uid": "1851521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0347526,
+          50.7154157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26372971",
+      "properties": {
+        "@id": "node/26372971",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-07-05T08:02:07Z",
+        "@version": "5",
+        "@changeset": "12117597",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.045795,
+          50.7153168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26372976",
+      "properties": {
+        "@id": "node/26372976",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-07-03T16:31:19Z",
+        "@version": "3",
+        "@changeset": "12101797",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0489889,
+          50.7163665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26381165",
+      "properties": {
+        "@id": "node/26381165",
+        "highway": "traffic_signals",
+        "@timestamp": "2013-08-28T09:29:04Z",
+        "@version": "4",
+        "@changeset": "17551190",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0298505,
+          50.718428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26399749",
+      "properties": {
+        "@id": "node/26399749",
+        "bicycle": "yes",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "@timestamp": "2013-11-23T03:03:45Z",
+        "@version": "4",
+        "@changeset": "19066051",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0412555,
+          50.7161244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26535558",
+      "properties": {
+        "@id": "node/26535558",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Bahnübergang",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63154",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Duisdorf Bahnübergang",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "@timestamp": "2013-04-07T08:00:23Z",
+        "@version": "7",
+        "@changeset": "15636494",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0335024,
+          50.7155962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26597804",
+      "properties": {
+        "@id": "node/26597804",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Lessenich Sportplatz",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64144",
+        "bus": "yes",
+        "name": "Lessenich Sportplatz",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:09:07Z",
+        "@version": "8",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0510587,
+          50.7238583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26674640",
+      "properties": {
+        "@id": "node/26674640",
+        "crossing:activation": "automatic",
+        "crossing:barrier": "half",
+        "crossing:bell": "yes",
+        "crossing:light": "yes",
+        "crossing:saltire": "yes",
+        "crossing:supervision": "no",
+        "railway": "level_crossing",
+        "railway:position": "4.9",
+        "railway:position:exact": "4.886",
+        "railway:ref": "Lessenicher Straße",
+        "ref": "km 4,886",
+        "@timestamp": "2015-02-22T19:43:09Z",
+        "@version": "7",
+        "@changeset": "29029481",
+        "@user": "Kakaner",
+        "@uid": "1851521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0486522,
+          50.7177283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26845165",
+      "properties": {
+        "@id": "node/26845165",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Roncallistraße",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64141",
+        "bus": "yes",
+        "name": "Roncallistraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:09:12Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0447298,
+          50.7218321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/27019584",
+      "properties": {
+        "@id": "node/27019584",
+        "highway": "traffic_signals",
+        "@timestamp": "2013-05-15T08:16:03Z",
+        "@version": "6",
+        "@changeset": "16135516",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.029831,
+          50.7202706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/270110544",
+      "properties": {
+        "@id": "node/270110544",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64141",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Roncallistraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:09:12Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0446791,
+          50.721808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/303051863",
+      "properties": {
+        "@id": "node/303051863",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Duisdorf Bf",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63101",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Duisdorf Bf B",
+        "platform": "B",
+        "public_transport": "platform",
+        "@timestamp": "2013-04-28T02:52:31Z",
+        "@version": "9",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0420477,
+          50.7162308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004729",
+      "properties": {
+        "@id": "node/403004729",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64142",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bonner Logsweg",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:08:57Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0457743,
+          50.7231253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004768",
+      "properties": {
+        "@id": "node/403004768",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Bahnübergang",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63154",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Duisdorf Bahnübergang",
+        "public_transport": "platform",
+        "@timestamp": "2013-04-07T08:00:23Z",
+        "@version": "4",
+        "@changeset": "15636494",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0335959,
+          50.7154486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004771",
+      "properties": {
+        "@id": "node/403004771",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64144",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lessenich Sportplatz",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2014-08-27T19:06:52Z",
+        "@version": "5",
+        "@changeset": "25059208",
+        "@user": "DonMarkusi",
+        "@uid": "1773637",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0510362,
+          50.7239015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004776",
+      "properties": {
+        "@id": "node/403004776",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64143",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malgisostraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:09:08Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0474215,
+          50.7228282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004781",
+      "properties": {
+        "@id": "node/403004781",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53832",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mühlenstraße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:17Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.031322,
+          50.7170581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004791",
+      "properties": {
+        "@id": "node/403004791",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64143",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malgisostraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:09:07Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0476541,
+          50.7226145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004812",
+      "properties": {
+        "@id": "node/403004812",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64141",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Roncallistraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:09:12Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0446847,
+          50.7223259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004823",
+      "properties": {
+        "@id": "node/403004823",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64142",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bonner Logsweg",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T01:08:57Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0456525,
+          50.7231393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/403004829",
+      "properties": {
+        "@id": "node/403004829",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53832",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mühlenstraße",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:33:17Z",
+        "@version": "4",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0312636,
+          50.7168578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409131184",
+      "properties": {
+        "@id": "node/409131184",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53831",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Chateauneufstraße",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "@timestamp": "2012-07-20T21:27:44Z",
+        "@version": "5",
+        "@changeset": "12392828",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0270439,
+          50.722649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409131196",
+      "properties": {
+        "@id": "node/409131196",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53831",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Chateauneufstraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-09-04T11:19:12Z",
+        "@version": "4",
+        "@changeset": "12980444",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0283055,
+          50.7216091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409729737",
+      "properties": {
+        "@id": "node/409729737",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63153",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Am Schickshof",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-09-10T10:32:09Z",
+        "@version": "7",
+        "@changeset": "13055141",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0466,
+          50.7155894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409729738",
+      "properties": {
+        "@id": "node/409729738",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63153",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Am Schickshof",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2012-09-10T10:32:10Z",
+        "@version": "8",
+        "@changeset": "13055141",
+        "@user": "dachefte",
+        "@uid": "133419",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0455675,
+          50.7156453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/433849827",
+      "properties": {
+        "@id": "node/433849827",
+        "bicycle": "yes",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2013-11-23T03:03:45Z",
+        "@version": "2",
+        "@changeset": "19066051",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0442028,
+          50.7165217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/634453186",
+      "properties": {
+        "@id": "node/634453186",
+        "highway": "crossing",
+        "@timestamp": "2013-01-16T17:42:13Z",
+        "@version": "4",
+        "@changeset": "14675191",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0458415,
+          50.7154956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/681474662",
+      "properties": {
+        "@id": "node/681474662",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Buchenweg",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53858",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Buchenweg",
+        "public_transport": "platform",
+        "@timestamp": "2013-07-17T20:32:31Z",
+        "@version": "5",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0164526,
+          50.7189346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074706971",
+      "properties": {
+        "@id": "node/1074706971",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Malgisostraße",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64143",
+        "bus": "yes",
+        "name": "Malgisostraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:09:08Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0476855,
+          50.722654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074707005",
+      "properties": {
+        "@id": "node/1074707005",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Malgisostraße",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64143",
+        "bus": "yes",
+        "name": "Malgisostraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:09:08Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.047378,
+          50.7227977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074707030",
+      "properties": {
+        "@id": "node/1074707030",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Bonner Logsweg",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64142",
+        "bus": "yes",
+        "name": "Bonner Logsweg",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:08:57Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0457388,
+          50.7231525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074707071",
+      "properties": {
+        "@id": "node/1074707071",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Bonner Logsweg",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64142",
+        "bus": "yes",
+        "name": "Bonner Logsweg",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:08:57Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0456907,
+          50.7231219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074707139",
+      "properties": {
+        "@id": "node/1074707139",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Roncallistraße",
+        "VRS:ortsteil": "Lessenich/Meßdf",
+        "VRS:ref": "64141",
+        "bus": "yes",
+        "name": "Roncallistraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T01:09:12Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0446279,
+          50.7223593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1198541231",
+      "properties": {
+        "@id": "node/1198541231",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Duisdorf Bf",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63101",
+        "bus": "yes",
+        "name": "Duisdorf Bf",
+        "platform": "A;B",
+        "public_transport": "stop_position",
+        "ref": "A;B",
+        "@timestamp": "2013-04-28T02:52:32Z",
+        "@version": "3",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0423191,
+          50.7163273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1198543413",
+      "properties": {
+        "@id": "node/1198543413",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Duisdorf Bf",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63101",
+        "bus": "yes",
+        "name": "Duisdorf Bf",
+        "platform": "A;B",
+        "public_transport": "stop_position",
+        "ref": "A;B",
+        "@timestamp": "2013-04-28T02:52:31Z",
+        "@version": "3",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0417339,
+          50.7162516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1198543690",
+      "properties": {
+        "@id": "node/1198543690",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Duisdorf Bf",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63101",
+        "bus": "yes",
+        "name": "Duisdorf Bf",
+        "platform": "A;B",
+        "public_transport": "stop_position",
+        "ref": "A;B",
+        "@timestamp": "2013-04-28T02:52:32Z",
+        "@version": "3",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0420354,
+          50.7162923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1198543769",
+      "properties": {
+        "@id": "node/1198543769",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Duisdorf Bf",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63101",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Duisdorf Bf A",
+        "platform": "A",
+        "public_transport": "platform",
+        "@timestamp": "2013-04-28T02:52:31Z",
+        "@version": "5",
+        "@changeset": "15890312",
+        "@user": "adjuva",
+        "@uid": "92274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0419965,
+          50.71634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1383564418",
+      "properties": {
+        "@id": "node/1383564418",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Oedekoven Kapelle",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53860",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Oedekoven Kapelle",
+        "public_transport": "platform",
+        "shared_taxi": "yes",
+        "source": "Verkehrsverbund Rhein-Sieg",
+        "@timestamp": "2013-07-17T20:33:24Z",
+        "@version": "2",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.019947,
+          50.720008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1383564420",
+      "properties": {
+        "@id": "node/1383564420",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Steingasse / Waldstraße",
+        "VRS:ortsteil": "Impekoven",
+        "VRS:ref": "53855",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Steingasse / Waldstraße",
+        "public_transport": "platform",
+        "shared_taxi": "yes",
+        "source": "Verkehrsverbund Rhein-Sieg",
+        "@timestamp": "2013-07-17T20:33:39Z",
+        "@version": "2",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.013251,
+          50.718124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1383564422",
+      "properties": {
+        "@id": "node/1383564422",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:name": "Wasserturm",
+        "VRS:ortsteil": "Gielsdorf",
+        "VRS:ref": "53853",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wasserturm",
+        "public_transport": "platform",
+        "shared_taxi": "yes",
+        "source": "Verkehrsverbund Rhein-Sieg",
+        "@timestamp": "2013-07-17T20:33:46Z",
+        "@version": "2",
+        "@changeset": "16991248",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.014837,
+          50.722695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1385165328",
+      "properties": {
+        "@id": "node/1385165328",
+        "crossing:barrier": "double_half",
+        "crossing:bell": "yes",
+        "crossing:light": "yes",
+        "railway": "level_crossing",
+        "ref": "km 5,890",
+        "supervised": "yes",
+        "@timestamp": "2015-02-28T14:21:22Z",
+        "@version": "6",
+        "@changeset": "29156470",
+        "@user": "Kakaner",
+        "@uid": "1851521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0346734,
+          50.7154445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1385172510",
+      "properties": {
+        "@id": "node/1385172510",
+        "crossing:activation": "automatic",
+        "crossing:barrier": "half",
+        "crossing:bell": "yes",
+        "crossing:light": "yes",
+        "crossing:saltire": "yes",
+        "crossing:supervision": "no",
+        "railway": "level_crossing",
+        "railway:position": "4.9",
+        "railway:position:exact": "4.886",
+        "railway:ref": "Lessenicher Straße",
+        "ref": "km 4,886",
+        "@timestamp": "2015-02-22T19:43:08Z",
+        "@version": "4",
+        "@changeset": "29029481",
+        "@user": "Kakaner",
+        "@uid": "1851521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0486396,
+          50.7177702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1857474350",
+      "properties": {
+        "@id": "node/1857474350",
+        "crossing": "zebra",
+        "highway": "crossing",
+        "source": "Survey",
+        "@timestamp": "2014-06-25T18:12:52Z",
+        "@version": "5",
+        "@changeset": "23155308",
+        "@user": "olzi80",
+        "@uid": "2028422"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0483013,
+          50.7186602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2254208668",
+      "properties": {
+        "@id": "node/2254208668",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Bahnübergang",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63154",
+        "bus": "yes",
+        "name": "Duisdorf Bahnübergang",
+        "public_transport": "stop_position",
+        "@timestamp": "2013-04-07T07:58:59Z",
+        "@version": "1",
+        "@changeset": "15636494",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0335691,
+          50.7155232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2318211597",
+      "properties": {
+        "@id": "node/2318211597",
+        "crossing": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2014-06-25T18:12:51Z",
+        "@version": "2",
+        "@changeset": "23155308",
+        "@user": "olzi80",
+        "@uid": "2028422"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0481075,
+          50.7188976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3895480779",
+      "properties": {
+        "@id": "node/3895480779",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Am Bruch",
+        "public_transport": "platform",
+        "@timestamp": "2015-12-19T02:25:16Z",
+        "@version": "2",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0482778,
+          50.7185855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3895480780",
+      "properties": {
+        "@id": "node/3895480780",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Am Bruch",
+        "@timestamp": "2015-12-19T02:25:16Z",
+        "@version": "2",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0483826,
+          50.7185975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3895480781",
+      "properties": {
+        "@id": "node/3895480781",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Buntspechtweg",
+        "public_transport": "platform",
+        "@timestamp": "2015-12-19T02:25:17Z",
+        "@version": "2",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0487861,
+          50.7169324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3895480782",
+      "properties": {
+        "@id": "node/3895480782",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Buntspechtweg",
+        "@timestamp": "2015-12-19T02:25:17Z",
+        "@version": "2",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0488694,
+          50.71694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3899161816",
+      "properties": {
+        "@id": "node/3899161816",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63153",
+        "bus": "yes",
+        "name": "Am Schickshof",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-12-19T02:10:49Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0454878,
+          50.7156077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3899161817",
+      "properties": {
+        "@id": "node/3899161817",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Duisdorf",
+        "VRS:ref": "63153",
+        "bus": "yes",
+        "name": "Am Schickshof",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-12-19T02:10:49Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298920",
+            "reltags": {
+              "from": "Gielsdorf",
+              "name": "VRS 680 Lessenich",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Lessenich",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0465331,
+          50.7156666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3899161818",
+      "properties": {
+        "@id": "node/3899161818",
+        "VRS:gemeinde": "ALFTER",
+        "VRS:ortsteil": "Oedekoven",
+        "VRS:ref": "53831",
+        "bus": "yes",
+        "name": "Chateauneufstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-12-19T02:10:49Z",
+        "@version": "1",
+        "@changeset": "36038745",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2298856",
+            "reltags": {
+              "from": "Lessenich",
+              "name": "VRS 680 Gielsdorf",
+              "network": "VRS",
+              "operator": "RVK",
+              "public_transport:version": "2",
+              "ref": "680",
+              "route": "bus",
+              "to": "Gielsdorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0281813,
+          50.7215825
+        ]
+      }
+    }
+  ]
+}

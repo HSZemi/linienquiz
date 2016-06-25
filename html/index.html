@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linien in Bonn – ein Quiz</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <style>
+	#correct, #incorrect{
+		font-weight: bold;
+	}
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Linien in Bonn – Ein Quiz</h1>
+      </div>
+    </div>
+    
+    <audio id='sound_success'>
+	<source src="sound/success.mp3" type="audio/mpeg">
+    </audio>
+    <audio id='sound_error'>
+	<source src="sound/error.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+          <div class="row">
+            <div class="medium-4 columns text-center">
+		<h4>Welche Linie bin ich?</h4>
+		
+		<div id="msg_correct" class="button expanded success"><strong>Korrekt!</strong><br>Die Linie <span class="correct_line"></span>, was sonst!</div>
+		
+		<div id="msg_incorrect" class="button expanded alert"><strong>Falsch!</strong><br>Die Linie <span class="correct_line"></span> wäre es gewesen.</div>
+		
+		<button class="button expanded" id="next">Nächste Linie!</button>
+		
+		<div id="buttonrow">
+             
+		</div>
+            
+            </div>
+            <div class="medium-6 columns text-center">
+              <div style="height: 400px;">
+              <div id="image">
+              </div>
+              </div>
+            </div>
+            <div class="medium-2 columns text-center">
+            <div class="button success expanded">Korrekt: <span id="correct">0</span></div>
+            <div class="button alert expanded">Falsch: <span id="incorrect">0</span></div>
+            <div class="switch">
+		<input class="switch-input" id="rhineSwitch" type="checkbox" name="rhineSwitch">
+		<label class="switch-paddle" for="rhineSwitch">
+			<span class="show-for-sr"></span>
+		</label>
+		<span style="color: black;">Rheinischer Modus</span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+	<div class="large-12 columns text-right"  style="color: grey;">
+		<small>Die Linien stammen von der Seite der <a href="http://www.swb-busundbahn.de/fahrplaene/linienfahrplaene.html">SWB</a>, die Liniengrafiken wurden aus Daten von www.openstreetmap.org erstellt, die unter der ODbL stehen (&copy; OpenStreetMap-Mitwirkende).</small><br>
+		<small>Sounds: "Failure 01" von rhodesmas auf <a href="http://www.freesound.org/people/rhodesmas/sounds/342756/">freesound.org</a>, unter <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>;
+		"success_low.wav" von grunz auf <a href="http://www.freesound.org/people/grunz/sounds/109663/">freesound.org</a>, unter <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>.</small><br>
+		<small><a href="https://hszemi.de/2016/06/bonner-linien-erkennen/">Zum Blogartikel »Bonner Linien erkennen«</a></small>
+	</div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script type="text/javascript">
+    
+    var colors = {"16":"#005fa9",
+"18":"#005fa9",
+"61":"#c93e24",
+"62":"#c93e24",
+"63":"#005fa9",
+"65":"#c93e24",
+"66":"#005fa9",
+"67":"#005fa9",
+"68":"#005fa9",
+"SB55":"#0096a0",
+"SB60":"#8e9461",
+"SB69":"#dc5e16",
+"516":"#2e1c86",
+"529":"#2e1c86",
+"537":"#2e1c86",
+"541":"#2e1c86",
+"550":"#2e1c86",
+"551":"#2e1c86",
+"600":"#8177b3",
+"601":"#830984",
+"602":"#db68a4",
+"603":"#e50083",
+"604":"#00a25d",
+"605":"#007a32",
+"606":"#9fbf00",
+"607":"#6bae19",
+"608":"#f9b700",
+"609":"#f08400",
+"610":"#49c2f1",
+"611":"#00a1e4",
+"612":"#cf9b4d",
+"613":"#782f00",
+"614":"#836430",
+"615":"#501d00",
+"630":"#c61252",
+"631":"#9d1041",
+"632":"#40ff00",
+"633":"#89ccc4",
+"635":"#d1ca00",
+"636":"#b30023",
+"637":"#e35824",
+"638":"#b2562f",
+"640":"#004e7f",
+"800":"#4a5c73",
+"812":"#4a5c73",
+"843":"#4a5c73",
+"845":"#4a5c73",
+"855":"#4a5c73",
+"856":"#4a5c73",
+"857":"#4a5c73",
+"N1":"#111111",
+"N2":"#111111",
+"N3":"#111111",
+"N4":"#111111",
+"N5":"#111111",
+"N6":"#111111",
+"N7":"#111111",
+"N8":"#111111",
+"N9":"#111111",
+"N10":"#111111"}
+
+var current_id = '';
+var correct = 0;
+var incorrect = 0;
+
+$(function(){
+	var ids = Object.keys(colors);
+
+	ids.forEach(function(key) {
+		$("#buttonrow").append("<button class='button' style='background-color:"+colors[key]+"' onclick='guess(\""+key+"\")'>"+key+"</button> ");
+	});
+	
+	$('#next').click(function(){
+		nextImage();
+	});
+	
+	$('#rhineSwitch').prop('checked', false);
+	
+	$('#rhineSwitch').click(function(){
+		$('#image').hide();
+		if($('#rhineSwitch').prop('checked')){
+			$('#image').html('<img src="img/'+current_id+'r.png" />');
+		} else {
+			$('#image').html('<img src="img/'+current_id+'.png" />');
+		}
+		$('#image').fadeIn(500);
+	});
+	
+	$('#next').hide();
+	$('#msg_correct').hide();
+	$('#msg_incorrect').hide();
+	
+	nextImage();
+});
+
+function nextImage(){
+	var ids = Object.keys(colors);
+	current_id = ids[Math.floor(ids.length * Math.random())];
+	
+	$('#image').hide();
+	if($('#rhineSwitch').prop('checked')){
+		$('#image').html('<img src="img/'+current_id+'r.png" />');
+	} else {
+		$('#image').html('<img src="img/'+current_id+'.png" />');
+	}
+	
+	$('#next').hide(200);
+	$('#msg_correct').hide(200);
+	$('#msg_incorrect').hide(200);
+	$('#image').fadeIn(500);
+	$('#buttonrow').fadeIn(100);
+}
+
+function guess(id){
+	$('.correct_line').text(current_id);
+	$('#buttonrow').fadeOut(200);
+	if(id == current_id){
+		correct++;
+		$('#correct').text(correct);
+		$('#msg_correct').show(300);
+		document.getElementById('sound_success').play();
+	} else {
+		incorrect++;
+		$('#incorrect').text(incorrect);
+		$('#msg_incorrect').show(300);
+		document.getElementById('sound_error').play();
+	}
+	$('#next').show(300);
+}
+    
+    </script>
+  </body>
+</html>

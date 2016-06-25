@@ -1,0 +1,5035 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-12T13:55:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/10813461",
+      "properties": {
+        "@id": "way/10813461",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Rüngsdorfer Straße",
+        "@timestamp": "2009-11-24T17:43:02Z",
+        "@version": "18",
+        "@changeset": "3206173",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1582856,
+            50.6850128
+          ],
+          [
+            7.1583984,
+            50.6849838
+          ],
+          [
+            7.1590104,
+            50.6849878
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/10813572",
+      "properties": {
+        "@id": "way/10813572",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Königsplatz",
+        "oneway": "no",
+        "@timestamp": "2014-09-03T06:27:25Z",
+        "@version": "9",
+        "@changeset": "25196897",
+        "@user": "grommi",
+        "@uid": "1307184",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1602818,
+            50.6849832
+          ],
+          [
+            7.1602805,
+            50.6855887
+          ],
+          [
+            7.1601404,
+            50.6859769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22964164",
+      "properties": {
+        "@id": "way/22964164",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Königsplatz",
+        "@timestamp": "2011-07-28T22:17:38Z",
+        "@version": "7",
+        "@changeset": "8859162",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1601404,
+            50.6859769
+          ],
+          [
+            7.1600458,
+            50.6861612
+          ],
+          [
+            7.1599775,
+            50.686273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22964532",
+      "properties": {
+        "@id": "way/22964532",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Römerplatz",
+        "oneway": "yes",
+        "@timestamp": "2012-01-14T16:05:07Z",
+        "@version": "13",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1688433,
+            50.6845657
+          ],
+          [
+            7.1689303,
+            50.6845097
+          ],
+          [
+            7.1690641,
+            50.6843306
+          ],
+          [
+            7.1690987,
+            50.6842847
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24619550",
+      "properties": {
+        "@id": "way/24619550",
+        "highway": "tertiary",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2010-09-10T18:00:59Z",
+        "@version": "3",
+        "@changeset": "5743246",
+        "@user": "cg909",
+        "@uid": "62187",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1948718,
+            50.6572567
+          ],
+          [
+            7.1946883,
+            50.6574769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24896305",
+      "properties": {
+        "@id": "way/24896305",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Giselherstraße",
+        "@timestamp": "2016-02-11T00:30:11Z",
+        "@version": "16",
+        "@changeset": "37137484",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1917511,
+            50.6550497
+          ],
+          [
+            7.1922502,
+            50.6552427
+          ],
+          [
+            7.1926488,
+            50.6553969
+          ],
+          [
+            7.1926864,
+            50.6554225
+          ],
+          [
+            7.1927176,
+            50.6554773
+          ],
+          [
+            7.1927012,
+            50.6555272
+          ],
+          [
+            7.19265,
+            50.6555875
+          ],
+          [
+            7.1925514,
+            50.65569
+          ],
+          [
+            7.1922389,
+            50.6560154
+          ],
+          [
+            7.1919618,
+            50.6563177
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25737771",
+      "properties": {
+        "@id": "way/25737771",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Konstantinstraße",
+        "postal_code": "53179",
+        "@timestamp": "2012-01-15T00:38:30Z",
+        "@version": "10",
+        "@changeset": "10394050",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1783352,
+            50.6730758
+          ],
+          [
+            7.1787841,
+            50.672241
+          ],
+          [
+            7.1788631,
+            50.6720708
+          ],
+          [
+            7.1790965,
+            50.6715987
+          ],
+          [
+            7.179261,
+            50.6714146
+          ],
+          [
+            7.1793414,
+            50.6713559
+          ],
+          [
+            7.1795314,
+            50.671249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26186353",
+      "properties": {
+        "@id": "way/26186353",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2011-10-15T18:24:25Z",
+        "@version": "11",
+        "@changeset": "9565846",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1920613,
+            50.6609002
+          ],
+          [
+            7.1919252,
+            50.6611288
+          ],
+          [
+            7.1914605,
+            50.6615393
+          ],
+          [
+            7.1913359,
+            50.6616496
+          ],
+          [
+            7.1908542,
+            50.6620792
+          ],
+          [
+            7.1907923,
+            50.6621577
+          ],
+          [
+            7.1906675,
+            50.6625107
+          ],
+          [
+            7.1905857,
+            50.6626578
+          ],
+          [
+            7.1904653,
+            50.6628177
+          ],
+          [
+            7.1904064,
+            50.6628808
+          ],
+          [
+            7.190243,
+            50.6630947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27731370",
+      "properties": {
+        "@id": "way/27731370",
+        "highway": "secondary",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "Hagenstraße",
+        "postal_code": "53179",
+        "ref": "L 123",
+        "tunnel": "yes",
+        "@timestamp": "2015-03-15T21:18:56Z",
+        "@version": "4",
+        "@changeset": "29504946",
+        "@user": "rurseekatze",
+        "@uid": "81244",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1922133,
+            50.6571837
+          ],
+          [
+            7.1924557,
+            50.6572046
+          ],
+          [
+            7.192715,
+            50.6571965
+          ],
+          [
+            7.1932097,
+            50.6571594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27731371",
+      "properties": {
+        "@id": "way/27731371",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "Hagenstraße",
+        "postal_code": "53179",
+        "ref": "L 123",
+        "@timestamp": "2012-05-12T18:53:15Z",
+        "@version": "7",
+        "@changeset": "11579583",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1932097,
+            50.6571594
+          ],
+          [
+            7.1937787,
+            50.6571174
+          ],
+          [
+            7.1939873,
+            50.6571182
+          ],
+          [
+            7.1941842,
+            50.6571295
+          ],
+          [
+            7.1943406,
+            50.6571445
+          ],
+          [
+            7.1944477,
+            50.6571551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28827377",
+      "properties": {
+        "@id": "way/28827377",
+        "cycleway": "opposite",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Giselherstraße",
+        "oneway": "yes",
+        "postal_code": "53179",
+        "@timestamp": "2011-10-15T18:24:18Z",
+        "@version": "6",
+        "@changeset": "9565846",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1909145,
+            50.6562565
+          ],
+          [
+            7.1906822,
+            50.6561684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29345101",
+      "properties": {
+        "@id": "way/29345101",
+        "access": "no",
+        "highway": "service",
+        "oneway": "yes",
+        "psv": "yes",
+        "@timestamp": "2010-12-26T11:02:21Z",
+        "@version": "5",
+        "@changeset": "6766944",
+        "@user": "trekki",
+        "@uid": "119785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1585774,
+            50.6856455
+          ],
+          [
+            7.1580589,
+            50.6854207
+          ],
+          [
+            7.1579125,
+            50.6853567
+          ],
+          [
+            7.1578779,
+            50.6853086
+          ],
+          [
+            7.1578931,
+            50.6852458
+          ],
+          [
+            7.1580683,
+            50.6851128
+          ],
+          [
+            7.1582856,
+            50.6850128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29351330",
+      "properties": {
+        "@id": "way/29351330",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2011-08-15T16:46:59Z",
+        "@version": "10",
+        "@changeset": "9028895",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1946883,
+            50.6574769
+          ],
+          [
+            7.194539,
+            50.6576444
+          ],
+          [
+            7.1945215,
+            50.6576675
+          ],
+          [
+            7.1941825,
+            50.6581149
+          ],
+          [
+            7.1941474,
+            50.658158
+          ],
+          [
+            7.1936549,
+            50.6588469
+          ],
+          [
+            7.1933991,
+            50.6592045
+          ],
+          [
+            7.1928445,
+            50.6599479
+          ],
+          [
+            7.1927923,
+            50.6600204
+          ],
+          [
+            7.192762,
+            50.6600595
+          ],
+          [
+            7.1927401,
+            50.6600895
+          ],
+          [
+            7.1926367,
+            50.660224
+          ],
+          [
+            7.1925894,
+            50.6602837
+          ],
+          [
+            7.1921561,
+            50.6607626
+          ],
+          [
+            7.1920613,
+            50.6609002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29352423",
+      "properties": {
+        "@id": "way/29352423",
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Konstantinstraße",
+        "vehicle": "psv",
+        "@timestamp": "2016-01-21T13:10:41Z",
+        "@version": "10",
+        "@changeset": "36719765",
+        "@user": "ma-rt-in",
+        "@uid": "1431737",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1795314,
+            50.671249
+          ],
+          [
+            7.1797586,
+            50.6710747
+          ],
+          [
+            7.1811655,
+            50.6702441
+          ],
+          [
+            7.1824095,
+            50.6695568
+          ],
+          [
+            7.182712,
+            50.6693754
+          ],
+          [
+            7.1830029,
+            50.6691553
+          ],
+          [
+            7.183043,
+            50.6691258
+          ],
+          [
+            7.1830965,
+            50.6690897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29352430",
+      "properties": {
+        "@id": "way/29352430",
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Konstantinstraße",
+        "oneway": "yes",
+        "vehicle": "psv",
+        "@timestamp": "2016-01-21T13:13:29Z",
+        "@version": "5",
+        "@changeset": "36719829",
+        "@user": "ma-rt-in",
+        "@uid": "1431737",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1830965,
+            50.6690897
+          ],
+          [
+            7.1831681,
+            50.669009
+          ],
+          [
+            7.1832052,
+            50.6689671
+          ],
+          [
+            7.1834348,
+            50.6688023
+          ],
+          [
+            7.1836894,
+            50.6686634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/29352431",
+      "properties": {
+        "@id": "way/29352431",
+        "highway": "service",
+        "lanes": "1",
+        "name": "Mainzer Straße",
+        "oneway": "yes",
+        "postal_code": "53179",
+        "@timestamp": "2015-01-07T08:02:02Z",
+        "@version": "5",
+        "@changeset": "27971363",
+        "@user": "grommi",
+        "@uid": "1307184",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1840512,
+            50.6685328
+          ],
+          [
+            7.1839703,
+            50.6686205
+          ],
+          [
+            7.1834808,
+            50.6688695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31253921",
+      "properties": {
+        "@id": "way/31253921",
+        "highway": "tertiary",
+        "name": "Römerplatz",
+        "oneway": "yes",
+        "@timestamp": "2012-01-14T16:05:07Z",
+        "@version": "7",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1693421,
+            50.6843634
+          ],
+          [
+            7.1691845,
+            50.6844681
+          ],
+          [
+            7.1690518,
+            50.6845316
+          ],
+          [
+            7.1689389,
+            50.6845569
+          ],
+          [
+            7.1688433,
+            50.6845657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31721091",
+      "properties": {
+        "@id": "way/31721091",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Römerplatz",
+        "@timestamp": "2012-01-13T21:20:09Z",
+        "@version": "5",
+        "@changeset": "10382881",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1690987,
+            50.6842847
+          ],
+          [
+            7.1692409,
+            50.6843304
+          ],
+          [
+            7.1693421,
+            50.6843634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/33186998",
+      "properties": {
+        "@id": "way/33186998",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Rheinallee",
+        "@timestamp": "2014-02-09T08:19:30Z",
+        "@version": "5",
+        "@changeset": "20459999",
+        "@user": "dschuwa",
+        "@uid": "55687",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1585774,
+            50.6856455
+          ],
+          [
+            7.1593185,
+            50.6859777
+          ],
+          [
+            7.1598352,
+            50.6862092
+          ],
+          [
+            7.1599775,
+            50.686273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34260192",
+      "properties": {
+        "@id": "way/34260192",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2011-08-17T21:57:28Z",
+        "@version": "7",
+        "@changeset": "9052363",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.18646,
+            50.667199
+          ],
+          [
+            7.1865173,
+            50.6671563
+          ],
+          [
+            7.1866416,
+            50.66704
+          ],
+          [
+            7.1868236,
+            50.666818
+          ],
+          [
+            7.1869151,
+            50.6667105
+          ],
+          [
+            7.1871127,
+            50.6664966
+          ],
+          [
+            7.1871407,
+            50.6664716
+          ],
+          [
+            7.1875694,
+            50.6660229
+          ],
+          [
+            7.1880151,
+            50.6655114
+          ],
+          [
+            7.1884682,
+            50.6649926
+          ],
+          [
+            7.1887717,
+            50.664652
+          ],
+          [
+            7.1890646,
+            50.6643091
+          ],
+          [
+            7.1896254,
+            50.6637291
+          ],
+          [
+            7.1898721,
+            50.6634589
+          ],
+          [
+            7.190243,
+            50.6630947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34260193",
+      "properties": {
+        "@id": "way/34260193",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2010-09-10T17:38:30Z",
+        "@version": "4",
+        "@changeset": "5743101",
+        "@user": "cg909",
+        "@uid": "62187",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1840512,
+            50.6685328
+          ],
+          [
+            7.1842215,
+            50.668446
+          ],
+          [
+            7.1846859,
+            50.6681966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34788907",
+      "properties": {
+        "@id": "way/34788907",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "Römerplatz",
+        "@timestamp": "2011-04-18T21:56:39Z",
+        "@version": "2",
+        "@changeset": "7901956",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1693421,
+            50.6843634
+          ],
+          [
+            7.1694036,
+            50.6842518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34788910",
+      "properties": {
+        "@id": "way/34788910",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Oberaustraße",
+        "postal_code": "53179",
+        "@timestamp": "2011-08-03T17:29:30Z",
+        "@version": "3",
+        "@changeset": "8912254",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1903573,
+            50.6565411
+          ],
+          [
+            7.1906822,
+            50.6561684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34788912",
+      "properties": {
+        "@id": "way/34788912",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Oberaustraße",
+        "postal_code": "53179",
+        "@timestamp": "2011-08-03T17:29:30Z",
+        "@version": "4",
+        "@changeset": "8912254",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1906822,
+            50.6561684
+          ],
+          [
+            7.1910004,
+            50.6558414
+          ],
+          [
+            7.1910413,
+            50.655801
+          ],
+          [
+            7.1912133,
+            50.6556159
+          ],
+          [
+            7.1914692,
+            50.65534
+          ],
+          [
+            7.1917511,
+            50.6550497
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/34788915",
+      "properties": {
+        "@id": "way/34788915",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "Hagenstraße",
+        "postal_code": "53179",
+        "ref": "L 123",
+        "@timestamp": "2011-08-20T23:18:36Z",
+        "@version": "5",
+        "@changeset": "9079510",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1903573,
+            50.6565411
+          ],
+          [
+            7.1908536,
+            50.656732
+          ],
+          [
+            7.1912683,
+            50.6568967
+          ],
+          [
+            7.1916673,
+            50.6570313
+          ],
+          [
+            7.1922133,
+            50.6571837
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/55189186",
+      "properties": {
+        "@id": "way/55189186",
+        "highway": "secondary",
+        "name": "Hagenstraße",
+        "postal_code": "53179",
+        "ref": "L 123",
+        "@timestamp": "2010-09-10T18:00:59Z",
+        "@version": "2",
+        "@changeset": "5743246",
+        "@user": "cg909",
+        "@uid": "62187",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1944477,
+            50.6571551
+          ],
+          [
+            7.1948718,
+            50.6572567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70994834",
+      "properties": {
+        "@id": "way/70994834",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Mainzer Straße",
+        "postal_code": "53179",
+        "@timestamp": "2011-07-03T06:33:04Z",
+        "@version": "3",
+        "@changeset": "8614771",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1846859,
+            50.6681966
+          ],
+          [
+            7.184974,
+            50.6680437
+          ],
+          [
+            7.1851106,
+            50.667975
+          ],
+          [
+            7.1861509,
+            50.6674048
+          ],
+          [
+            7.18646,
+            50.667199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/90072871",
+      "properties": {
+        "@id": "way/90072871",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Giselherstraße",
+        "postal_code": "53179",
+        "@timestamp": "2012-05-12T21:49:30Z",
+        "@version": "3",
+        "@changeset": "11581130",
+        "@user": "mike67",
+        "@uid": "49785",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1919618,
+            50.6563177
+          ],
+          [
+            7.1918341,
+            50.6564578
+          ],
+          [
+            7.19178,
+            50.6564999
+          ],
+          [
+            7.1916972,
+            50.6565208
+          ],
+          [
+            7.1916112,
+            50.6565162
+          ],
+          [
+            7.1915363,
+            50.6564976
+          ],
+          [
+            7.1912546,
+            50.6563875
+          ],
+          [
+            7.1909145,
+            50.6562565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/98679111",
+      "properties": {
+        "@id": "way/98679111",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Mainzer Straße",
+        "oneway": "yes",
+        "postal_code": "53179",
+        "@timestamp": "2011-02-08T02:54:01Z",
+        "@version": "1",
+        "@changeset": "7223060",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1836894,
+            50.6686634
+          ],
+          [
+            7.1838637,
+            50.6685832
+          ],
+          [
+            7.1840512,
+            50.6685328
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/123169217",
+      "properties": {
+        "@id": "way/123169217",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "Konstantinstraße",
+        "postal_code": "53179",
+        "@timestamp": "2012-01-14T00:48:15Z",
+        "@version": "2",
+        "@changeset": "10384320",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1694036,
+            50.6842518
+          ],
+          [
+            7.1696459,
+            50.6839099
+          ],
+          [
+            7.169766,
+            50.6837395
+          ],
+          [
+            7.1700073,
+            50.6833701
+          ],
+          [
+            7.1702314,
+            50.6830059
+          ],
+          [
+            7.1704199,
+            50.6826601
+          ],
+          [
+            7.1707073,
+            50.682133
+          ],
+          [
+            7.1714574,
+            50.6811493
+          ],
+          [
+            7.1718592,
+            50.6806189
+          ],
+          [
+            7.1719461,
+            50.680494
+          ],
+          [
+            7.172226,
+            50.6801432
+          ],
+          [
+            7.1722774,
+            50.6800789
+          ],
+          [
+            7.1723963,
+            50.6799663
+          ],
+          [
+            7.1727368,
+            50.6797336
+          ],
+          [
+            7.172815,
+            50.6796762
+          ],
+          [
+            7.1729535,
+            50.6795797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145486650",
+      "properties": {
+        "@id": "way/145486650",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Konstantinstraße",
+        "postal_code": "53179",
+        "@timestamp": "2012-09-22T14:28:41Z",
+        "@version": "3",
+        "@changeset": "13207171",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1729535,
+            50.6795797
+          ],
+          [
+            7.1730964,
+            50.6794839
+          ],
+          [
+            7.1732705,
+            50.6793543
+          ],
+          [
+            7.1733819,
+            50.6792399
+          ],
+          [
+            7.173554,
+            50.6790233
+          ],
+          [
+            7.1745558,
+            50.6777125
+          ],
+          [
+            7.1745863,
+            50.677671
+          ],
+          [
+            7.1747259,
+            50.6774814
+          ],
+          [
+            7.1749295,
+            50.6772175
+          ],
+          [
+            7.1751123,
+            50.6769738
+          ],
+          [
+            7.1752957,
+            50.6767472
+          ],
+          [
+            7.1757979,
+            50.676174
+          ],
+          [
+            7.1761913,
+            50.6757338
+          ],
+          [
+            7.1766308,
+            50.6752268
+          ],
+          [
+            7.1767456,
+            50.6750963
+          ],
+          [
+            7.1768313,
+            50.6749979
+          ],
+          [
+            7.1769543,
+            50.6748645
+          ],
+          [
+            7.1771207,
+            50.6746593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145486653",
+      "properties": {
+        "@id": "way/145486653",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "Konstantinstraße",
+        "postal_code": "53179",
+        "@timestamp": "2012-01-14T00:47:04Z",
+        "@version": "1",
+        "@changeset": "10384320",
+        "@user": "EvanE",
+        "@uid": "184969",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1771207,
+            50.6746593
+          ],
+          [
+            7.1773166,
+            50.6744256
+          ],
+          [
+            7.1776421,
+            50.6740504
+          ],
+          [
+            7.1777503,
+            50.673906
+          ],
+          [
+            7.1781595,
+            50.6733246
+          ],
+          [
+            7.1783352,
+            50.6730758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/145641701",
+      "properties": {
+        "@id": "way/145641701",
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Konstantinstraße",
+        "oneway": "yes",
+        "vehicle": "psv",
+        "@timestamp": "2016-01-21T13:13:29Z",
+        "@version": "2",
+        "@changeset": "36719829",
+        "@user": "ma-rt-in",
+        "@uid": "1431737",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1834808,
+            50.6688695
+          ],
+          [
+            7.1832416,
+            50.6689987
+          ],
+          [
+            7.1830965,
+            50.6690897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/301613663",
+      "properties": {
+        "@id": "way/301613663",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rüngsdorfer Straße",
+        "@timestamp": "2014-09-03T07:00:31Z",
+        "@version": "1",
+        "@changeset": "25197299",
+        "@user": "grommi",
+        "@uid": "1307184",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1602818,
+            50.6849832
+          ],
+          [
+            7.1608596,
+            50.6849885
+          ],
+          [
+            7.1629765,
+            50.6849851
+          ],
+          [
+            7.1640188,
+            50.6849762
+          ],
+          [
+            7.1643453,
+            50.684961
+          ],
+          [
+            7.1655707,
+            50.6848757
+          ],
+          [
+            7.166094,
+            50.6848442
+          ],
+          [
+            7.1662571,
+            50.6848301
+          ],
+          [
+            7.1670335,
+            50.6847725
+          ],
+          [
+            7.1675273,
+            50.6847299
+          ],
+          [
+            7.1684689,
+            50.6846122
+          ],
+          [
+            7.1687798,
+            50.6845734
+          ],
+          [
+            7.1688433,
+            50.6845657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/301745036",
+      "properties": {
+        "@id": "way/301745036",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Rüngsdorfer Straße",
+        "@timestamp": "2014-09-10T19:49:41Z",
+        "@version": "2",
+        "@changeset": "25355261",
+        "@user": "Redoute",
+        "@uid": "116152",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1602818,
+            50.6849832
+          ],
+          [
+            7.1600796,
+            50.6849837
+          ],
+          [
+            7.1590104,
+            50.6849878
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11132182",
+      "properties": {
+        "@id": "node/11132182",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-01-14T00:48:24Z",
+        "@version": "18",
+        "@changeset": "10384320",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1694036,
+          50.6842518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/96110681",
+      "properties": {
+        "@id": "node/96110681",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2014-05-25T13:57:44Z",
+        "@version": "7",
+        "@changeset": "22543619",
+        "@user": "levante",
+        "@uid": "549458"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1583984,
+          50.6849838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/245038549",
+      "properties": {
+        "@id": "node/245038549",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-05-12T18:53:15Z",
+        "@version": "5",
+        "@changeset": "11579583",
+        "@user": "mike67",
+        "@uid": "49785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1948718,
+          50.6572567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/247427864",
+      "properties": {
+        "@id": "node/247427864",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-01-14T00:48:32Z",
+        "@version": "27",
+        "@changeset": "10384320",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1693421,
+          50.6843634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/270502238",
+      "properties": {
+        "@id": "node/270502238",
+        "highway": "traffic_signals",
+        "@timestamp": "2009-02-06T16:53:41Z",
+        "@version": "11",
+        "@changeset": "203912",
+        "@user": "mike67",
+        "@uid": "49785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1903573,
+          50.6565411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/273897349",
+      "properties": {
+        "@id": "node/273897349",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-01-13T21:20:19Z",
+        "@version": "10",
+        "@changeset": "10382881",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1747259,
+          50.6774814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278273730",
+      "properties": {
+        "@id": "node/278273730",
+        "highway": "traffic_signals",
+        "@timestamp": "2011-02-04T17:13:51Z",
+        "@version": "20",
+        "@changeset": "7185132",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1783352,
+          50.6730758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/322809717",
+      "properties": {
+        "@id": "node/322809717",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Rheinallee",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66131",
+        "bus": "yes",
+        "local_ref": "C3",
+        "name": "Bad Godesberg Bf. / Rheinallee",
+        "platform": "C3",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-01-20T07:17:18Z",
+        "@version": "9",
+        "@changeset": "28269893",
+        "@user": "Weide",
+        "@uid": "105462",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1580683,
+          50.6851128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/322871879",
+      "properties": {
+        "@id": "node/322871879",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2011-02-08T02:54:14Z",
+        "@version": "4",
+        "@changeset": "7223060",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1832052,
+          50.6689671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/322871910",
+      "properties": {
+        "@id": "node/322871910",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2011-01-19T07:02:52Z",
+        "@version": "3",
+        "@changeset": "7017628",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1832416,
+          50.6689987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/389614151",
+      "properties": {
+        "@id": "node/389614151",
+        "highway": "traffic_signals",
+        "@timestamp": "2011-07-10T07:56:10Z",
+        "@version": "2",
+        "@changeset": "8680681",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.190243,
+          50.6630947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/438489353",
+      "properties": {
+        "@id": "node/438489353",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67339",
+        "bus": "yes",
+        "name": "Dreholzstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2016-03-08T19:01:36Z",
+        "@version": "7",
+        "@changeset": "37693115",
+        "@user": "dalchimsky",
+        "@uid": "2547003",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1904064,
+          50.6628808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/481297089",
+      "properties": {
+        "@id": "node/481297089",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67344",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Oberaustraße",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:51Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1911927,
+          50.6556104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/486541654",
+      "properties": {
+        "@id": "node/486541654",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Tannenallee/KfW Bankengruppe",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67234",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tannenallee / KfW Bankengruppe",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T00:18:54Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1773809,
+          50.6744338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497487531",
+      "properties": {
+        "@id": "node/497487531",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67232",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gutenbergallee",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:49Z",
+        "@version": "7",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1731556,
+          50.6795047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467836",
+      "properties": {
+        "@id": "node/499467836",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67338",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Brunhildstraße",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-04T01:28:41Z",
+        "@version": "6",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1868672,
+          50.6667049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467855",
+      "properties": {
+        "@id": "node/499467855",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67338",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Brunhildstraße",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-04T01:28:42Z",
+        "@version": "5",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1865728,
+          50.6671734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467860",
+      "properties": {
+        "@id": "node/499467860",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67339",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dreholzstraße",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:47Z",
+        "@version": "6",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1899332,
+          50.663478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467862",
+      "properties": {
+        "@id": "node/499467862",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67231",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Römerplatz",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:53Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1698409,
+          50.6837566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467865",
+      "properties": {
+        "@id": "node/499467865",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Mehlem Bf",
+        "VRS:ortsteil": "Lannesdorf",
+        "VRS:ref": "67301",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mehlem Bahnhof A",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:50Z",
+        "@version": "8",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1830511,
+          50.6691812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467867",
+      "properties": {
+        "@id": "node/499467867",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67231",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Römerplatz",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:53Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1695851,
+          50.683898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467869",
+      "properties": {
+        "@id": "node/499467869",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Mehlem Bf",
+        "VRS:ortsteil": "Lannesdorf",
+        "VRS:ref": "67301",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mehlem Bahnhof B",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:50Z",
+        "@version": "7",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1829748,
+          50.6690981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467876",
+      "properties": {
+        "@id": "node/499467876",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Tannenallee/KfW Bankengruppe",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67234",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tannenallee / KfW Bankengruppe",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2015-03-31T19:42:06Z",
+        "@version": "6",
+        "@changeset": "29886027",
+        "@user": "wheelmap_android",
+        "@uid": "524500",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1767633,
+          50.6749927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467879",
+      "properties": {
+        "@id": "node/499467879",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67342",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gunterstraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T00:18:48Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1945773,
+          50.6576735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467885",
+      "properties": {
+        "@id": "node/499467885",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67233",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wendelstadtallee",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:56Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.175035,
+          50.6772348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467889",
+      "properties": {
+        "@id": "node/499467889",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67342",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gunterstraße",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T00:18:49Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1941469,
+          50.6581069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467894",
+      "properties": {
+        "@id": "node/499467894",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67341",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mehlem Ort",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T00:18:51Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.19271,
+          50.6600508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467900",
+      "properties": {
+        "@id": "node/499467900",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67233",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wendelstadtallee",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:56Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1748569,
+          50.6771921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467904",
+      "properties": {
+        "@id": "node/499467904",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67344",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Oberaustraße",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:51Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.190881,
+          50.6567057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467907",
+      "properties": {
+        "@id": "node/499467907",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67232",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gutenbergallee",
+        "public_transport": "platform",
+        "wheelchair": "limited",
+        "@timestamp": "2012-12-05T00:18:49Z",
+        "@version": "6",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1727644,
+          50.6796543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467911",
+      "properties": {
+        "@id": "node/499467911",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67339",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dreholzstraße",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:47Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1903686,
+          50.6628583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467915",
+      "properties": {
+        "@id": "node/499467915",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67444",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Giselherstraße",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:18:48Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1920971,
+          50.6563662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467917",
+      "properties": {
+        "@id": "node/499467917",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67335",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Deichmanns Aue",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "@timestamp": "2012-12-05T00:18:47Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1798213,
+          50.6711109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467925",
+      "properties": {
+        "@id": "node/499467925",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67341",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mehlem Ort",
+        "public_transport": "platform",
+        "@timestamp": "2012-12-05T00:18:51Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1926816,
+          50.6602289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467929",
+      "properties": {
+        "@id": "node/499467929",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67335",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Deichmanns Aue",
+        "public_transport": "platform",
+        "shelter": "no",
+        "@timestamp": "2012-12-05T00:18:47Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1797264,
+          50.6710511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/499467931",
+      "properties": {
+        "@id": "node/499467931",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66875",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Erlöserkirche",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:40:11Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1629893,
+          50.6849435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/553015105",
+      "properties": {
+        "@id": "node/553015105",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "@timestamp": "2012-01-14T16:05:21Z",
+        "@version": "3",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1690641,
+          50.6843306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1043973596",
+      "properties": {
+        "@id": "node/1043973596",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Giselherstraße",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67444",
+        "bus": "yes",
+        "name": "Giselherstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:48Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1919618,
+          50.6563177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418037",
+      "properties": {
+        "@id": "node/1065418037",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67342",
+        "bus": "yes",
+        "name": "Gunterstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:44Z",
+        "@version": "4",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1941825,
+          50.6581149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418085",
+      "properties": {
+        "@id": "node/1065418085",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Rheinallee",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66131",
+        "bus": "yes",
+        "local_ref": "C2",
+        "name": "Bad Godesberg Bf. / Rheinallee",
+        "platform": "C2",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-01-20T07:17:18Z",
+        "@version": "9",
+        "@changeset": "28269893",
+        "@user": "Weide",
+        "@uid": "105462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1580589,
+          50.6854207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418118",
+      "properties": {
+        "@id": "node/1065418118",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67342",
+        "bus": "yes",
+        "name": "Gunterstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:44Z",
+        "@version": "4",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1945215,
+          50.6576675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418125",
+      "properties": {
+        "@id": "node/1065418125",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67344",
+        "bus": "yes",
+        "name": "Oberaustraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:53Z",
+        "@version": "4",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1908536,
+          50.656732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418146",
+      "properties": {
+        "@id": "node/1065418146",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67338",
+        "bus": "yes",
+        "name": "Brunhildstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:41Z",
+        "@version": "5",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1869151,
+          50.6667105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418180",
+      "properties": {
+        "@id": "node/1065418180",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67335",
+        "bus": "yes",
+        "name": "Deichmanns Aue",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:47Z",
+        "@version": "6",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1797586,
+          50.6710747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418184",
+      "properties": {
+        "@id": "node/1065418184",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67338",
+        "bus": "yes",
+        "name": "Brunhildstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:42Z",
+        "@version": "5",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1865173,
+          50.6671563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418188",
+      "properties": {
+        "@id": "node/1065418188",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67339",
+        "bus": "yes",
+        "name": "Dreholzstraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:42Z",
+        "@version": "4",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1898721,
+          50.6634589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418198",
+      "properties": {
+        "@id": "node/1065418198",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Mehlem Bf",
+        "VRS:ortsteil": "Lannesdorf",
+        "VRS:ref": "67301",
+        "bus": "yes",
+        "name": "Mehlem Bf",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:50Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.183043,
+          50.6691258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418204",
+      "properties": {
+        "@id": "node/1065418204",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67341",
+        "bus": "yes",
+        "name": "Mehlem Ort",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:51Z",
+        "@version": "5",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.192762,
+          50.6600595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065418242",
+      "properties": {
+        "@id": "node/1065418242",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67341",
+        "bus": "yes",
+        "name": "Mehlem Ort",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-04T01:28:52Z",
+        "@version": "4",
+        "@changeset": "14147416",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1926367,
+          50.660224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1074706985",
+      "properties": {
+        "@id": "node/1074706985",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Erlöserkirche",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66875",
+        "bus": "yes",
+        "name": "Erlöserkirche",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:40:11Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1629765,
+          50.6849851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1078657156",
+      "properties": {
+        "@id": "node/1078657156",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Mehlem",
+        "VRS:ref": "67344",
+        "bus": "yes",
+        "name": "Oberaustraße",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:51Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1912133,
+          50.6556159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1080192732",
+      "properties": {
+        "@id": "node/1080192732",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Mehlem Bf",
+        "VRS:ortsteil": "Lannesdorf",
+        "VRS:ref": "67301",
+        "bus": "yes",
+        "name": "Mehlem Bf",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:50Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1830029,
+          50.6691553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248093",
+      "properties": {
+        "@id": "node/1091248093",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Römerplatz",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67231",
+        "bus": "yes",
+        "name": "Römerplatz",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:53Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1696459,
+          50.6839099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248103",
+      "properties": {
+        "@id": "node/1091248103",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Gutenbergallee",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67232",
+        "bus": "yes",
+        "name": "Gutenbergallee",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:49Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.172815,
+          50.6796762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248133",
+      "properties": {
+        "@id": "node/1091248133",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Römerplatz",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67231",
+        "bus": "yes",
+        "name": "Römerplatz",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:53Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.169766,
+          50.6837395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248135",
+      "properties": {
+        "@id": "node/1091248135",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Gutenbergallee",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67232",
+        "bus": "yes",
+        "name": "Gutenbergallee",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:49Z",
+        "@version": "5",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1730964,
+          50.6794839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248142",
+      "properties": {
+        "@id": "node/1091248142",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Wendelstadtallee",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67233",
+        "bus": "yes",
+        "name": "Wendelstadtallee",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:56Z",
+        "@version": "4",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1749295,
+          50.6772175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248165",
+      "properties": {
+        "@id": "node/1091248165",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Erlöserkirche",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66875",
+        "bus": "yes",
+        "name": "Erlöserkirche",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:40:11Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1643453,
+          50.684961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1091248174",
+      "properties": {
+        "@id": "node/1091248174",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Tannenallee/KfW Bankengruppe",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67234",
+        "bus": "yes",
+        "name": "Tannenallee/ KfW Bankengruppe",
+        "public_transport": "stop_position",
+        "@timestamp": "2015-12-15T01:40:51Z",
+        "@version": "5",
+        "@changeset": "35958016",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1773166,
+          50.6744256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1141663202",
+      "properties": {
+        "@id": "node/1141663202",
+        "highway": "traffic_signals",
+        "@timestamp": "2011-02-08T02:53:42Z",
+        "@version": "1",
+        "@changeset": "7223060",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1831681,
+          50.669009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1356118183",
+      "properties": {
+        "@id": "node/1356118183",
+        "highway": "traffic_signals",
+        "@timestamp": "2011-07-10T07:52:50Z",
+        "@version": "1",
+        "@changeset": "8680681",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1920613,
+          50.6609002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1588820724",
+      "properties": {
+        "@id": "node/1588820724",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-01-14T00:48:31Z",
+        "@version": "2",
+        "@changeset": "10384320",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1722774,
+          50.6800789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1588820755",
+      "properties": {
+        "@id": "node/1588820755",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-01-14T16:05:16Z",
+        "@version": "2",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1692409,
+          50.6843304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1588820756",
+      "properties": {
+        "@id": "node/1588820756",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-01-14T16:05:16Z",
+        "@version": "2",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1691845,
+          50.6844681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1589698731",
+      "properties": {
+        "@id": "node/1589698731",
+        "highway": "crossing",
+        "@timestamp": "2012-01-14T16:04:39Z",
+        "@version": "1",
+        "@changeset": "10389186",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1687798,
+          50.6845734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1600991974",
+      "properties": {
+        "@id": "node/1600991974",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66875",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Erlöserkirche",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2012-12-05T00:40:12Z",
+        "@version": "3",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1643506,
+          50.6849911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1601005262",
+      "properties": {
+        "@id": "node/1601005262",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Bad Godesberg",
+        "VRS:ref": "66131",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "C3",
+        "name": "Bad Godesberg Bf. / Rheinallee",
+        "operator": "Stadtwerke Bonn - Bus und Bahn",
+        "platform": "C3",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2015-01-20T07:09:52Z",
+        "@version": "5",
+        "@changeset": "28269802",
+        "@user": "Weide",
+        "@uid": "105462",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "1326065",
+            "reltags": {
+              "from": "Giselherstraße",
+              "name": "VRS 613: Giselherstraße => Rheinallee C3",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Rheinallee C3",
+              "type": "route"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1580083,
+          50.6850973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1706583864",
+      "properties": {
+        "@id": "node/1706583864",
+        "VRS:gemeinde": "BONN",
+        "VRS:name": "Tannenallee/KfW Bankengruppe",
+        "VRS:ortsteil": "Rüngsdorf",
+        "VRS:ref": "67234",
+        "bus": "yes",
+        "name": "Tannenallee / KfW Bankengruppe",
+        "public_transport": "stop_position",
+        "@timestamp": "2012-12-05T00:18:54Z",
+        "@version": "2",
+        "@changeset": "14158776",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2124189",
+            "reltags": {
+              "from": "Rheinallee C3",
+              "name": "VRS 613: Rheinallee C3 => Giselherstraße",
+              "network": "VRS",
+              "operator": "SWB",
+              "ref": "613",
+              "route": "bus",
+              "to": "Giselherstraße",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1768313,
+          50.6749979
+        ]
+      }
+    }
+  ]
+}
