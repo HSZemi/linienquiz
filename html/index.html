@@ -60,6 +60,13 @@
 		</label>
 		<span style="color: black;">Rheinischer Modus</span>
             </div>
+            <div class="switch">
+		<input class="switch-input" id="boonSwitch" type="checkbox" name="boonSwitch">
+		<label class="switch-paddle" for="boonSwitch">
+			<span class="show-for-sr"></span>
+		</label><br>
+		<span style="color: black;">Bonn in grau</span>
+            </div>
             </div>
           </div>
         </div>
@@ -67,6 +74,8 @@
     </div>
     <div class="row">
 	<div class="large-12 columns text-right"  style="color: grey;">
+		<p>»Rheinischer Modus« blendet den Verlauf des Rheins als blaue Linie ein. »Bonn in grau« blendet die Stadtgrenze Bonns als graue Linie ein.<br>
+		Ist dennoch keine Linie zu sehen, befinden sich Rein und Stadtgrenze außerhalb des Kartenausschnitts.</p>
 		<small>Die Linien stammen von der Seite der <a href="http://www.swb-busundbahn.de/fahrplaene/linienfahrplaene.html">SWB</a>, die Liniengrafiken wurden aus Daten von www.openstreetmap.org erstellt, die unter der ODbL stehen (&copy; OpenStreetMap-Mitwirkende).</small><br>
 		<small>Sounds: "Failure 01" von rhodesmas auf <a href="http://www.freesound.org/people/rhodesmas/sounds/342756/">freesound.org</a>, unter <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>;
 		"success_low.wav" von grunz auf <a href="http://www.freesound.org/people/grunz/sounds/109663/">freesound.org</a>, unter <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>.</small><br>
@@ -154,15 +163,22 @@ $(function(){
 	});
 	
 	$('#rhineSwitch').prop('checked', false);
+	$('#boonSwitch').prop('checked', false);
 	
 	$('#rhineSwitch').click(function(){
-		$('#image').hide();
-		if($('#rhineSwitch').prop('checked')){
-			$('#image').html('<img src="img/'+current_id+'r.png" />');
+		if(!$('#rhineSwitch').prop('checked') && $('#boonSwitch').prop('checked')){
+			$('#boonSwitch').click();
 		} else {
-			$('#image').html('<img src="img/'+current_id+'.png" />');
+			updateImage();
 		}
-		$('#image').fadeIn(500);
+		updateImage();
+	});
+	$('#boonSwitch').click(function(){
+		if($('#boonSwitch').prop('checked') && !$('#rhineSwitch').prop('checked')){
+			$('#rhineSwitch').click();
+		} else {
+			updateImage();
+		}
 	});
 	
 	$('#next').hide();
@@ -171,6 +187,20 @@ $(function(){
 	
 	nextImage();
 });
+
+function updateImage(){
+	$('#image').hide();
+	if($('#rhineSwitch').prop('checked')){
+		if($('#boonSwitch').prop('checked')){
+			$('#image').html('<img src="img/'+current_id+'rb.png" />');
+		} else {
+			$('#image').html('<img src="img/'+current_id+'r.png" />');
+		}
+	} else {
+		$('#image').html('<img src="img/'+current_id+'.png" />');
+	}
+	$('#image').fadeIn(500);
+}
 
 function nextImage(){
 	var ids = Object.keys(colors);

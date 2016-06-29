@@ -4,7 +4,7 @@ import json
 import sys, math, os
 import svgwrite
 
-STROKES = [(svgwrite.rgb(200,0,0, 'rgb'),4), (svgwrite.rgb(0,0,150, 'rgb'), 3.5), (svgwrite.rgb(200,200,200, 'RGB'),2)]
+STROKES = [(svgwrite.rgb(200,0,0, 'rgb'),4), (svgwrite.rgb(0,0,150, 'rgb'), 3.5), (svgwrite.rgb(100,100,100, 'RGB'),2)]
 WIDTH = 400
 HEIGHT = 400
 MAPZOOM = 16
