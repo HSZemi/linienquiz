@@ -206,17 +206,11 @@ function nextImage(){
 	var ids = Object.keys(colors);
 	current_id = ids[Math.floor(ids.length * Math.random())];
 	
-	$('#image').hide();
-	if($('#rhineSwitch').prop('checked')){
-		$('#image').html('<img src="img/'+current_id+'r.png" />');
-	} else {
-		$('#image').html('<img src="img/'+current_id+'.png" />');
-	}
+	updateImage();
 	
 	$('#next').hide(200);
 	$('#msg_correct').hide(200);
 	$('#msg_incorrect').hide(200);
-	$('#image').fadeIn(500);
 	$('#buttonrow').fadeIn(100);
 }
 
