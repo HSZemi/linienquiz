@@ -2,67 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2016-06-12T13:35:02Z",
+  "timestamp": "2016-07-24T19:06:02Z",
   "features": [
-    {
-      "type": "Feature",
-      "id": "way/4339304",
-      "properties": {
-        "@id": "way/4339304",
-        "highway": "tertiary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "@timestamp": "2013-03-16T06:06:29Z",
-        "@version": "13",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0860608,
-            50.7554309
-          ],
-          [
-            7.0866657,
-            50.754903
-          ],
-          [
-            7.0868065,
-            50.7547767
-          ],
-          [
-            7.0873197,
-            50.7542941
-          ],
-          [
-            7.0876577,
-            50.7539992
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "id": "way/4352558",
@@ -89,6 +30,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -113,55 +55,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/4352583",
-      "properties": {
-        "@id": "way/4352583",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:14Z",
-        "@version": "23",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0949247,
-            50.7464327
-          ],
-          [
-            7.09501,
-            50.7464532
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/4365044",
       "properties": {
         "@id": "way/4365044",
@@ -178,12 +71,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -241,12 +150,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -296,6 +221,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -310,6 +236,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -371,6 +298,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -434,6 +362,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -490,6 +419,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -542,6 +472,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -556,6 +487,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -635,6 +567,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -687,6 +620,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -701,6 +635,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -768,6 +703,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -825,6 +761,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -882,6 +819,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -942,6 +880,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1004,6 +943,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1048,6 +988,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1092,6 +1033,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1151,6 +1093,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1165,6 +1108,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1250,6 +1194,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1264,6 +1209,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1312,6 +1258,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1356,6 +1303,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1370,6 +1318,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1418,6 +1367,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1432,6 +1382,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1477,6 +1428,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1491,6 +1443,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1553,6 +1506,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1567,6 +1521,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1642,6 +1597,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1720,6 +1676,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1734,6 +1691,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1784,6 +1742,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1798,6 +1757,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1851,6 +1811,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -1865,6 +1826,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -1891,59 +1853,6 @@
           [
             7.1017531,
             50.7257978
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/23377608",
-      "properties": {
-        "@id": "way/23377608",
-        "cycleway": "track",
-        "highway": "secondary",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:17Z",
-        "@version": "13",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.098977,
-            50.7471034
-          ],
-          [
-            7.0990985,
-            50.7470783
-          ],
-          [
-            7.0992426,
-            50.7470301
           ]
         ]
       }
@@ -1979,6 +1888,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2024,12 +1934,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2074,6 +2000,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2122,6 +2049,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2166,6 +2094,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2214,6 +2143,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2228,6 +2158,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2275,6 +2206,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2289,6 +2221,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2362,6 +2295,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2437,6 +2371,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2492,6 +2427,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2544,6 +2480,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2602,6 +2539,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -2660,6 +2598,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2719,6 +2658,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2773,6 +2713,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2833,6 +2774,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2890,6 +2832,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2946,6 +2889,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -2993,6 +2937,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3050,6 +2995,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3103,6 +3049,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3117,6 +3064,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3198,6 +3146,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3295,6 +3244,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3351,6 +3301,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3365,6 +3316,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3454,6 +3406,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3536,6 +3489,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3639,6 +3593,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3653,6 +3608,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3714,6 +3670,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3728,6 +3685,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3837,6 +3795,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3851,6 +3810,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -3903,6 +3863,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3949,6 +3910,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -3963,6 +3925,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4007,53 +3970,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/31349636",
-      "properties": {
-        "@id": "way/31349636",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:05Z",
-        "@version": "23",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0888334,
-            50.7529222
-          ],
-          [
-            7.089138,
-            50.7526468
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/31357165",
       "properties": {
         "@id": "way/31357165",
@@ -4075,6 +3991,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4089,6 +4006,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4134,6 +4052,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4184,6 +4103,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4198,6 +4118,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4247,6 +4168,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4261,6 +4183,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4316,6 +4239,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4361,6 +4285,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4375,6 +4300,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4436,6 +4362,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4450,6 +4377,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4542,6 +4470,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4560,53 +4489,6 @@
           [
             7.105683,
             50.7374727
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/45879938",
-      "properties": {
-        "@id": "way/45879938",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:05Z",
-        "@version": "11",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0947702,
-            50.7465273
-          ],
-          [
-            7.0948261,
-            50.7464094
           ]
         ]
       }
@@ -4635,6 +4517,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4649,6 +4532,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4700,6 +4584,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -4752,6 +4637,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -4788,222 +4674,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/50096316",
-      "properties": {
-        "@id": "way/50096316",
-        "highway": "tertiary",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "@timestamp": "2012-08-29T11:14:50Z",
-        "@version": "4",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0858327,
-            50.7557634
-          ],
-          [
-            7.0858546,
-            50.7556627
-          ],
-          [
-            7.0858827,
-            50.7556056
-          ],
-          [
-            7.085922,
-            50.7555627
-          ],
-          [
-            7.0860608,
-            50.7554309
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/53035079",
-      "properties": {
-        "@id": "way/53035079",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:31Z",
-        "@version": "13",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.089138,
-            50.7526468
-          ],
-          [
-            7.089321,
-            50.7524731
-          ],
-          [
-            7.089833,
-            50.7519918
-          ],
-          [
-            7.0901992,
-            50.7516215
-          ],
-          [
-            7.0902469,
-            50.7515665
-          ],
-          [
-            7.0907672,
-            50.7510382
-          ],
-          [
-            7.0907796,
-            50.7510223
-          ],
-          [
-            7.0909809,
-            50.7508361
-          ],
-          [
-            7.0915809,
-            50.7502267
-          ],
-          [
-            7.0919484,
-            50.7498558
-          ],
-          [
-            7.092226,
-            50.7495543
-          ],
-          [
-            7.0926486,
-            50.7490443
-          ],
-          [
-            7.0932561,
-            50.7482975
-          ],
-          [
-            7.0934008,
-            50.7481279
-          ],
-          [
-            7.0936449,
-            50.74786
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/53035088",
-      "properties": {
-        "@id": "way/53035088",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:06Z",
-        "@version": "11",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.094512,
-            50.7468141
-          ],
-          [
-            7.0946708,
-            50.7466615
-          ],
-          [
-            7.0947173,
-            50.7465997
-          ],
-          [
-            7.0947335,
-            50.7465781
-          ],
-          [
-            7.0947702,
-            50.7465273
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/58169608",
       "properties": {
         "@id": "way/58169608",
@@ -5028,6 +4698,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5042,6 +4713,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5140,6 +4812,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5154,6 +4827,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5206,12 +4880,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5312,12 +5002,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5387,6 +5093,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5401,6 +5108,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5530,6 +5238,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5544,6 +5253,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5648,6 +5358,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5662,6 +5373,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5715,6 +5427,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5760,6 +5473,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5814,6 +5528,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -5878,6 +5593,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5923,6 +5639,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -5972,6 +5689,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -6034,6 +5752,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6087,6 +5806,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6136,6 +5856,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6193,6 +5914,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6238,6 +5960,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6260,119 +5983,6 @@
           [
             7.1002931,
             50.7318397
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/93971592",
-      "properties": {
-        "@id": "way/93971592",
-        "highway": "tertiary",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Werftstraße",
-        "@timestamp": "2012-08-30T11:45:44Z",
-        "@version": "5",
-        "@changeset": "12916844",
-        "@user": "brunnen",
-        "@uid": "346838",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0878864,
-            50.7573179
-          ],
-          [
-            7.0876055,
-            50.7571138
-          ],
-          [
-            7.087453,
-            50.7570022
-          ],
-          [
-            7.0872156,
-            50.7568305
-          ],
-          [
-            7.0869843,
-            50.7566604
-          ],
-          [
-            7.0862268,
-            50.7561291
-          ],
-          [
-            7.0860855,
-            50.7560299
-          ],
-          [
-            7.0860291,
-            50.7559931
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/94253692",
-      "properties": {
-        "@id": "way/94253692",
-        "highway": "tertiary",
-        "maxspeed": "50",
-        "name": "Werftstraße",
-        "@timestamp": "2012-08-29T11:14:57Z",
-        "@version": "3",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0858734,
-            50.7558684
-          ],
-          [
-            7.0858327,
-            50.7557634
           ]
         ]
       }
@@ -6404,6 +6014,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6477,6 +6088,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6529,6 +6141,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6580,6 +6193,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -6657,6 +6271,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -6671,6 +6286,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -6809,6 +6425,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -6823,6 +6440,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7006,6 +6624,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7061,6 +6680,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -7079,52 +6699,6 @@
           [
             7.097579,
             50.7295822
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/144275710",
-      "properties": {
-        "@id": "way/144275710",
-        "highway": "tertiary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:32Z",
-        "@version": "3",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0886909,
-            50.7530511
-          ],
-          [
-            7.0888334,
-            50.7529222
           ]
         ]
       }
@@ -7160,6 +6734,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7217,6 +6792,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7274,6 +6850,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -7324,6 +6901,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -7386,6 +6964,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -7443,6 +7022,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7495,6 +7075,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -7577,6 +7158,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7632,6 +7214,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7689,6 +7272,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7758,6 +7342,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7811,6 +7396,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7861,6 +7447,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7916,6 +7503,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -7970,6 +7558,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8022,6 +7611,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8036,6 +7626,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8302,6 +7893,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8476,6 +8068,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8490,6 +8083,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8535,6 +8129,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8676,6 +8271,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8690,6 +8286,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8763,6 +8360,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8810,6 +8408,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8884,6 +8483,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -8898,6 +8498,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -8949,6 +8550,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9038,6 +8640,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9072,11 +8675,11 @@
         "oneway": "yes",
         "oneway:psv": "no",
         "psv": "yes",
-        "@timestamp": "2016-04-08T19:03:54Z",
-        "@version": "3",
-        "@changeset": "38414086",
-        "@user": "dachefte",
-        "@uid": "133419",
+        "@timestamp": "2016-07-10T21:07:49Z",
+        "@version": "4",
+        "@changeset": "40638463",
+        "@user": "adjuva",
+        "@uid": "92274",
         "@relations": [
           {
             "role": "",
@@ -9086,6 +8689,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9106,8 +8710,12 @@
             50.7333159
           ],
           [
-            7.0948127,
-            50.7335164
+            7.0948124,
+            50.7335169
+          ],
+          [
+            7.0948751,
+            50.7338376
           ],
           [
             7.0949249,
@@ -9116,236 +8724,6 @@
           [
             7.0950102,
             50.734204
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/178448297",
-      "properties": {
-        "@id": "way/178448297",
-        "bicycle": "official",
-        "cycleway:right": "track",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "surface": "asphalt",
-        "@timestamp": "2016-04-10T09:34:01Z",
-        "@version": "8",
-        "@changeset": "38446208",
-        "@user": "13 digits",
-        "@uid": "35935",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.09501,
-            50.7464532
-          ],
-          [
-            7.0953151,
-            50.746526
-          ],
-          [
-            7.0956203,
-            50.7465965
-          ],
-          [
-            7.0962338,
-            50.746699
-          ],
-          [
-            7.0963524,
-            50.7467136
-          ],
-          [
-            7.0973234,
-            50.7468644
-          ],
-          [
-            7.0984099,
-            50.7470243
-          ],
-          [
-            7.098977,
-            50.7471034
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/178454024",
-      "properties": {
-        "@id": "way/178454024",
-        "highway": "tertiary",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Werftstraße",
-        "@timestamp": "2012-08-29T11:14:22Z",
-        "@version": "1",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0860291,
-            50.7559931
-          ],
-          [
-            7.0859299,
-            50.7559195
-          ],
-          [
-            7.0858734,
-            50.7558684
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/209192311",
-      "properties": {
-        "@id": "way/209192311",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Kaiser-Karl-Ring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:12Z",
-        "@version": "4",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0948261,
-            50.7464094
-          ],
-          [
-            7.0949247,
-            50.7464327
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/210337148",
-      "properties": {
-        "@id": "way/210337148",
-        "highway": "tertiary",
-        "lanes": "3",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "turn:lanes": "left|through|through;right",
-        "@timestamp": "2013-08-27T20:42:13Z",
-        "@version": "2",
-        "@changeset": "17544383",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0876577,
-            50.7539992
-          ],
-          [
-            7.0880012,
-            50.7537029
-          ],
-          [
-            7.0881341,
-            50.7535791
-          ],
-          [
-            7.0882931,
-            50.7534251
           ]
         ]
       }
@@ -9369,12 +8747,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046800",
             "reltags": {
               "from": "Ippendorf",
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9471,6 +8865,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9522,6 +8917,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9574,6 +8970,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9588,6 +8985,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9637,6 +9035,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9682,6 +9081,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9727,6 +9127,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9771,6 +9172,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9785,6 +9187,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9830,6 +9233,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9875,6 +9279,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -9920,6 +9325,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -9965,6 +9371,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10014,6 +9421,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10063,6 +9471,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10095,62 +9504,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/235377401",
-      "properties": {
-        "@id": "way/235377401",
-        "highway": "tertiary",
-        "lanes": "3",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "turn:lanes": "left|through|through",
-        "@timestamp": "2013-08-27T20:41:45Z",
-        "@version": "1",
-        "@changeset": "17544383",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0882931,
-            50.7534251
-          ],
-          [
-            7.0885356,
-            50.753207
-          ],
-          [
-            7.088564,
-            50.7531761
-          ],
-          [
-            7.0886909,
-            50.7530511
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/252026943",
       "properties": {
         "@id": "way/252026943",
@@ -10173,6 +9526,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10187,6 +9541,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10257,6 +9612,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10279,107 +9635,6 @@
           [
             7.1000837,
             50.7024671
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/262267059",
-      "properties": {
-        "@id": "way/262267059",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:25Z",
-        "@version": "1",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0936449,
-            50.74786
-          ],
-          [
-            7.0937806,
-            50.7476886
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/262267060",
-      "properties": {
-        "@id": "way/262267060",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "@timestamp": "2016-04-10T05:46:34Z",
-        "@version": "2",
-        "@changeset": "38443055",
-        "@user": "13 digits",
-        "@uid": "35935",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0937806,
-            50.7476886
-          ],
-          [
-            7.0938602,
-            50.7475862
-          ],
-          [
-            7.094512,
-            50.7468141
           ]
         ]
       }
@@ -10409,6 +9664,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10423,6 +9679,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10472,6 +9729,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10486,6 +9744,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10542,6 +9801,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10556,6 +9816,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10609,6 +9870,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10694,6 +9956,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10743,6 +10006,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10757,6 +10021,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10805,6 +10070,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10819,6 +10085,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10866,6 +10133,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -10880,6 +10148,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -10932,6 +10201,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11362,6 +10632,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -11376,6 +10647,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11458,6 +10730,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11520,6 +10793,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -11582,6 +10856,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11643,6 +10918,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -11852,6 +11128,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11897,6 +11174,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -11943,6 +11221,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -11987,6 +11266,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12032,6 +11312,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12074,6 +11355,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12103,13 +11385,11 @@
         "highway": "bus_stop",
         "name": "Thomas-Mann-Straße",
         "public_transport": "platform",
-        "railway": "tram_stop",
         "ref_name": "Thomas-Mann-Str., Bonn",
-        "tram": "yes",
         "wheelchair": "yes",
-        "@timestamp": "2013-12-17T00:40:18Z",
-        "@version": "8",
-        "@changeset": "19491288",
+        "@timestamp": "2016-07-10T21:07:50Z",
+        "@version": "9",
+        "@changeset": "40638463",
         "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
@@ -12121,6 +11401,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12132,8 +11413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0949302,
-          50.7337597
+          7.094922,
+          50.7338349
         ]
       }
     },
@@ -12165,6 +11446,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12178,6 +11460,51 @@
         "coordinates": [
           7.0988091,
           50.7481581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/309948509",
+      "properties": {
+        "@id": "node/309948509",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61988",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Augustinum",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2013-05-26T06:34:41Z",
+        "@version": "10",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0985131,
+          50.7482001
         ]
       }
     },
@@ -12211,6 +11538,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12296,6 +11624,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12339,6 +11668,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12377,6 +11707,50 @@
     },
     {
       "type": "Feature",
+      "id": "node/332327853",
+      "properties": {
+        "@id": "node/332327853",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Graurheindorf",
+        "VRS:ref": "64774",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Werftstraße",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-05-26T06:35:08Z",
+        "@version": "5",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0882194,
+          50.7570471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/332327854",
       "properties": {
         "@id": "node/332327854",
@@ -12402,6 +11776,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12450,6 +11825,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12497,6 +11873,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12542,6 +11919,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12555,6 +11933,95 @@
         "coordinates": [
           7.1027162,
           50.7347621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685520",
+      "properties": {
+        "@id": "node/335685520",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Graurheindorf",
+        "VRS:ref": "64765",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Friesenweg",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "@timestamp": "2013-05-26T06:34:48Z",
+        "@version": "5",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0917719,
+          50.754919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685521",
+      "properties": {
+        "@id": "node/335685521",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61986",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bataverweg",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "wheelchair_toilet": "no",
+        "@timestamp": "2015-12-03T07:14:04Z",
+        "@version": "9",
+        "@changeset": "35700890",
+        "@user": "wheelmap_visitor",
+        "@uid": "290680",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0939186,
+          50.7535502
         ]
       }
     },
@@ -12586,6 +12053,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12599,6 +12067,50 @@
         "coordinates": [
           7.093741,
           50.7538634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685523",
+      "properties": {
+        "@id": "node/335685523",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61987",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pädagogische Fakultät",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2013-05-26T06:34:59Z",
+        "@version": "7",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0961972,
+          50.7513949
         ]
       }
     },
@@ -12629,6 +12141,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12672,6 +12185,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12715,6 +12229,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12758,6 +12273,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12806,6 +12322,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12851,6 +12368,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12894,6 +12412,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -12937,6 +12456,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -12981,6 +12501,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13025,6 +12546,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13039,6 +12561,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13082,6 +12605,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13130,6 +12654,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13175,6 +12700,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13220,6 +12746,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13263,6 +12790,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13306,6 +12834,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13350,6 +12879,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13395,6 +12925,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13438,6 +12969,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13481,6 +13013,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13547,6 +13080,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13590,6 +13124,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13674,6 +13209,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13717,6 +13253,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13760,6 +13297,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13803,6 +13341,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -13846,6 +13385,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13890,6 +13430,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -13934,6 +13475,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14018,6 +13560,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14062,6 +13605,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14105,6 +13649,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14149,6 +13694,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14194,6 +13740,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14237,6 +13784,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14281,6 +13829,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14324,6 +13873,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14367,6 +13917,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14410,6 +13961,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -14453,6 +14005,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14466,68 +14019,6 @@
         "coordinates": [
           7.1009818,
           50.7256129
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/504471249",
-      "properties": {
-        "@id": "node/504471249",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-16T06:06:38Z",
-        "@version": "4",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0885356,
-          50.753207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/505817896",
-      "properties": {
-        "@id": "node/505817896",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61929",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Innenministerium",
-        "public_transport": "platform",
-        "@timestamp": "2013-07-17T20:32:57Z",
-        "@version": "5",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0909178,
-          50.7508092
         ]
       }
     },
@@ -14556,197 +14047,6 @@
         "coordinates": [
           7.0987039,
           50.7320777
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/523276761",
-      "properties": {
-        "@id": "node/523276761",
-        "VRS:gemeinde": "BONN",
-        "VRS:name": "Bonn Hauptbahnhof",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61101",
-        "bus": "yes",
-        "local_ref": "D1",
-        "name": "Bonn Hauptbahnhof",
-        "platform": "D1",
-        "public_transport": "stop_position",
-        "ref": "D1 (nur Ausstieg)",
-        "@timestamp": "2016-04-18T22:29:05Z",
-        "@version": "5",
-        "@changeset": "38679870",
-        "@user": "profgreenington",
-        "@uid": "2755768",
-        "@relations": [
-          {
-            "role": "stop_exit_only",
-            "rel": "2046800",
-            "reltags": {
-              "from": "Ippendorf",
-              "name": "VRS 600 Graurheindorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Graurheindorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0988917,
-          50.7319478
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/553303827",
-      "properties": {
-        "@id": "node/553303827",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T11:15:10Z",
-        "@version": "3",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0907672,
-          50.7510382
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/553303832",
-      "properties": {
-        "@id": "node/553303832",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2011-06-08T20:33:20Z",
-        "@version": "2",
-        "@changeset": "8383379",
-        "@user": "Raymond",
-        "@uid": "16478"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0934008,
-          50.7481279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/595839825",
-      "properties": {
-        "@id": "node/595839825",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Graurheindorf",
-        "VRS:ref": "64717",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Heinrich-Hertz-Europakolleg",
-        "public_transport": "platform",
-        "@timestamp": "2013-05-26T06:34:51Z",
-        "@version": "6",
-        "@changeset": "16288070",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0867416,
-          50.7547478
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/636094702",
-      "properties": {
-        "@id": "node/636094702",
-        "crossing": "traffic_signals",
-        "highway": "crossing",
-        "@timestamp": "2012-08-29T11:15:10Z",
-        "@version": "4",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0858546,
-          50.7556627
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/650090148",
-      "properties": {
-        "@id": "node/650090148",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T11:15:11Z",
-        "@version": "4",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0866657,
-          50.754903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/651826133",
-      "properties": {
-        "@id": "node/651826133",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T10:13:49Z",
-        "@version": "3",
-        "@changeset": "12903184",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0936449,
-          50.74786
         ]
       }
     },
@@ -14840,6 +14140,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14934,6 +14235,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -14984,6 +14286,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -15026,57 +14329,6 @@
         "coordinates": [
           7.0998218,
           50.7320115
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/996470536",
-      "properties": {
-        "@id": "node/996470536",
-        "VRS:gemeinde": "BONN",
-        "VRS:name": "Bonn Hauptbahnhof",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61101",
-        "bench": "yes",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "local_ref": "D1",
-        "name": "Bonn Hauptbahnhof D1 Ausstieg",
-        "note": "exit only",
-        "platform": "D1",
-        "public_transport": "platform",
-        "ref": "D1 (exit)",
-        "shelter": "yes",
-        "tactile_paving": "no",
-        "wheelchair": "yes",
-        "@timestamp": "2016-04-18T22:29:06Z",
-        "@version": "7",
-        "@changeset": "38679870",
-        "@user": "profgreenington",
-        "@uid": "2755768",
-        "@relations": [
-          {
-            "role": "platform_exit_only",
-            "rel": "2046800",
-            "reltags": {
-              "from": "Ippendorf",
-              "name": "VRS 600 Graurheindorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Graurheindorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0989675,
-          50.7319734
         ]
       }
     },
@@ -15304,6 +14556,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -15566,7 +14819,24 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -15601,6 +14871,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -15642,6 +14913,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -15683,6 +14955,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -15743,7 +15016,24 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -15768,32 +15058,6 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0939856,
-          50.7535903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1075332430",
-      "properties": {
-        "@id": "node/1075332430",
-        "VRS:gemeinde": "BONN",
-        "VRS:name": "Heinrich-Hertz-Europakolleg",
-        "VRS:ortsteil": "Graurheindorf",
-        "VRS:ref": "64717",
-        "bus": "yes",
-        "name": "Heinrich-Hertz-Europakolleg",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-05-26T06:34:51Z",
-        "@version": "4",
-        "@changeset": "16288070",
-        "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
           {
@@ -15804,6 +15068,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -15815,8 +15080,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0868065,
-          50.7547767
+          7.0939856,
+          50.7535903
         ]
       }
     },
@@ -15845,6 +15110,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -15876,7 +15142,24 @@
         "@version": "6",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -15978,6 +15261,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16023,6 +15307,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16068,6 +15353,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16144,135 +15430,6 @@
         "coordinates": [
           7.1035192,
           50.7376059
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1086257741",
-      "properties": {
-        "@id": "node/1086257741",
-        "crossing": "traffic_signals",
-        "highway": "crossing",
-        "@timestamp": "2012-08-29T11:15:00Z",
-        "@version": "3",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0859299,
-          50.7559195
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1090745143",
-      "properties": {
-        "@id": "node/1090745143",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61828",
-        "bench": "no",
-        "bin": "no",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Augustusring",
-        "public_transport": "platform",
-        "shelter": "no",
-        "tactile_paving": "no",
-        "wheelchair:description": "Kein Kasseler Bord",
-        "@timestamp": "2014-07-30T18:38:40Z",
-        "@version": "5",
-        "@changeset": "24449284",
-        "@user": "KartoGrapHiti",
-        "@uid": "57645",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0962507,
-          50.7466636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1092405103",
-      "properties": {
-        "@id": "node/1092405103",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61828",
-        "bus": "yes",
-        "name": "Augustusring",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-07-17T20:32:22Z",
-        "@version": "4",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "stop",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0962338,
-          50.746699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1095501970",
-      "properties": {
-        "@id": "node/1095501970",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T11:15:01Z",
-        "@version": "2",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0860855,
-          50.7560299
         ]
       }
     },
@@ -16364,6 +15521,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16447,6 +15605,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -16489,6 +15648,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -16502,46 +15662,6 @@
         "coordinates": [
           7.1027463,
           50.7347233
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1597786778",
-      "properties": {
-        "@id": "node/1597786778",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:20Z",
-        "@version": "6",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0949247,
-          50.7464327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1597786783",
-      "properties": {
-        "@id": "node/1597786783",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:20Z",
-        "@version": "4",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0947702,
-          50.7465273
         ]
       }
     },
@@ -16619,6 +15739,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16662,6 +15783,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -16675,47 +15797,6 @@
         "coordinates": [
           7.1014123,
           50.7405543
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1621012976",
-      "properties": {
-        "@id": "node/1621012976",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61929",
-        "bus": "yes",
-        "name": "Innenministerium",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-07-17T20:32:58Z",
-        "@version": "3",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "stop",
-            "rel": "2046799",
-            "reltags": {
-              "from": "Graurheindorf",
-              "name": "VRS 600 Ippendorf",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "600",
-              "route": "bus",
-              "to": "Ippendorf",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0909809,
-          50.7508361
         ]
       }
     },
@@ -16745,6 +15826,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16849,6 +15931,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -16912,6 +15995,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17004,6 +16088,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17047,6 +16132,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17160,17 +16246,17 @@
         "public_transport": "stop_position",
         "ref_name": "Thomas-Mann-Str., Bonn",
         "wheelchair": "yes",
-        "@timestamp": "2016-04-08T19:03:57Z",
-        "@version": "2",
-        "@changeset": "38414086",
-        "@user": "dachefte",
-        "@uid": "133419"
+        "@timestamp": "2016-07-10T21:07:51Z",
+        "@version": "3",
+        "@changeset": "40638463",
+        "@user": "adjuva",
+        "@uid": "92274"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0948127,
-          50.7335164
+          7.0948124,
+          50.7335169
         ]
       }
     },
@@ -17187,11 +16273,10 @@
         "name": "Thomas-Mann-Straße",
         "public_transport": "stop_position",
         "ref_name": "Thomas-Mann-Str., Bonn",
-        "tram": "yes",
         "wheelchair": "yes",
-        "@timestamp": "2013-12-17T00:40:18Z",
-        "@version": "2",
-        "@changeset": "19491288",
+        "@timestamp": "2016-07-10T21:07:52Z",
+        "@version": "3",
+        "@changeset": "40638463",
         "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
@@ -17203,6 +16288,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17214,8 +16300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0948854,
-          50.733764
+          7.0948751,
+          50.7338376
         ]
       }
     },
@@ -17244,6 +16330,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17286,6 +16373,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17324,68 +16412,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1833008899",
-      "properties": {
-        "@id": "node/1833008899",
-        "crossing_ref": "zebra",
-        "highway": "crossing",
-        "@timestamp": "2012-07-21T11:14:40Z",
-        "@version": "1",
-        "@changeset": "12406773",
-        "@user": "dschuwa",
-        "@uid": "55687"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0990985,
-          50.7470783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1888045198",
-      "properties": {
-        "@id": "node/1888045198",
-        "crossing": "traffic_signals",
-        "highway": "crossing",
-        "@timestamp": "2013-03-16T06:06:35Z",
-        "@version": "3",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.088564,
-          50.7531761
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2194235667",
-      "properties": {
-        "@id": "node/2194235667",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:09Z",
-        "@version": "1",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0948261,
-          50.7464094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2252593688",
       "properties": {
         "@id": "node/2252593688",
@@ -17410,6 +16436,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17452,6 +16479,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17493,6 +16521,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17534,6 +16563,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17575,6 +16605,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17616,6 +16647,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17657,6 +16689,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17698,6 +16731,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17739,6 +16773,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17780,6 +16815,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17821,6 +16857,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -17862,6 +16899,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",
@@ -17893,7 +16931,24 @@
         "@version": "1",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046799",
+            "reltags": {
+              "from": "Graurheindorf",
+              "name": "VRS 600 Ippendorf",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "600",
+              "route": "bus",
+              "to": "Ippendorf",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -17951,6 +17006,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -18013,6 +17069,7 @@
               "name": "VRS 600 Ippendorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Ippendorf",
@@ -18054,6 +17111,7 @@
               "name": "VRS 600 Graurheindorf",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "600",
               "route": "bus",
               "to": "Graurheindorf",

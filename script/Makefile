@@ -193,3 +193,4 @@ boon:
 	./json2image.py svg/N8rb.svg data/N8.json data/rhine.json data/boon.json
 	./json2image.py svg/N9rb.svg data/N9.json data/rhine.json data/boon.json
 	./json2image.py svg/N10rb.svg data/N10.json data/rhine.json data/boon.json
+z

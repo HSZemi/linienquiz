@@ -2,67 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2016-06-12T13:36:02Z",
+  "timestamp": "2016-07-24T19:08:02Z",
   "features": [
-    {
-      "type": "Feature",
-      "id": "way/4339304",
-      "properties": {
-        "@id": "way/4339304",
-        "highway": "tertiary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "@timestamp": "2013-03-16T06:06:29Z",
-        "@version": "13",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0860608,
-            50.7554309
-          ],
-          [
-            7.0866657,
-            50.754903
-          ],
-          [
-            7.0868065,
-            50.7547767
-          ],
-          [
-            7.0873197,
-            50.7542941
-          ],
-          [
-            7.0876577,
-            50.7539992
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "id": "way/4339308",
@@ -74,11 +15,12 @@
         "maxspeed": "50",
         "name": "An der Josefshöhe",
         "oneway": "yes",
-        "@timestamp": "2012-08-29T16:46:14Z",
-        "@version": "13",
-        "@changeset": "12907647",
-        "@user": "dachefte",
-        "@uid": "133419",
+        "turn:lanes": "left|through",
+        "@timestamp": "2016-07-06T12:38:15Z",
+        "@version": "14",
+        "@changeset": "40520256",
+        "@user": "odna",
+        "@uid": "45243",
         "@relations": [
           {
             "role": "",
@@ -88,6 +30,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -132,6 +75,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -184,6 +128,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -202,55 +147,6 @@
           [
             7.1041697,
             50.7373403
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/4352583",
-      "properties": {
-        "@id": "way/4352583",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:14Z",
-        "@version": "23",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0949247,
-            50.7464327
-          ],
-          [
-            7.09501,
-            50.7464532
           ]
         ]
       }
@@ -278,6 +174,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -292,6 +189,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -343,6 +241,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -357,6 +256,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -403,6 +303,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -417,6 +318,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -484,6 +386,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -508,68 +411,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/4365042",
-      "properties": {
-        "@id": "way/4365042",
-        "highway": "tertiary",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "@timestamp": "2012-08-29T11:14:50Z",
-        "@version": "9",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0851756,
-            50.7553851
-          ],
-          [
-            7.0855225,
-            50.7555074
-          ],
-          [
-            7.0856129,
-            50.755527
-          ],
-          [
-            7.0857454,
-            50.7555306
-          ],
-          [
-            7.0858776,
-            50.7555107
-          ],
-          [
-            7.0860608,
-            50.7554309
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/4365044",
       "properties": {
         "@id": "way/4365044",
@@ -586,12 +427,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -649,12 +506,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -704,6 +577,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -718,6 +592,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -779,6 +654,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -842,6 +718,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -898,6 +775,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -950,6 +828,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -964,6 +843,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1043,6 +923,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1095,6 +976,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1109,6 +991,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1175,6 +1058,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1258,6 +1142,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1317,6 +1202,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1371,6 +1257,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1385,6 +1272,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1539,6 +1427,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1598,6 +1487,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1663,6 +1553,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1720,6 +1611,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1780,6 +1672,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1842,6 +1735,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -1886,6 +1780,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1930,6 +1825,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -1992,6 +1888,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2006,6 +1903,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2058,6 +1956,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2102,6 +2001,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2116,6 +2016,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2164,6 +2065,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2178,6 +2080,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2224,6 +2127,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2281,6 +2185,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2352,6 +2257,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2366,6 +2272,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2423,6 +2330,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2437,6 +2345,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2497,59 +2406,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/23377608",
-      "properties": {
-        "@id": "way/23377608",
-        "cycleway": "track",
-        "highway": "secondary",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:17Z",
-        "@version": "13",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.098977,
-            50.7471034
-          ],
-          [
-            7.0990985,
-            50.7470783
-          ],
-          [
-            7.0992426,
-            50.7470301
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/23707624",
       "properties": {
         "@id": "way/23707624",
@@ -2567,12 +2423,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2619,6 +2491,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2633,6 +2506,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -2698,6 +2572,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2747,6 +2622,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -2761,6 +2637,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3002,6 +2879,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3016,6 +2894,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3099,6 +2978,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3113,6 +2993,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3172,6 +3053,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3186,6 +3068,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3254,6 +3137,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3299,11 +3183,11 @@
         "maxspeed": "50",
         "name": "An der Josefshöhe",
         "oneway": "yes",
-        "@timestamp": "2011-02-16T23:16:42Z",
-        "@version": "13",
-        "@changeset": "7308575",
-        "@user": "mike67",
-        "@uid": "49785",
+        "@timestamp": "2016-07-06T14:23:07Z",
+        "@version": "14",
+        "@changeset": "40522349",
+        "@user": "odna",
+        "@uid": "45243",
         "@relations": [
           {
             "role": "",
@@ -3313,6 +3197,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3337,8 +3222,8 @@
             50.755171
           ],
           [
-            7.0851756,
-            50.7553851
+            7.0850307,
+            50.7553166
           ]
         ]
       }
@@ -3370,6 +3255,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3416,6 +3302,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3464,6 +3351,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3512,6 +3400,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3526,6 +3415,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3573,6 +3463,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3587,6 +3478,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3660,6 +3552,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3735,6 +3628,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3790,6 +3684,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3842,6 +3737,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -3900,6 +3796,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -3958,6 +3855,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4017,6 +3915,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4071,6 +3970,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4131,6 +4031,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4188,6 +4089,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4246,6 +4148,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4318,6 +4221,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4367,6 +4271,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4381,6 +4286,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4448,6 +4354,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4500,6 +4407,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4514,6 +4422,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4605,6 +4514,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4662,6 +4572,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4716,6 +4627,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4730,6 +4642,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4791,6 +4704,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4835,6 +4749,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4849,6 +4764,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -4938,6 +4854,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -4952,6 +4869,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5035,6 +4953,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5089,6 +5008,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5103,6 +5023,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5204,6 +5125,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5257,6 +5179,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5271,6 +5194,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5329,6 +5253,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5343,6 +5268,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5406,6 +5332,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5474,6 +5401,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5488,6 +5416,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5563,6 +5492,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5577,6 +5507,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5625,6 +5556,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5671,6 +5603,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5685,6 +5618,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5729,53 +5663,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/31349636",
-      "properties": {
-        "@id": "way/31349636",
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:05Z",
-        "@version": "23",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0888334,
-            50.7529222
-          ],
-          [
-            7.089138,
-            50.7526468
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/31357165",
       "properties": {
         "@id": "way/31357165",
@@ -5797,6 +5684,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5811,6 +5699,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5858,6 +5747,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -5872,6 +5762,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5925,6 +5816,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -5976,6 +5868,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6059,6 +5952,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6110,6 +6004,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6182,6 +6077,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6196,6 +6092,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6259,6 +6156,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6352,6 +6250,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6408,6 +6307,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6422,6 +6322,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6487,6 +6388,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6501,6 +6403,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6548,6 +6451,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6608,6 +6512,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6662,6 +6567,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6718,6 +6624,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6736,53 +6643,6 @@
           [
             7.105683,
             50.7374727
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/45879938",
-      "properties": {
-        "@id": "way/45879938",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:05Z",
-        "@version": "11",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0947702,
-            50.7465273
-          ],
-          [
-            7.0948261,
-            50.7464094
           ]
         ]
       }
@@ -6811,6 +6671,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6861,6 +6722,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6911,6 +6773,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -6962,6 +6825,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -6976,6 +6840,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7027,6 +6892,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7063,11 +6929,12 @@
         "lit": "yes",
         "name": "An der Josefshöhe",
         "oneway": "yes",
-        "@timestamp": "2013-01-28T22:04:32Z",
-        "@version": "4",
-        "@changeset": "14828571",
-        "@user": "dachefte",
-        "@uid": "133419",
+        "turn:lanes": "left|through",
+        "@timestamp": "2016-07-06T12:38:15Z",
+        "@version": "5",
+        "@changeset": "40520256",
+        "@user": "odna",
+        "@uid": "45243",
         "@relations": [
           {
             "role": "",
@@ -7077,6 +6944,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7127,6 +6995,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7205,6 +7074,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7263,6 +7133,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7310,6 +7181,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7324,6 +7196,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7396,165 +7269,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/53035079",
-      "properties": {
-        "@id": "way/53035079",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:31Z",
-        "@version": "13",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.089138,
-            50.7526468
-          ],
-          [
-            7.089321,
-            50.7524731
-          ],
-          [
-            7.089833,
-            50.7519918
-          ],
-          [
-            7.0901992,
-            50.7516215
-          ],
-          [
-            7.0902469,
-            50.7515665
-          ],
-          [
-            7.0907672,
-            50.7510382
-          ],
-          [
-            7.0907796,
-            50.7510223
-          ],
-          [
-            7.0909809,
-            50.7508361
-          ],
-          [
-            7.0915809,
-            50.7502267
-          ],
-          [
-            7.0919484,
-            50.7498558
-          ],
-          [
-            7.092226,
-            50.7495543
-          ],
-          [
-            7.0926486,
-            50.7490443
-          ],
-          [
-            7.0932561,
-            50.7482975
-          ],
-          [
-            7.0934008,
-            50.7481279
-          ],
-          [
-            7.0936449,
-            50.74786
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/53035088",
-      "properties": {
-        "@id": "way/53035088",
-        "highway": "secondary",
-        "lanes": "1",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "note": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "oneway": "yes",
-        "@timestamp": "2014-12-01T14:46:06Z",
-        "@version": "11",
-        "@changeset": "27155855",
-        "@user": "hugoe",
-        "@uid": "7426",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.094512,
-            50.7468141
-          ],
-          [
-            7.0946708,
-            50.7466615
-          ],
-          [
-            7.0947173,
-            50.7465997
-          ],
-          [
-            7.0947335,
-            50.7465781
-          ],
-          [
-            7.0947702,
-            50.7465273
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/58169876",
       "properties": {
         "@id": "way/58169876",
@@ -7579,6 +7293,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7593,6 +7308,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7647,6 +7363,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7661,6 +7378,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7713,12 +7431,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7819,12 +7553,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -7894,6 +7644,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -7908,6 +7659,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8037,6 +7789,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -8051,6 +7804,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8152,6 +7906,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -8197,6 +7952,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8246,6 +8002,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -8260,6 +8017,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8327,6 +8085,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8377,6 +8136,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -8441,6 +8201,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8486,6 +8247,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8535,6 +8297,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -8597,6 +8360,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8650,6 +8414,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8699,6 +8464,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8758,6 +8524,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8818,6 +8585,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8875,6 +8643,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8920,6 +8689,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -8963,12 +8733,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9017,6 +8803,116 @@
     },
     {
       "type": "Feature",
+      "id": "way/94253692",
+      "properties": {
+        "@id": "way/94253692",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Werftstraße",
+        "@timestamp": "2016-07-06T12:38:20Z",
+        "@version": "4",
+        "@changeset": "40520256",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0858734,
+            50.7558684
+          ],
+          [
+            7.0858327,
+            50.7557634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/94253695",
+      "properties": {
+        "@id": "way/94253695",
+        "highway": "tertiary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "An der Josefshöhe",
+        "oneway": "yes",
+        "@timestamp": "2016-07-06T12:38:16Z",
+        "@version": "5",
+        "@changeset": "40520256",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0853075,
+            50.7554537
+          ],
+          [
+            7.0853772,
+            50.7554916
+          ],
+          [
+            7.0855486,
+            50.7555775
+          ],
+          [
+            7.0856302,
+            50.7556204
+          ],
+          [
+            7.0857384,
+            50.755687
+          ],
+          [
+            7.0858327,
+            50.7557634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/108318300",
       "properties": {
         "@id": "way/108318300",
@@ -9042,6 +8938,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9117,6 +9014,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9182,6 +9080,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9234,6 +9133,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9285,6 +9185,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9346,6 +9247,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9360,6 +9262,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9440,6 +9343,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9520,6 +9424,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9583,6 +9488,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9640,6 +9546,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9654,6 +9561,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9800,6 +9708,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9814,6 +9723,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9885,6 +9795,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -9899,6 +9810,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -9917,52 +9829,6 @@
           [
             7.0926168,
             50.7265512
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/144275710",
-      "properties": {
-        "@id": "way/144275710",
-        "highway": "tertiary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:32Z",
-        "@version": "3",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0886909,
-            50.7530511
-          ],
-          [
-            7.0888334,
-            50.7529222
           ]
         ]
       }
@@ -9998,6 +9864,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10055,6 +9922,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10112,6 +9980,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10162,6 +10031,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10224,6 +10094,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10281,6 +10152,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10333,6 +10205,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10415,6 +10288,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10470,6 +10344,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10527,6 +10402,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10596,6 +10472,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10649,6 +10526,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10699,6 +10577,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10754,6 +10633,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10808,6 +10688,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10859,6 +10740,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10873,6 +10755,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -10925,6 +10808,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -10939,6 +10823,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11205,6 +11090,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11219,6 +11105,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11237,6 +11124,102 @@
           [
             7.1001525,
             50.7027922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/146634219",
+      "properties": {
+        "@id": "way/146634219",
+        "access": "permissive",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Sigmund-Freud-Straße",
+        "@timestamp": "2015-03-17T11:37:45Z",
+        "@version": "14",
+        "@changeset": "29538232",
+        "@user": "microsome",
+        "@uid": "165607",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1030885,
+            50.7001752
+          ],
+          [
+            7.1032934,
+            50.7000468
+          ],
+          [
+            7.1035145,
+            50.6998985
+          ],
+          [
+            7.1036685,
+            50.6997439
+          ],
+          [
+            7.1037704,
+            50.6995678
+          ],
+          [
+            7.1038534,
+            50.6993489
+          ],
+          [
+            7.103907,
+            50.6991561
+          ],
+          [
+            7.1039842,
+            50.6988438
+          ],
+          [
+            7.1039945,
+            50.698796
+          ],
+          [
+            7.1040364,
+            50.698646
+          ],
+          [
+            7.1041833,
+            50.6980748
+          ],
+          [
+            7.1042455,
+            50.6978435
+          ],
+          [
+            7.1042884,
+            50.6976418
+          ],
+          [
+            7.1042991,
+            50.6975704
           ]
         ]
       }
@@ -11266,6 +11249,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11340,6 +11324,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11398,6 +11383,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11448,6 +11434,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11494,6 +11481,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11560,6 +11548,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11594,11 +11583,11 @@
         "oneway": "yes",
         "oneway:psv": "no",
         "psv": "yes",
-        "@timestamp": "2016-04-08T19:03:54Z",
-        "@version": "3",
-        "@changeset": "38414086",
-        "@user": "dachefte",
-        "@uid": "133419",
+        "@timestamp": "2016-07-10T21:07:49Z",
+        "@version": "4",
+        "@changeset": "40638463",
+        "@user": "adjuva",
+        "@uid": "92274",
         "@relations": [
           {
             "role": "",
@@ -11608,6 +11597,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11628,8 +11618,12 @@
             50.7333159
           ],
           [
-            7.0948127,
-            50.7335164
+            7.0948124,
+            50.7335169
+          ],
+          [
+            7.0948751,
+            50.7338376
           ],
           [
             7.0949249,
@@ -11676,6 +11670,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11690,6 +11685,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11718,82 +11714,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/178448297",
-      "properties": {
-        "@id": "way/178448297",
-        "bicycle": "official",
-        "cycleway:right": "track",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Augustusring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "surface": "asphalt",
-        "@timestamp": "2016-04-10T09:34:01Z",
-        "@version": "8",
-        "@changeset": "38446208",
-        "@user": "13 digits",
-        "@uid": "35935",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.09501,
-            50.7464532
-          ],
-          [
-            7.0953151,
-            50.746526
-          ],
-          [
-            7.0956203,
-            50.7465965
-          ],
-          [
-            7.0962338,
-            50.746699
-          ],
-          [
-            7.0963524,
-            50.7467136
-          ],
-          [
-            7.0973234,
-            50.7468644
-          ],
-          [
-            7.0984099,
-            50.7470243
-          ],
-          [
-            7.098977,
-            50.7471034
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/178454024",
       "properties": {
         "@id": "way/178454024",
@@ -11815,6 +11735,22 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Tannenbusch",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
+            "rel": "2046765",
+            "reltags": {
+              "from": "Venusberg",
+              "name": "VRS 601 Tannenbusch",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -11863,6 +11799,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11891,15 +11828,15 @@
       "properties": {
         "@id": "way/203299431",
         "highway": "tertiary",
-        "lanes": "2",
+        "lanes": "1",
         "lit": "yes",
         "name": "An der Josefshöhe",
         "oneway": "yes",
-        "@timestamp": "2013-01-28T22:03:57Z",
-        "@version": "1",
-        "@changeset": "14828571",
-        "@user": "dachefte",
-        "@uid": "133419",
+        "@timestamp": "2016-07-06T12:38:16Z",
+        "@version": "2",
+        "@changeset": "40520256",
+        "@user": "odna",
+        "@uid": "45243",
         "@relations": [
           {
             "role": "",
@@ -11909,6 +11846,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -11933,111 +11871,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/209192311",
-      "properties": {
-        "@id": "way/209192311",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Kaiser-Karl-Ring",
-        "old_ref": "B 9",
-        "oneway": "yes",
-        "ref": "L 300",
-        "@timestamp": "2014-08-03T07:17:12Z",
-        "@version": "4",
-        "@changeset": "24509049",
-        "@user": "H-GT",
-        "@uid": "407246",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0948261,
-            50.7464094
-          ],
-          [
-            7.0949247,
-            50.7464327
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/210337148",
-      "properties": {
-        "@id": "way/210337148",
-        "highway": "tertiary",
-        "lanes": "3",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "turn:lanes": "left|through|through;right",
-        "@timestamp": "2013-08-27T20:42:13Z",
-        "@version": "2",
-        "@changeset": "17544383",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0876577,
-            50.7539992
-          ],
-          [
-            7.0880012,
-            50.7537029
-          ],
-          [
-            7.0881341,
-            50.7535791
-          ],
-          [
-            7.0882931,
-            50.7534251
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/210532947",
       "properties": {
         "@id": "way/210532947",
@@ -12055,12 +11888,28 @@
         "@relations": [
           {
             "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          },
+          {
+            "role": "",
             "rel": "2046765",
             "reltags": {
               "from": "Venusberg",
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12157,6 +12006,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12205,6 +12055,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12261,6 +12112,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12310,6 +12162,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12355,6 +12208,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12400,6 +12254,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12444,6 +12299,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12458,6 +12314,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12503,6 +12360,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12548,6 +12406,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12593,6 +12452,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12638,6 +12498,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12687,6 +12548,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12736,6 +12598,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12768,62 +12631,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/235377401",
-      "properties": {
-        "@id": "way/235377401",
-        "highway": "tertiary",
-        "lanes": "3",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Herseler Straße",
-        "oneway": "yes",
-        "turn:lanes": "left|through|through",
-        "@timestamp": "2013-08-27T20:41:45Z",
-        "@version": "1",
-        "@changeset": "17544383",
-        "@user": "dachefte",
-        "@uid": "133419",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0882931,
-            50.7534251
-          ],
-          [
-            7.0885356,
-            50.753207
-          ],
-          [
-            7.088564,
-            50.7531761
-          ],
-          [
-            7.0886909,
-            50.7530511
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/235468136",
       "properties": {
         "@id": "way/235468136",
@@ -12848,6 +12655,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12862,6 +12670,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12912,6 +12721,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12926,6 +12736,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -12982,6 +12793,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -12996,6 +12808,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13052,6 +12865,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13127,6 +12941,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13141,6 +12956,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13249,6 +13065,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13263,6 +13080,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13366,6 +13184,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13420,6 +13239,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13434,6 +13254,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13504,6 +13325,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13518,6 +13340,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13540,107 +13363,6 @@
           [
             7.1000837,
             50.7024671
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/262267059",
-      "properties": {
-        "@id": "way/262267059",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "@timestamp": "2014-02-18T20:23:25Z",
-        "@version": "1",
-        "@changeset": "20644437",
-        "@user": "odna",
-        "@uid": "45243",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0936449,
-            50.74786
-          ],
-          [
-            7.0937806,
-            50.7476886
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/262267060",
-      "properties": {
-        "@id": "way/262267060",
-        "fixme": "Die Graurheindorfer Str. zwischen A 565 / AS BN-Auerberg und Augustusring sollte secondary road werden, weil sie als Autobahnzubringer eine größere Bedeutung und ein höheres Verkehrsaufkommen wie eine Kreisstraße hat und auch 4-spurig ausgebaut ist.",
-        "highway": "secondary",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Graurheindorfer Straße",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "@timestamp": "2016-04-10T05:46:34Z",
-        "@version": "2",
-        "@changeset": "38443055",
-        "@user": "13 digits",
-        "@uid": "35935",
-        "@relations": [
-          {
-            "role": "",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.0937806,
-            50.7476886
-          ],
-          [
-            7.0938602,
-            50.7475862
-          ],
-          [
-            7.094512,
-            50.7468141
           ]
         ]
       }
@@ -13670,6 +13392,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13684,6 +13407,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13736,6 +13460,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13750,6 +13475,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13808,6 +13534,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13822,6 +13549,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13870,6 +13598,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13884,6 +13613,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -13938,6 +13668,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -13952,6 +13683,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -14005,6 +13737,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -14027,6 +13760,55 @@
           [
             7.0442408,
             50.7498554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/429470099",
+      "properties": {
+        "@id": "way/429470099",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "An der Josefshöhe",
+        "oneway": "yes",
+        "turn:lanes": "through|right",
+        "@timestamp": "2016-07-06T14:22:54Z",
+        "@version": "1",
+        "@changeset": "40522349",
+        "@user": "odna",
+        "@uid": "45243",
+        "@relations": [
+          {
+            "role": "",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.0850307,
+            50.7553166
+          ],
+          [
+            7.0853075,
+            50.7554537
           ]
         ]
       }
@@ -14057,6 +13839,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -14409,6 +14192,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -14535,6 +14319,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -14660,6 +14445,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -14843,6 +14629,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -14885,6 +14672,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -14899,6 +14687,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15026,6 +14815,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15324,6 +15114,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15366,6 +15157,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15410,6 +15202,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -15455,6 +15248,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -15523,6 +15317,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15567,6 +15362,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -15612,6 +15408,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15654,6 +15451,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15683,13 +15481,11 @@
         "highway": "bus_stop",
         "name": "Thomas-Mann-Straße",
         "public_transport": "platform",
-        "railway": "tram_stop",
         "ref_name": "Thomas-Mann-Str., Bonn",
-        "tram": "yes",
         "wheelchair": "yes",
-        "@timestamp": "2013-12-17T00:40:18Z",
-        "@version": "8",
-        "@changeset": "19491288",
+        "@timestamp": "2016-07-10T21:07:50Z",
+        "@version": "9",
+        "@changeset": "40638463",
         "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
@@ -15701,6 +15497,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15712,8 +15509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0949302,
-          50.7337597
+          7.094922,
+          50.7338349
         ]
       }
     },
@@ -15745,6 +15542,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15758,6 +15556,51 @@
         "coordinates": [
           7.0988091,
           50.7481581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/309948509",
+      "properties": {
+        "@id": "node/309948509",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61988",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Augustinum",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "@timestamp": "2013-05-26T06:34:41Z",
+        "@version": "10",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0985131,
+          50.7482001
         ]
       }
     },
@@ -15791,6 +15634,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15876,6 +15720,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -15919,6 +15764,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -15932,6 +15778,28 @@
         "coordinates": [
           7.1005189,
           50.7433892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/316331192",
+      "properties": {
+        "@id": "node/316331192",
+        "ele": "170.5",
+        "ele:DHHN92": "170.5",
+        "source": "NRW-Atlas",
+        "@timestamp": "2013-11-22T14:17:41Z",
+        "@version": "16",
+        "@changeset": "19054924",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1039842,
+          50.6988438
         ]
       }
     },
@@ -16004,6 +15872,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16048,6 +15917,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16092,6 +15962,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16136,6 +16007,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16241,6 +16113,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16284,6 +16157,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16327,6 +16201,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16371,6 +16246,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16415,6 +16291,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16459,6 +16336,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16503,6 +16381,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16546,6 +16425,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16589,6 +16469,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16630,6 +16511,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16673,6 +16555,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16716,6 +16599,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16759,6 +16643,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16802,6 +16687,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16845,6 +16731,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -16888,6 +16775,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16932,6 +16820,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -16945,6 +16834,50 @@
         "coordinates": [
           7.0805033,
           50.7527434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/332327853",
+      "properties": {
+        "@id": "node/332327853",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Graurheindorf",
+        "VRS:ref": "64774",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Werftstraße",
+        "operator": "SWB",
+        "public_transport": "platform",
+        "@timestamp": "2013-05-26T06:35:08Z",
+        "@version": "5",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0882194,
+          50.7570471
         ]
       }
     },
@@ -16975,6 +16908,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17023,6 +16957,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17070,6 +17005,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17115,6 +17051,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17159,6 +17096,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17204,6 +17142,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17249,6 +17188,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17294,6 +17234,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17336,6 +17277,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17349,6 +17291,95 @@
         "coordinates": [
           7.0847723,
           50.7551433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685520",
+      "properties": {
+        "@id": "node/335685520",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Graurheindorf",
+        "VRS:ref": "64765",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Friesenweg",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "@timestamp": "2013-05-26T06:34:48Z",
+        "@version": "5",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0917719,
+          50.754919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685521",
+      "properties": {
+        "@id": "node/335685521",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61986",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bataverweg",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "wheelchair_toilet": "no",
+        "@timestamp": "2015-12-03T07:14:04Z",
+        "@version": "9",
+        "@changeset": "35700890",
+        "@user": "wheelmap_visitor",
+        "@uid": "290680",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0939186,
+          50.7535502
         ]
       }
     },
@@ -17380,6 +17411,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17393,6 +17425,50 @@
         "coordinates": [
           7.093741,
           50.7538634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/335685523",
+      "properties": {
+        "@id": "node/335685523",
+        "VRS:gemeinde": "BONN",
+        "VRS:ortsteil": "Innenstadt",
+        "VRS:ref": "61987",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pädagogische Fakultät",
+        "public_transport": "platform",
+        "wheelchair": "yes",
+        "@timestamp": "2013-05-26T06:34:59Z",
+        "@version": "7",
+        "@changeset": "16288070",
+        "@user": "adjuva",
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0961972,
+          50.7513949
         ]
       }
     },
@@ -17423,6 +17499,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17466,6 +17543,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17509,6 +17587,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17552,6 +17631,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17595,6 +17675,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17638,6 +17719,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17681,6 +17763,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -17724,6 +17807,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17768,6 +17852,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17812,6 +17897,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17856,6 +17942,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17904,6 +17991,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17949,6 +18037,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -17993,6 +18082,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18038,6 +18128,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18081,6 +18172,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18124,6 +18216,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18167,6 +18260,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18210,6 +18304,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18254,6 +18349,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18298,6 +18394,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18341,6 +18438,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -18384,6 +18482,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18428,6 +18527,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18472,6 +18572,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18515,6 +18616,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18563,6 +18665,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18608,6 +18711,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18653,6 +18757,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18719,6 +18824,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18764,6 +18870,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -18782,32 +18889,12 @@
     },
     {
       "type": "Feature",
-      "id": "node/504471249",
+      "id": "node/504485470",
       "properties": {
-        "@id": "node/504471249",
+        "@id": "node/504485470",
         "highway": "traffic_signals",
-        "@timestamp": "2013-03-16T06:06:38Z",
-        "@version": "4",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0885356,
-          50.753207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/504485559",
-      "properties": {
-        "@id": "node/504485559",
-        "highway": "crossing",
         "@timestamp": "2012-08-29T11:15:09Z",
-        "@version": "6",
+        "@version": "4",
         "@changeset": "12903831",
         "@user": "dachefte",
         "@uid": "133419"
@@ -18815,50 +18902,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0857454,
-          50.7555306
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/505817896",
-      "properties": {
-        "@id": "node/505817896",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61929",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Innenministerium",
-        "public_transport": "platform",
-        "@timestamp": "2013-07-17T20:32:57Z",
-        "@version": "5",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0909178,
-          50.7508092
+          7.0853772,
+          50.7554916
         ]
       }
     },
@@ -18892,48 +18937,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/553303827",
-      "properties": {
-        "@id": "node/553303827",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T11:15:10Z",
-        "@version": "3",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0907672,
-          50.7510382
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/553303832",
-      "properties": {
-        "@id": "node/553303832",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2011-06-08T20:33:20Z",
-        "@version": "2",
-        "@changeset": "8383379",
-        "@user": "Raymond",
-        "@uid": "16478"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0934008,
-          50.7481279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/590453301",
       "properties": {
         "@id": "node/590453301",
@@ -18950,48 +18953,6 @@
         "coordinates": [
           7.0919062,
           50.7178782
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/595839825",
-      "properties": {
-        "@id": "node/595839825",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Graurheindorf",
-        "VRS:ref": "64717",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Heinrich-Hertz-Europakolleg",
-        "public_transport": "platform",
-        "@timestamp": "2013-05-26T06:34:51Z",
-        "@version": "6",
-        "@changeset": "16288070",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0867416,
-          50.7547478
         ]
       }
     },
@@ -19123,27 +19084,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/650090148",
-      "properties": {
-        "@id": "node/650090148",
-        "crossing": "traffic_signals",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T11:15:11Z",
-        "@version": "4",
-        "@changeset": "12903831",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0866657,
-          50.754903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/650273756",
       "properties": {
         "@id": "node/650273756",
@@ -19181,26 +19121,6 @@
         "coordinates": [
           7.0838588,
           50.7547136
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/651826133",
-      "properties": {
-        "@id": "node/651826133",
-        "highway": "traffic_signals",
-        "@timestamp": "2012-08-29T10:13:49Z",
-        "@version": "3",
-        "@changeset": "12903184",
-        "@user": "dachefte",
-        "@uid": "133419"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0936449,
-          50.74786
         ]
       }
     },
@@ -19367,6 +19287,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -19417,6 +19338,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -19686,6 +19608,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -19948,7 +19871,24 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -19983,6 +19923,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20025,6 +19966,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20066,6 +20008,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20107,6 +20050,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20148,6 +20092,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20189,6 +20134,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20249,7 +20195,24 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -20274,32 +20237,6 @@
         "@version": "5",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0939856,
-          50.7535903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1075332430",
-      "properties": {
-        "@id": "node/1075332430",
-        "VRS:gemeinde": "BONN",
-        "VRS:name": "Heinrich-Hertz-Europakolleg",
-        "VRS:ortsteil": "Graurheindorf",
-        "VRS:ref": "64717",
-        "bus": "yes",
-        "name": "Heinrich-Hertz-Europakolleg",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-05-26T06:34:51Z",
-        "@version": "4",
-        "@changeset": "16288070",
-        "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
           {
@@ -20310,6 +20247,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20321,8 +20259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0868065,
-          50.7547767
+          7.0939856,
+          50.7535903
         ]
       }
     },
@@ -20351,6 +20289,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20392,6 +20331,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20423,7 +20363,24 @@
         "@version": "6",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -20458,6 +20415,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20500,6 +20458,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20541,6 +20500,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20582,6 +20542,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20624,6 +20585,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20666,6 +20628,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20707,6 +20670,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20749,6 +20713,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20790,6 +20755,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20833,6 +20799,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20874,6 +20841,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20915,6 +20883,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -20956,6 +20925,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -20997,6 +20967,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21105,6 +21076,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21150,6 +21122,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21195,6 +21168,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21276,6 +21250,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/1086257728",
+      "properties": {
+        "@id": "node/1086257728",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "@timestamp": "2012-08-29T11:15:00Z",
+        "@version": "3",
+        "@changeset": "12903831",
+        "@user": "dachefte",
+        "@uid": "133419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0857384,
+          50.755687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1086257741",
       "properties": {
         "@id": "node/1086257741",
@@ -21292,53 +21287,6 @@
         "coordinates": [
           7.0859299,
           50.7559195
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1090745143",
-      "properties": {
-        "@id": "node/1090745143",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61828",
-        "bench": "no",
-        "bin": "no",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Augustusring",
-        "public_transport": "platform",
-        "shelter": "no",
-        "tactile_paving": "no",
-        "wheelchair:description": "Kein Kasseler Bord",
-        "@timestamp": "2014-07-30T18:38:40Z",
-        "@version": "5",
-        "@changeset": "24449284",
-        "@user": "KartoGrapHiti",
-        "@uid": "57645",
-        "@relations": [
-          {
-            "role": "platform",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0962507,
-          50.7466636
         ]
       }
     },
@@ -21494,47 +21442,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1092405103",
-      "properties": {
-        "@id": "node/1092405103",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61828",
-        "bus": "yes",
-        "name": "Augustusring",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-07-17T20:32:22Z",
-        "@version": "4",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "stop",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0962338,
-          50.746699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1095501970",
       "properties": {
         "@id": "node/1095501970",
@@ -21600,6 +21507,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21613,6 +21521,26 @@
         "coordinates": [
           7.1049857,
           50.6972985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1294809814",
+      "properties": {
+        "@id": "node/1294809814",
+        "highway": "crossing",
+        "@timestamp": "2013-11-21T00:03:50Z",
+        "@version": "5",
+        "@changeset": "19026516",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1040364,
+          50.698646
         ]
       }
     },
@@ -21745,6 +21673,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21787,6 +21716,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21832,6 +21762,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21876,6 +21807,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -21920,6 +21852,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -21964,6 +21897,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22008,6 +21942,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22053,6 +21988,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22136,6 +22072,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22178,6 +22115,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22223,6 +22161,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22269,6 +22208,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22282,46 +22222,6 @@
         "coordinates": [
           7.097547,
           50.7311815
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1597786778",
-      "properties": {
-        "@id": "node/1597786778",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:20Z",
-        "@version": "6",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0949247,
-          50.7464327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1597786783",
-      "properties": {
-        "@id": "node/1597786783",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:20Z",
-        "@version": "4",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0947702,
-          50.7465273
         ]
       }
     },
@@ -22373,6 +22273,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22443,6 +22344,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22486,6 +22388,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22529,6 +22432,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22542,47 +22446,6 @@
         "coordinates": [
           7.1014123,
           50.7405543
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1621012976",
-      "properties": {
-        "@id": "node/1621012976",
-        "VRS:gemeinde": "BONN",
-        "VRS:ortsteil": "Innenstadt",
-        "VRS:ref": "61929",
-        "bus": "yes",
-        "name": "Innenministerium",
-        "public_transport": "stop_position",
-        "@timestamp": "2013-07-17T20:32:58Z",
-        "@version": "3",
-        "@changeset": "16991248",
-        "@user": "adjuva",
-        "@uid": "92274",
-        "@relations": [
-          {
-            "role": "stop",
-            "rel": "2046764",
-            "reltags": {
-              "from": "Tannenbusch",
-              "name": "VRS 601 Venusberg",
-              "network": "VRS",
-              "operator": "SWB",
-              "ref": "601",
-              "route": "bus",
-              "to": "Venusberg",
-              "type": "route"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0909809,
-          50.7508361
         ]
       }
     },
@@ -22612,6 +22475,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22653,6 +22517,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22716,6 +22581,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22730,6 +22596,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22773,6 +22640,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -22816,6 +22684,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -22926,6 +22795,28 @@
     },
     {
       "type": "Feature",
+      "id": "node/1772192170",
+      "properties": {
+        "@id": "node/1772192170",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "@timestamp": "2013-11-21T00:03:55Z",
+        "@version": "3",
+        "@changeset": "19026516",
+        "@user": "EvanE",
+        "@uid": "184969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1032934,
+          50.7000468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1772862812",
       "properties": {
         "@id": "node/1772862812",
@@ -22980,17 +22871,17 @@
         "public_transport": "stop_position",
         "ref_name": "Thomas-Mann-Str., Bonn",
         "wheelchair": "yes",
-        "@timestamp": "2016-04-08T19:03:57Z",
-        "@version": "2",
-        "@changeset": "38414086",
-        "@user": "dachefte",
-        "@uid": "133419"
+        "@timestamp": "2016-07-10T21:07:51Z",
+        "@version": "3",
+        "@changeset": "40638463",
+        "@user": "adjuva",
+        "@uid": "92274"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0948127,
-          50.7335164
+          7.0948124,
+          50.7335169
         ]
       }
     },
@@ -23007,11 +22898,10 @@
         "name": "Thomas-Mann-Straße",
         "public_transport": "stop_position",
         "ref_name": "Thomas-Mann-Str., Bonn",
-        "tram": "yes",
         "wheelchair": "yes",
-        "@timestamp": "2013-12-17T00:40:18Z",
-        "@version": "2",
-        "@changeset": "19491288",
+        "@timestamp": "2016-07-10T21:07:52Z",
+        "@version": "3",
+        "@changeset": "40638463",
         "@user": "adjuva",
         "@uid": "92274",
         "@relations": [
@@ -23023,6 +22913,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23034,8 +22925,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.0948854,
-          50.733764
+          7.0948751,
+          50.7338376
         ]
       }
     },
@@ -23085,6 +22976,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23126,6 +23018,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23168,6 +23061,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23181,27 +23075,6 @@
         "coordinates": [
           7.0995778,
           50.7460057
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1833008899",
-      "properties": {
-        "@id": "node/1833008899",
-        "crossing_ref": "zebra",
-        "highway": "crossing",
-        "@timestamp": "2012-07-21T11:14:40Z",
-        "@version": "1",
-        "@changeset": "12406773",
-        "@user": "dschuwa",
-        "@uid": "55687"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0990985,
-          50.7470783
         ]
       }
     },
@@ -23246,27 +23119,6 @@
         "coordinates": [
           7.0920589,
           50.7179324
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1888045198",
-      "properties": {
-        "@id": "node/1888045198",
-        "crossing": "traffic_signals",
-        "highway": "crossing",
-        "@timestamp": "2013-03-16T06:06:35Z",
-        "@version": "3",
-        "@changeset": "15380417",
-        "@user": "EvanE",
-        "@uid": "184969"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.088564,
-          50.7531761
         ]
       }
     },
@@ -23378,26 +23230,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2194235667",
-      "properties": {
-        "@id": "node/2194235667",
-        "highway": "traffic_signals",
-        "@timestamp": "2013-03-10T13:31:09Z",
-        "@version": "1",
-        "@changeset": "15314861",
-        "@user": "Eckhart Wörner",
-        "@uid": "2675"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0948261,
-          50.7464094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2252593601",
       "properties": {
         "@id": "node/2252593601",
@@ -23422,6 +23254,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23464,6 +23297,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23508,6 +23342,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23549,6 +23384,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23590,6 +23426,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23631,6 +23468,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23672,6 +23510,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23713,6 +23552,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23754,6 +23594,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23795,6 +23636,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23836,6 +23678,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23877,6 +23720,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23919,6 +23763,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -23960,6 +23805,7 @@
               "name": "VRS 601 Tannenbusch",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Tannenbusch",
@@ -23991,7 +23837,24 @@
         "@version": "1",
         "@changeset": "16288070",
         "@user": "adjuva",
-        "@uid": "92274"
+        "@uid": "92274",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": "2046764",
+            "reltags": {
+              "from": "Tannenbusch",
+              "name": "VRS 601 Venusberg",
+              "network": "VRS",
+              "operator": "SWB",
+              "public_transport:version": "2",
+              "ref": "601",
+              "route": "bus",
+              "to": "Venusberg",
+              "type": "route"
+            }
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -24200,6 +24063,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",
@@ -24285,6 +24149,7 @@
               "name": "VRS 601 Venusberg",
               "network": "VRS",
               "operator": "SWB",
+              "public_transport:version": "2",
               "ref": "601",
               "route": "bus",
               "to": "Venusberg",

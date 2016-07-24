@@ -16,5 +16,4 @@ Aus den json-Dateien werden mit json2image.py SVG-Grafiken erzeugt, die dann mit
 
 # Bekannte Probleme
 
-* Die Darstellung von Linie 600 enthält eine nicht mehr aktive Umleitung
 * Die Darstellung von Linie 635 hat im Norden eine Lücke, wo eigentlich keine sein sollte
